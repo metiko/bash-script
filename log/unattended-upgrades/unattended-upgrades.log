@@ -1,0 +1,11 @@
+2024-07-03 11:33:53,586 WARNING Could not figure out development release: Distribution data outdated. Please check for an update for distro-info-data. See /usr/share/doc/distro-info-data/README.Debian for details.
+2024-07-03 11:33:53,586 INFO Starting unattended upgrades script
+2024-07-03 11:33:53,587 INFO Allowed origins are: o=Ubuntu,a=noble, o=Ubuntu,a=noble-security, o=UbuntuESMApps,a=noble-apps-security, o=UbuntuESM,a=noble-infra-security
+2024-07-03 11:33:53,587 INFO Initial blacklist: 
+2024-07-03 11:33:53,587 INFO Initial whitelist (not strict): 
+2024-07-03 11:33:53,685 INFO No packages found that can be upgraded unattended and no pending auto-removals
+2024-07-03 11:39:13,171 WARNING Could not figure out development release: Distribution data outdated. Please check for an update for distro-info-data. See /usr/share/doc/distro-info-data/README.Debian for details.
+2024-07-03 11:39:13,172 INFO Starting unattended upgrades script
+2024-07-03 11:39:13,174 INFO Allowed origins are: o=Ubuntu,a=noble, o=Ubuntu,a=noble-security, o=UbuntuESMApps,a=noble-apps-security, o=UbuntuESM,a=noble-infra-security
+2024-07-03 11:39:13,174 INFO Initial blacklist: 
+2024-07-03 11:39:13,174 INFO Initial whitelist (not strict): 

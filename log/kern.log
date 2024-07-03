@@ -1,0 +1,1021 @@
+2024-07-02T08:43:28.865402+00:00 ip-172-31-19-32 kernel: Linux version 6.8.0-1008-aws (buildd@lcy02-amd64-030) (x86_64-linux-gnu-gcc-13 (Ubuntu 13.2.0-23ubuntu4) 13.2.0, GNU ld (GNU Binutils for Ubuntu) 2.42) #8-Ubuntu SMP Sat Apr 20 00:46:25 UTC 2024 (Ubuntu 6.8.0-1008.8-aws 6.8.1)
+2024-07-02T08:43:28.879141+00:00 ip-172-31-19-32 kernel: Command line: BOOT_IMAGE=/vmlinuz-6.8.0-1008-aws root=PARTUUID=227fdd7f-aae5-441a-80c5-ad2f1c6e5bb1 ro console=tty1 console=ttyS0 nvme_core.io_timeout=4294967295 panic=-1
+2024-07-02T08:43:28.879145+00:00 ip-172-31-19-32 kernel: KERNEL supported cpus:
+2024-07-02T08:43:28.879147+00:00 ip-172-31-19-32 kernel:   Intel GenuineIntel
+2024-07-02T08:43:28.879148+00:00 ip-172-31-19-32 kernel:   AMD AuthenticAMD
+2024-07-02T08:43:28.879149+00:00 ip-172-31-19-32 kernel:   Hygon HygonGenuine
+2024-07-02T08:43:28.879150+00:00 ip-172-31-19-32 kernel:   Centaur CentaurHauls
+2024-07-02T08:43:28.879153+00:00 ip-172-31-19-32 kernel:   zhaoxin   Shanghai  
+2024-07-02T08:43:28.879154+00:00 ip-172-31-19-32 kernel: BIOS-provided physical RAM map:
+2024-07-02T08:43:28.879155+00:00 ip-172-31-19-32 kernel: BIOS-e820: [mem 0x0000000000000000-0x000000000009dfff] usable
+2024-07-02T08:43:28.879156+00:00 ip-172-31-19-32 kernel: BIOS-e820: [mem 0x000000000009e000-0x000000000009ffff] reserved
+2024-07-02T08:43:28.879158+00:00 ip-172-31-19-32 kernel: BIOS-e820: [mem 0x00000000000e0000-0x00000000000fffff] reserved
+2024-07-02T08:43:28.879159+00:00 ip-172-31-19-32 kernel: BIOS-e820: [mem 0x0000000000100000-0x000000003fffffff] usable
+2024-07-02T08:43:28.879162+00:00 ip-172-31-19-32 kernel: BIOS-e820: [mem 0x00000000fc000000-0x00000000ffffffff] reserved
+2024-07-02T08:43:28.879163+00:00 ip-172-31-19-32 kernel: NX (Execute Disable) protection: active
+2024-07-02T08:43:28.879164+00:00 ip-172-31-19-32 kernel: APIC: Static calls initialized
+2024-07-02T08:43:28.879165+00:00 ip-172-31-19-32 kernel: SMBIOS 2.7 present.
+2024-07-02T08:43:28.879166+00:00 ip-172-31-19-32 kernel: DMI: Xen HVM domU, BIOS 4.11.amazon 08/24/2006
+2024-07-02T08:43:28.879167+00:00 ip-172-31-19-32 kernel: Hypervisor detected: Xen HVM
+2024-07-02T08:43:28.879168+00:00 ip-172-31-19-32 kernel: Xen version 4.11.
+2024-07-02T08:43:28.879172+00:00 ip-172-31-19-32 kernel: platform_pci_unplug: Netfront and the Xen platform PCI driver have been compiled for this kernel: unplug emulated NICs.
+2024-07-02T08:43:28.879173+00:00 ip-172-31-19-32 kernel: platform_pci_unplug: Blkfront and the Xen platform PCI driver have been compiled for this kernel: unplug emulated disks.
+2024-07-02T08:43:28.879174+00:00 ip-172-31-19-32 kernel: You might have to change the root device
+2024-07-02T08:43:28.879175+00:00 ip-172-31-19-32 kernel: from /dev/hd[a-d] to /dev/xvd[a-d]
+2024-07-02T08:43:28.879176+00:00 ip-172-31-19-32 kernel: in your root= kernel command line option
+2024-07-02T08:43:28.879177+00:00 ip-172-31-19-32 kernel: HVMOP_pagetable_dying not supported
+2024-07-02T08:43:28.879180+00:00 ip-172-31-19-32 kernel: tsc: Fast TSC calibration using PIT
+2024-07-02T08:43:28.879181+00:00 ip-172-31-19-32 kernel: tsc: Detected 2399.866 MHz processor
+2024-07-02T08:43:28.879182+00:00 ip-172-31-19-32 kernel: tsc: Detected 2400.018 MHz TSC
+2024-07-02T08:43:28.879183+00:00 ip-172-31-19-32 kernel: e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+2024-07-02T08:43:28.879184+00:00 ip-172-31-19-32 kernel: e820: remove [mem 0x000a0000-0x000fffff] usable
+2024-07-02T08:43:28.879185+00:00 ip-172-31-19-32 kernel: last_pfn = 0x40000 max_arch_pfn = 0x400000000
+2024-07-02T08:43:28.879189+00:00 ip-172-31-19-32 kernel: MTRR map: 4 entries (3 fixed + 1 variable; max 19), built from 8 variable MTRRs
+2024-07-02T08:43:28.879190+00:00 ip-172-31-19-32 kernel: x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+2024-07-02T08:43:28.879191+00:00 ip-172-31-19-32 kernel: found SMP MP-table at [mem 0x000fb9a0-0x000fb9af]
+2024-07-02T08:43:28.879192+00:00 ip-172-31-19-32 kernel: RAMDISK: [mem 0x370a3000-0x37848fff]
+2024-07-02T08:43:28.879193+00:00 ip-172-31-19-32 kernel: ACPI: Early table checksum verification disabled
+2024-07-02T08:43:28.879194+00:00 ip-172-31-19-32 kernel: ACPI: RSDP 0x00000000000EA020 000024 (v02 Xen   )
+2024-07-02T08:43:28.879195+00:00 ip-172-31-19-32 kernel: ACPI: XSDT 0x00000000FC00C780 000054 (v01 Xen    HVM      00000000 HVML 00000000)
+2024-07-02T08:43:28.879198+00:00 ip-172-31-19-32 kernel: ACPI: FACP 0x00000000FC00C440 0000F4 (v04 Xen    HVM      00000000 HVML 00000000)
+2024-07-02T08:43:28.879199+00:00 ip-172-31-19-32 kernel: ACPI: DSDT 0x00000000FC003940 008A7E (v02 Xen    HVM      00000000 INTL 20090123)
+2024-07-02T08:43:28.879200+00:00 ip-172-31-19-32 kernel: ACPI: FACS 0x00000000FC003900 000040
+2024-07-02T08:43:28.879201+00:00 ip-172-31-19-32 kernel: ACPI: FACS 0x00000000FC003900 000040
+2024-07-02T08:43:28.879204+00:00 ip-172-31-19-32 kernel: ACPI: APIC 0x00000000FC00C540 0000D8 (v02 Xen    HVM      00000000 HVML 00000000)
+2024-07-02T08:43:28.879205+00:00 ip-172-31-19-32 kernel: ACPI: HPET 0x00000000FC00C690 000038 (v01 Xen    HVM      00000000 HVML 00000000)
+2024-07-02T08:43:28.879208+00:00 ip-172-31-19-32 kernel: ACPI: WAET 0x00000000FC00C6D0 000028 (v01 Xen    HVM      00000000 HVML 00000000)
+2024-07-02T08:43:28.879210+00:00 ip-172-31-19-32 kernel: ACPI: SSDT 0x00000000FC00C700 000031 (v02 Xen    HVM      00000000 INTL 20090123)
+2024-07-02T08:43:28.879211+00:00 ip-172-31-19-32 kernel: ACPI: SSDT 0x00000000FC00C740 000033 (v02 Xen    HVM      00000000 INTL 20090123)
+2024-07-02T08:43:28.879212+00:00 ip-172-31-19-32 kernel: ACPI: Reserving FACP table memory at [mem 0xfc00c440-0xfc00c533]
+2024-07-02T08:43:28.879213+00:00 ip-172-31-19-32 kernel: ACPI: Reserving DSDT table memory at [mem 0xfc003940-0xfc00c3bd]
+2024-07-02T08:43:28.879214+00:00 ip-172-31-19-32 kernel: ACPI: Reserving FACS table memory at [mem 0xfc003900-0xfc00393f]
+2024-07-02T08:43:28.879219+00:00 ip-172-31-19-32 kernel: ACPI: Reserving FACS table memory at [mem 0xfc003900-0xfc00393f]
+2024-07-02T08:43:28.879220+00:00 ip-172-31-19-32 kernel: ACPI: Reserving APIC table memory at [mem 0xfc00c540-0xfc00c617]
+2024-07-02T08:43:28.879222+00:00 ip-172-31-19-32 kernel: ACPI: Reserving HPET table memory at [mem 0xfc00c690-0xfc00c6c7]
+2024-07-02T08:43:28.879223+00:00 ip-172-31-19-32 kernel: ACPI: Reserving WAET table memory at [mem 0xfc00c6d0-0xfc00c6f7]
+2024-07-02T08:43:28.879224+00:00 ip-172-31-19-32 kernel: ACPI: Reserving SSDT table memory at [mem 0xfc00c700-0xfc00c730]
+2024-07-02T08:43:28.879225+00:00 ip-172-31-19-32 kernel: ACPI: Reserving SSDT table memory at [mem 0xfc00c740-0xfc00c772]
+2024-07-02T08:43:28.879228+00:00 ip-172-31-19-32 kernel: No NUMA configuration found
+2024-07-02T08:43:28.879229+00:00 ip-172-31-19-32 kernel: Faking a node at [mem 0x0000000000000000-0x000000003fffffff]
+2024-07-02T08:43:28.879230+00:00 ip-172-31-19-32 kernel: NODE_DATA(0) allocated [mem 0x3ffd5000-0x3fffffff]
+2024-07-02T08:43:28.879231+00:00 ip-172-31-19-32 kernel: Zone ranges:
+2024-07-02T08:43:28.879232+00:00 ip-172-31-19-32 kernel:   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+2024-07-02T08:43:28.879233+00:00 ip-172-31-19-32 kernel:   DMA32    [mem 0x0000000001000000-0x000000003fffffff]
+2024-07-02T08:43:28.879234+00:00 ip-172-31-19-32 kernel:   Normal   empty
+2024-07-02T08:43:28.879238+00:00 ip-172-31-19-32 kernel:   Device   empty
+2024-07-02T08:43:28.879239+00:00 ip-172-31-19-32 kernel: Movable zone start for each node
+2024-07-02T08:43:28.879240+00:00 ip-172-31-19-32 kernel: Early memory node ranges
+2024-07-02T08:43:28.879241+00:00 ip-172-31-19-32 kernel:   node   0: [mem 0x0000000000001000-0x000000000009dfff]
+2024-07-02T08:43:28.879242+00:00 ip-172-31-19-32 kernel:   node   0: [mem 0x0000000000100000-0x000000003fffffff]
+2024-07-02T08:43:28.879243+00:00 ip-172-31-19-32 kernel: Initmem setup node 0 [mem 0x0000000000001000-0x000000003fffffff]
+2024-07-02T08:43:28.879246+00:00 ip-172-31-19-32 kernel: On node 0, zone DMA: 1 pages in unavailable ranges
+2024-07-02T08:43:28.879247+00:00 ip-172-31-19-32 kernel: On node 0, zone DMA: 98 pages in unavailable ranges
+2024-07-02T08:43:28.879248+00:00 ip-172-31-19-32 kernel: ACPI: PM-Timer IO Port: 0xb008
+2024-07-02T08:43:28.879249+00:00 ip-172-31-19-32 kernel: IOAPIC[0]: apic_id 1, version 17, address 0xfec00000, GSI 0-47
+2024-07-02T08:43:28.879250+00:00 ip-172-31-19-32 kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+2024-07-02T08:43:28.879251+00:00 ip-172-31-19-32 kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 5 global_irq 5 low level)
+2024-07-02T08:43:28.879252+00:00 ip-172-31-19-32 kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 10 global_irq 10 low level)
+2024-07-02T08:43:28.879256+00:00 ip-172-31-19-32 kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 11 global_irq 11 low level)
+2024-07-02T08:43:28.879257+00:00 ip-172-31-19-32 kernel: ACPI: Using ACPI (MADT) for SMP configuration information
+2024-07-02T08:43:28.879258+00:00 ip-172-31-19-32 kernel: ACPI: HPET id: 0x8086a201 base: 0xfed00000
+2024-07-02T08:43:28.879259+00:00 ip-172-31-19-32 kernel: TSC deadline timer available
+2024-07-02T08:43:28.879260+00:00 ip-172-31-19-32 kernel: smpboot: Allowing 15 CPUs, 14 hotplug CPUs
+2024-07-02T08:43:28.879261+00:00 ip-172-31-19-32 kernel: PM: hibernation: Registered nosave memory: [mem 0x00000000-0x00000fff]
+2024-07-02T08:43:28.879264+00:00 ip-172-31-19-32 kernel: PM: hibernation: Registered nosave memory: [mem 0x0009e000-0x0009ffff]
+2024-07-02T08:43:28.879265+00:00 ip-172-31-19-32 kernel: PM: hibernation: Registered nosave memory: [mem 0x000a0000-0x000dffff]
+2024-07-02T08:43:28.879266+00:00 ip-172-31-19-32 kernel: PM: hibernation: Registered nosave memory: [mem 0x000e0000-0x000fffff]
+2024-07-02T08:43:28.879267+00:00 ip-172-31-19-32 kernel: [mem 0x40000000-0xfbffffff] available for PCI devices
+2024-07-02T08:43:28.879268+00:00 ip-172-31-19-32 kernel: Booting paravirtualized kernel on Xen HVM
+2024-07-02T08:43:28.879269+00:00 ip-172-31-19-32 kernel: clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1910969940391419 ns
+2024-07-02T08:43:28.879272+00:00 ip-172-31-19-32 kernel: setup_percpu: NR_CPUS:8192 nr_cpumask_bits:15 nr_cpu_ids:15 nr_node_ids:1
+2024-07-02T08:43:28.879274+00:00 ip-172-31-19-32 kernel: percpu: Embedded 85 pages/cpu s225280 r8192 d114688 u524288
+2024-07-02T08:43:28.879275+00:00 ip-172-31-19-32 kernel: pcpu-alloc: s225280 r8192 d114688 u524288 alloc=1*2097152
+2024-07-02T08:43:28.879276+00:00 ip-172-31-19-32 kernel: pcpu-alloc: [0] 00 01 02 03 [0] 04 05 06 07 
+2024-07-02T08:43:28.879277+00:00 ip-172-31-19-32 kernel: pcpu-alloc: [0] 08 09 10 11 [0] 12 13 14 -- 
+2024-07-02T08:43:28.879278+00:00 ip-172-31-19-32 kernel: xen: PV spinlocks enabled
+2024-07-02T08:43:28.879279+00:00 ip-172-31-19-32 kernel: PV qspinlock hash table entries: 256 (order: 0, 4096 bytes, linear)
+2024-07-02T08:43:28.879282+00:00 ip-172-31-19-32 kernel: Kernel command line: BOOT_IMAGE=/vmlinuz-6.8.0-1008-aws root=PARTUUID=227fdd7f-aae5-441a-80c5-ad2f1c6e5bb1 ro console=tty1 console=ttyS0 nvme_core.io_timeout=4294967295 panic=-1
+2024-07-02T08:43:28.879283+00:00 ip-172-31-19-32 kernel: Unknown kernel command line parameters "BOOT_IMAGE=/vmlinuz-6.8.0-1008-aws", will be passed to user space.
+2024-07-02T08:43:28.879284+00:00 ip-172-31-19-32 kernel: random: crng init done
+2024-07-02T08:43:28.879285+00:00 ip-172-31-19-32 kernel: Dentry cache hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+2024-07-02T08:43:28.879286+00:00 ip-172-31-19-32 kernel: Inode-cache hash table entries: 65536 (order: 7, 524288 bytes, linear)
+2024-07-02T08:43:28.879289+00:00 ip-172-31-19-32 kernel: Fallback order for Node 0: 0 
+2024-07-02T08:43:28.879291+00:00 ip-172-31-19-32 kernel: Built 1 zonelists, mobility grouping on.  Total pages: 257792
+2024-07-02T08:43:28.879292+00:00 ip-172-31-19-32 kernel: Policy zone: DMA32
+2024-07-02T08:43:28.879293+00:00 ip-172-31-19-32 kernel: mem auto-init: stack:all(zero), heap alloc:on, heap free:off
+2024-07-02T08:43:28.879294+00:00 ip-172-31-19-32 kernel: Memory: 964824K/1048180K available (22528K kernel code, 4441K rwdata, 13932K rodata, 5084K init, 4624K bss, 83096K reserved, 0K cma-reserved)
+2024-07-02T08:43:28.879382+00:00 ip-172-31-19-32 kernel: SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=15, Nodes=1
+2024-07-02T08:43:28.879385+00:00 ip-172-31-19-32 kernel: Kernel/User page tables isolation: enabled
+2024-07-02T08:43:28.879388+00:00 ip-172-31-19-32 kernel: ftrace: allocating 58070 entries in 227 pages
+2024-07-02T08:43:28.879389+00:00 ip-172-31-19-32 kernel: ftrace section at ffffffff9e4bc840 sorted properly
+2024-07-02T08:43:28.879390+00:00 ip-172-31-19-32 kernel: ftrace: allocated 227 pages with 5 groups
+2024-07-02T08:43:28.879391+00:00 ip-172-31-19-32 kernel: rcu: Hierarchical RCU implementation.
+2024-07-02T08:43:28.879392+00:00 ip-172-31-19-32 kernel: rcu: 	RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=15.
+2024-07-02T08:43:28.879393+00:00 ip-172-31-19-32 kernel: 	Rude variant of Tasks RCU enabled.
+2024-07-02T08:43:28.879396+00:00 ip-172-31-19-32 kernel: 	Tracing variant of Tasks RCU enabled.
+2024-07-02T08:43:28.879398+00:00 ip-172-31-19-32 kernel: rcu: RCU calculated value of scheduler-enlistment delay is 100 jiffies.
+2024-07-02T08:43:28.879399+00:00 ip-172-31-19-32 kernel: rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=15
+2024-07-02T08:43:28.879399+00:00 ip-172-31-19-32 kernel: NR_IRQS: 524544, nr_irqs: 952, preallocated irqs: 16
+2024-07-02T08:43:28.879400+00:00 ip-172-31-19-32 kernel: xen:events: Using 2-level ABI
+2024-07-02T08:43:28.879402+00:00 ip-172-31-19-32 kernel: xen:events: Xen HVM callback vector for event delivery is enabled
+2024-07-02T08:43:28.879405+00:00 ip-172-31-19-32 kernel: rcu: srcu_init: Setting srcu_struct sizes based on contention.
+2024-07-02T08:43:28.879406+00:00 ip-172-31-19-32 kernel: Console: colour VGA+ 80x25
+2024-07-02T08:43:28.879407+00:00 ip-172-31-19-32 kernel: printk: legacy console [tty1] enabled
+2024-07-02T08:43:28.879408+00:00 ip-172-31-19-32 kernel: Cannot get hvm parameter CONSOLE_EVTCHN (18): -22!
+2024-07-02T08:43:28.879409+00:00 ip-172-31-19-32 kernel: printk: legacy console [ttyS0] enabled
+2024-07-02T08:43:28.879410+00:00 ip-172-31-19-32 kernel: ACPI: Core revision 20230628
+2024-07-02T08:43:28.879411+00:00 ip-172-31-19-32 kernel: clocksource: hpet: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 30580167144 ns
+2024-07-02T08:43:28.879414+00:00 ip-172-31-19-32 kernel: APIC: Switch to symmetric I/O mode setup
+2024-07-02T08:43:28.879415+00:00 ip-172-31-19-32 kernel: x2apic enabled
+2024-07-02T08:43:28.879416+00:00 ip-172-31-19-32 kernel: APIC: Switched APIC routing to: physical x2apic
+2024-07-02T08:43:28.879417+00:00 ip-172-31-19-32 kernel: ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=0 pin2=0
+2024-07-02T08:43:28.879418+00:00 ip-172-31-19-32 kernel: clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x229848b50c4, max_idle_ns: 440795322125 ns
+2024-07-02T08:43:28.879419+00:00 ip-172-31-19-32 kernel: Calibrating delay loop (skipped), value calculated using timer frequency.. 4800.03 BogoMIPS (lpj=2400018)
+2024-07-02T08:43:28.879422+00:00 ip-172-31-19-32 kernel: Last level iTLB entries: 4KB 1024, 2MB 1024, 4MB 1024
+2024-07-02T08:43:28.879423+00:00 ip-172-31-19-32 kernel: Last level dTLB entries: 4KB 1024, 2MB 1024, 4MB 1024, 1GB 4
+2024-07-02T08:43:28.879424+00:00 ip-172-31-19-32 kernel: Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+2024-07-02T08:43:28.879425+00:00 ip-172-31-19-32 kernel: Spectre V2 : Mitigation: Retpolines
+2024-07-02T08:43:28.879426+00:00 ip-172-31-19-32 kernel: Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+2024-07-02T08:43:28.879427+00:00 ip-172-31-19-32 kernel: Spectre V2 : Spectre v2 / SpectreRSB : Filling RSB on VMEXIT
+2024-07-02T08:43:28.879430+00:00 ip-172-31-19-32 kernel: Speculative Store Bypass: Vulnerable
+2024-07-02T08:43:28.879431+00:00 ip-172-31-19-32 kernel: MDS: Vulnerable: Clear CPU buffers attempted, no microcode
+2024-07-02T08:43:28.879432+00:00 ip-172-31-19-32 kernel: MMIO Stale Data: Vulnerable: Clear CPU buffers attempted, no microcode
+2024-07-02T08:43:28.879433+00:00 ip-172-31-19-32 kernel: x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+2024-07-02T08:43:28.879434+00:00 ip-172-31-19-32 kernel: x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+2024-07-02T08:43:28.879435+00:00 ip-172-31-19-32 kernel: x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+2024-07-02T08:43:28.879436+00:00 ip-172-31-19-32 kernel: x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+2024-07-02T08:43:28.879441+00:00 ip-172-31-19-32 kernel: x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'standard' format.
+2024-07-02T08:43:28.879442+00:00 ip-172-31-19-32 kernel: pid_max: default: 32768 minimum: 301
+2024-07-02T08:43:28.879443+00:00 ip-172-31-19-32 kernel: LSM: initializing lsm=lockdown,capability,landlock,yama,apparmor,integrity
+2024-07-02T08:43:28.879444+00:00 ip-172-31-19-32 kernel: landlock: Up and running.
+2024-07-02T08:43:28.879445+00:00 ip-172-31-19-32 kernel: Yama: becoming mindful.
+2024-07-02T08:43:28.879446+00:00 ip-172-31-19-32 kernel: AppArmor: AppArmor initialized
+2024-07-02T08:43:28.879449+00:00 ip-172-31-19-32 kernel: Mount-cache hash table entries: 2048 (order: 2, 16384 bytes, linear)
+2024-07-02T08:43:28.879450+00:00 ip-172-31-19-32 kernel: Mountpoint-cache hash table entries: 2048 (order: 2, 16384 bytes, linear)
+2024-07-02T08:43:28.879451+00:00 ip-172-31-19-32 kernel: clocksource: xen: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+2024-07-02T08:43:28.879452+00:00 ip-172-31-19-32 kernel: Xen: using vcpuop timer interface
+2024-07-02T08:43:28.879453+00:00 ip-172-31-19-32 kernel: installing Xen timer for CPU 0
+2024-07-02T08:43:28.879454+00:00 ip-172-31-19-32 kernel: smpboot: CPU0: Intel(R) Xeon(R) CPU E5-2676 v3 @ 2.40GHz (family: 0x6, model: 0x3f, stepping: 0x2)
+2024-07-02T08:43:28.879457+00:00 ip-172-31-19-32 kernel: cpu 0 spinlock event irq 53
+2024-07-02T08:43:28.879458+00:00 ip-172-31-19-32 kernel: RCU Tasks Rude: Setting shift to 4 and lim to 1 rcu_task_cb_adjust=1.
+2024-07-02T08:43:28.879459+00:00 ip-172-31-19-32 kernel: RCU Tasks Trace: Setting shift to 4 and lim to 1 rcu_task_cb_adjust=1.
+2024-07-02T08:43:28.879460+00:00 ip-172-31-19-32 kernel: Performance Events: unsupported p6 CPU model 63 no PMU driver, software events only.
+2024-07-02T08:43:28.879461+00:00 ip-172-31-19-32 kernel: signal: max sigframe size: 1776
+2024-07-02T08:43:28.879462+00:00 ip-172-31-19-32 kernel: rcu: Hierarchical SRCU implementation.
+2024-07-02T08:43:28.879463+00:00 ip-172-31-19-32 kernel: rcu: 	Max phase no-delay instances is 400.
+2024-07-02T08:43:28.879466+00:00 ip-172-31-19-32 kernel: NMI watchdog: Perf NMI watchdog permanently disabled
+2024-07-02T08:43:28.879467+00:00 ip-172-31-19-32 kernel: smp: Bringing up secondary CPUs ...
+2024-07-02T08:43:28.879468+00:00 ip-172-31-19-32 kernel: smp: Brought up 1 node, 1 CPU
+2024-07-02T08:43:28.879469+00:00 ip-172-31-19-32 kernel: smpboot: Max logical packages: 15
+2024-07-02T08:43:28.879471+00:00 ip-172-31-19-32 kernel: smpboot: Total of 1 processors activated (4800.03 BogoMIPS)
+2024-07-02T08:43:28.879471+00:00 ip-172-31-19-32 kernel: devtmpfs: initialized
+2024-07-02T08:43:28.879475+00:00 ip-172-31-19-32 kernel: x86/mm: Memory block size: 128MB
+2024-07-02T08:43:28.879476+00:00 ip-172-31-19-32 kernel: clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1911260446275000 ns
+2024-07-02T08:43:28.879477+00:00 ip-172-31-19-32 kernel: futex hash table entries: 4096 (order: 6, 262144 bytes, linear)
+2024-07-02T08:43:28.879478+00:00 ip-172-31-19-32 kernel: pinctrl core: initialized pinctrl subsystem
+2024-07-02T08:43:28.879479+00:00 ip-172-31-19-32 kernel: PM: RTC time: 08:43:09, date: 2024-07-02
+2024-07-02T08:43:28.879480+00:00 ip-172-31-19-32 kernel: NET: Registered PF_NETLINK/PF_ROUTE protocol family
+2024-07-02T08:43:28.879481+00:00 ip-172-31-19-32 kernel: DMA: preallocated 128 KiB GFP_KERNEL pool for atomic allocations
+2024-07-02T08:43:28.879484+00:00 ip-172-31-19-32 kernel: DMA: preallocated 128 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+2024-07-02T08:43:28.879485+00:00 ip-172-31-19-32 kernel: DMA: preallocated 128 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+2024-07-02T08:43:28.879486+00:00 ip-172-31-19-32 kernel: audit: initializing netlink subsys (disabled)
+2024-07-02T08:43:28.879487+00:00 ip-172-31-19-32 kernel: audit: type=2000 audit(1719909788.435:1): state=initialized audit_enabled=0 res=1
+2024-07-02T08:43:28.879488+00:00 ip-172-31-19-32 kernel: thermal_sys: Registered thermal governor 'fair_share'
+2024-07-02T08:43:28.879489+00:00 ip-172-31-19-32 kernel: thermal_sys: Registered thermal governor 'bang_bang'
+2024-07-02T08:43:28.879492+00:00 ip-172-31-19-32 kernel: thermal_sys: Registered thermal governor 'step_wise'
+2024-07-02T08:43:28.879493+00:00 ip-172-31-19-32 kernel: thermal_sys: Registered thermal governor 'user_space'
+2024-07-02T08:43:28.879494+00:00 ip-172-31-19-32 kernel: thermal_sys: Registered thermal governor 'power_allocator'
+2024-07-02T08:43:28.879495+00:00 ip-172-31-19-32 kernel: EISA bus registered
+2024-07-02T08:43:28.879496+00:00 ip-172-31-19-32 kernel: cpuidle: using governor ladder
+2024-07-02T08:43:28.879497+00:00 ip-172-31-19-32 kernel: cpuidle: using governor menu
+2024-07-02T08:43:28.879500+00:00 ip-172-31-19-32 kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+2024-07-02T08:43:28.879501+00:00 ip-172-31-19-32 kernel: PCI: Using configuration type 1 for base access
+2024-07-02T08:43:28.879502+00:00 ip-172-31-19-32 kernel: kprobes: kprobe jump-optimization is enabled. All kprobes are optimized if possible.
+2024-07-02T08:43:28.879503+00:00 ip-172-31-19-32 kernel: HugeTLB: registered 2.00 MiB page size, pre-allocated 0 pages
+2024-07-02T08:43:28.879504+00:00 ip-172-31-19-32 kernel: HugeTLB: 28 KiB vmemmap can be freed for a 2.00 MiB page
+2024-07-02T08:43:28.879505+00:00 ip-172-31-19-32 kernel: ACPI: Added _OSI(Module Device)
+2024-07-02T08:43:28.879506+00:00 ip-172-31-19-32 kernel: ACPI: Added _OSI(Processor Device)
+2024-07-02T08:43:28.879509+00:00 ip-172-31-19-32 kernel: ACPI: Added _OSI(3.0 _SCP Extensions)
+2024-07-02T08:43:28.879510+00:00 ip-172-31-19-32 kernel: ACPI: Added _OSI(Processor Aggregator Device)
+2024-07-02T08:43:28.879511+00:00 ip-172-31-19-32 kernel: ACPI: 3 ACPI AML tables successfully acquired and loaded
+2024-07-02T08:43:28.879512+00:00 ip-172-31-19-32 kernel: xen: --> pirq=16 -> irq=9 (gsi=9)
+2024-07-02T08:43:28.879513+00:00 ip-172-31-19-32 kernel: ACPI: _OSC evaluation for CPUs failed, trying _PDC
+2024-07-02T08:43:28.879514+00:00 ip-172-31-19-32 kernel: ACPI: Interpreter enabled
+2024-07-02T08:43:28.879523+00:00 ip-172-31-19-32 kernel: ACPI: PM: (supports S0 S4 S5)
+2024-07-02T08:43:28.879524+00:00 ip-172-31-19-32 kernel: ACPI: Using IOAPIC for interrupt routing
+2024-07-02T08:43:28.879525+00:00 ip-172-31-19-32 kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+2024-07-02T08:43:28.879526+00:00 ip-172-31-19-32 kernel: PCI: Using E820 reservations for host bridge windows
+2024-07-02T08:43:28.879527+00:00 ip-172-31-19-32 kernel: ACPI: Enabled 2 GPEs in block 00 to 0F
+2024-07-02T08:43:28.879528+00:00 ip-172-31-19-32 kernel: ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+2024-07-02T08:43:28.879529+00:00 ip-172-31-19-32 kernel: acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI EDR HPX-Type3]
+2024-07-02T08:43:28.879533+00:00 ip-172-31-19-32 kernel: acpi PNP0A03:00: _OSC: not requesting OS control; OS requires [ExtendedConfig ASPM ClockPM MSI]
+2024-07-02T08:43:28.879534+00:00 ip-172-31-19-32 kernel: acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended configuration space under this bridge
+2024-07-02T08:43:28.879535+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [0] registered
+2024-07-02T08:43:28.879536+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [3] registered
+2024-07-02T08:43:28.879537+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [4] registered
+2024-07-02T08:43:28.879538+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [5] registered
+2024-07-02T08:43:28.879543+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [6] registered
+2024-07-02T08:43:28.879544+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [7] registered
+2024-07-02T08:43:28.879545+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [8] registered
+2024-07-02T08:43:28.879546+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [9] registered
+2024-07-02T08:43:28.879547+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [10] registered
+2024-07-02T08:43:28.879603+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [11] registered
+2024-07-02T08:43:28.879608+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [12] registered
+2024-07-02T08:43:28.879609+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [13] registered
+2024-07-02T08:43:28.879610+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [14] registered
+2024-07-02T08:43:28.879611+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [15] registered
+2024-07-02T08:43:28.879612+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [16] registered
+2024-07-02T08:43:28.879613+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [17] registered
+2024-07-02T08:43:28.879614+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [18] registered
+2024-07-02T08:43:28.879627+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [19] registered
+2024-07-02T08:43:28.879628+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [20] registered
+2024-07-02T08:43:28.879629+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [21] registered
+2024-07-02T08:43:28.879630+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [22] registered
+2024-07-02T08:43:28.879631+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [23] registered
+2024-07-02T08:43:28.879632+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [24] registered
+2024-07-02T08:43:28.879636+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [25] registered
+2024-07-02T08:43:28.879637+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [26] registered
+2024-07-02T08:43:28.879638+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [27] registered
+2024-07-02T08:43:28.879639+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [28] registered
+2024-07-02T08:43:28.879640+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [29] registered
+2024-07-02T08:43:28.879641+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [30] registered
+2024-07-02T08:43:28.879647+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [31] registered
+2024-07-02T08:43:28.879648+00:00 ip-172-31-19-32 kernel: PCI host bridge to bus 0000:00
+2024-07-02T08:43:28.879649+00:00 ip-172-31-19-32 kernel: pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+2024-07-02T08:43:28.879650+00:00 ip-172-31-19-32 kernel: pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+2024-07-02T08:43:28.879651+00:00 ip-172-31-19-32 kernel: pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+2024-07-02T08:43:28.879652+00:00 ip-172-31-19-32 kernel: pci_bus 0000:00: root bus resource [mem 0xf0000000-0xfbffffff window]
+2024-07-02T08:43:28.879653+00:00 ip-172-31-19-32 kernel: pci_bus 0000:00: root bus resource [bus 00-ff]
+2024-07-02T08:43:28.879658+00:00 ip-172-31-19-32 kernel: pci 0000:00:00.0: [8086:1237] type 00 class 0x060000 conventional PCI endpoint
+2024-07-02T08:43:28.879659+00:00 ip-172-31-19-32 kernel: pci 0000:00:01.0: [8086:7000] type 00 class 0x060100 conventional PCI endpoint
+2024-07-02T08:43:28.879660+00:00 ip-172-31-19-32 kernel: pci 0000:00:01.1: [8086:7010] type 00 class 0x010180 conventional PCI endpoint
+2024-07-02T08:43:28.879661+00:00 ip-172-31-19-32 kernel: pci 0000:00:01.1: BAR 4 [io  0xc100-0xc10f]
+2024-07-02T08:43:28.879662+00:00 ip-172-31-19-32 kernel: pci 0000:00:01.1: BAR 0 [io  0x01f0-0x01f7]: legacy IDE quirk
+2024-07-02T08:43:28.879663+00:00 ip-172-31-19-32 kernel: pci 0000:00:01.1: BAR 1 [io  0x03f6]: legacy IDE quirk
+2024-07-02T08:43:28.879667+00:00 ip-172-31-19-32 kernel: pci 0000:00:01.1: BAR 2 [io  0x0170-0x0177]: legacy IDE quirk
+2024-07-02T08:43:28.879668+00:00 ip-172-31-19-32 kernel: pci 0000:00:01.1: BAR 3 [io  0x0376]: legacy IDE quirk
+2024-07-02T08:43:28.879669+00:00 ip-172-31-19-32 kernel: * Found PM-Timer Bug on the chipset. Due to workarounds for a bug,
+2024-07-02T08:43:28.879673+00:00 ip-172-31-19-32 kernel: * this clock source is slow. Consider trying other clock sources
+2024-07-02T08:43:28.879674+00:00 ip-172-31-19-32 kernel: pci 0000:00:01.3: [8086:7113] type 00 class 0x068000 conventional PCI endpoint
+2024-07-02T08:43:28.879675+00:00 ip-172-31-19-32 kernel: pci 0000:00:01.3: quirk: [io  0xb000-0xb03f] claimed by PIIX4 ACPI
+2024-07-02T08:43:28.879676+00:00 ip-172-31-19-32 kernel: pci 0000:00:02.0: [1013:00b8] type 00 class 0x030000 conventional PCI endpoint
+2024-07-02T08:43:28.879680+00:00 ip-172-31-19-32 kernel: pci 0000:00:02.0: BAR 0 [mem 0xf0000000-0xf1ffffff pref]
+2024-07-02T08:43:28.879681+00:00 ip-172-31-19-32 kernel: pci 0000:00:02.0: BAR 1 [mem 0xf3000000-0xf3000fff]
+2024-07-02T08:43:28.879682+00:00 ip-172-31-19-32 kernel: pci 0000:00:02.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+2024-07-02T08:43:28.879683+00:00 ip-172-31-19-32 kernel: pci 0000:00:03.0: [5853:0001] type 00 class 0xff8000 conventional PCI endpoint
+2024-07-02T08:43:28.879684+00:00 ip-172-31-19-32 kernel: pci 0000:00:03.0: BAR 0 [io  0xc000-0xc0ff]
+2024-07-02T08:43:28.879685+00:00 ip-172-31-19-32 kernel: pci 0000:00:03.0: BAR 1 [mem 0xf2000000-0xf2ffffff pref]
+2024-07-02T08:43:28.879689+00:00 ip-172-31-19-32 kernel: ACPI: PCI: Interrupt link LNKA configured for IRQ 5
+2024-07-02T08:43:28.879690+00:00 ip-172-31-19-32 kernel: ACPI: PCI: Interrupt link LNKB configured for IRQ 10
+2024-07-02T08:43:28.879691+00:00 ip-172-31-19-32 kernel: ACPI: PCI: Interrupt link LNKC configured for IRQ 11
+2024-07-02T08:43:28.879692+00:00 ip-172-31-19-32 kernel: ACPI: PCI: Interrupt link LNKD configured for IRQ 5
+2024-07-02T08:43:28.879693+00:00 ip-172-31-19-32 kernel: xen:balloon: Initialising balloon driver
+2024-07-02T08:43:28.879694+00:00 ip-172-31-19-32 kernel: iommu: Default domain type: Translated
+2024-07-02T08:43:28.879698+00:00 ip-172-31-19-32 kernel: iommu: DMA domain TLB invalidation policy: lazy mode
+2024-07-02T08:43:28.879699+00:00 ip-172-31-19-32 kernel: SCSI subsystem initialized
+2024-07-02T08:43:28.879700+00:00 ip-172-31-19-32 kernel: libata version 3.00 loaded.
+2024-07-02T08:43:28.879701+00:00 ip-172-31-19-32 kernel: ACPI: bus type USB registered
+2024-07-02T08:43:28.879702+00:00 ip-172-31-19-32 kernel: usbcore: registered new interface driver usbfs
+2024-07-02T08:43:28.879703+00:00 ip-172-31-19-32 kernel: usbcore: registered new interface driver hub
+2024-07-02T08:43:28.879704+00:00 ip-172-31-19-32 kernel: usbcore: registered new device driver usb
+2024-07-02T08:43:28.879709+00:00 ip-172-31-19-32 kernel: pps_core: LinuxPPS API ver. 1 registered
+2024-07-02T08:43:28.879710+00:00 ip-172-31-19-32 kernel: pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+2024-07-02T08:43:28.879711+00:00 ip-172-31-19-32 kernel: PTP clock support registered
+2024-07-02T08:43:28.879712+00:00 ip-172-31-19-32 kernel: EDAC MC: Ver: 3.0.0
+2024-07-02T08:43:28.879713+00:00 ip-172-31-19-32 kernel: NetLabel: Initializing
+2024-07-02T08:43:28.879714+00:00 ip-172-31-19-32 kernel: NetLabel:  domain hash size = 128
+2024-07-02T08:43:28.879718+00:00 ip-172-31-19-32 kernel: NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+2024-07-02T08:43:28.879719+00:00 ip-172-31-19-32 kernel: NetLabel:  unlabeled traffic allowed by default
+2024-07-02T08:43:28.879720+00:00 ip-172-31-19-32 kernel: mctp: management component transport protocol core
+2024-07-02T08:43:28.879721+00:00 ip-172-31-19-32 kernel: NET: Registered PF_MCTP protocol family
+2024-07-02T08:43:28.879722+00:00 ip-172-31-19-32 kernel: PCI: Using ACPI for IRQ routing
+2024-07-02T08:43:28.879723+00:00 ip-172-31-19-32 kernel: PCI: pci_cache_line_size set to 64 bytes
+2024-07-02T08:43:28.879724+00:00 ip-172-31-19-32 kernel: e820: reserve RAM buffer [mem 0x0009e000-0x0009ffff]
+2024-07-02T08:43:28.879731+00:00 ip-172-31-19-32 kernel: pci 0000:00:02.0: vgaarb: setting as boot VGA device
+2024-07-02T08:43:28.879732+00:00 ip-172-31-19-32 kernel: pci 0000:00:02.0: vgaarb: bridge control possible
+2024-07-02T08:43:28.879733+00:00 ip-172-31-19-32 kernel: pci 0000:00:02.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+2024-07-02T08:43:28.879734+00:00 ip-172-31-19-32 kernel: vgaarb: loaded
+2024-07-02T08:43:28.879735+00:00 ip-172-31-19-32 kernel: hpet: 3 channels of 0 reserved for per-cpu timers
+2024-07-02T08:43:28.879736+00:00 ip-172-31-19-32 kernel: hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0
+2024-07-02T08:43:28.879741+00:00 ip-172-31-19-32 kernel: hpet0: 3 comparators, 64-bit 62.500000 MHz counter
+2024-07-02T08:43:28.879742+00:00 ip-172-31-19-32 kernel: clocksource: Switched to clocksource xen
+2024-07-02T08:43:28.879743+00:00 ip-172-31-19-32 kernel: VFS: Disk quotas dquot_6.6.0
+2024-07-02T08:43:28.879744+00:00 ip-172-31-19-32 kernel: VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+2024-07-02T08:43:28.879745+00:00 ip-172-31-19-32 kernel: AppArmor: AppArmor Filesystem Enabled
+2024-07-02T08:43:28.879746+00:00 ip-172-31-19-32 kernel: pnp: PnP ACPI init
+2024-07-02T08:43:28.879750+00:00 ip-172-31-19-32 kernel: system 00:00: [mem 0x00000000-0x0009ffff] could not be reserved
+2024-07-02T08:43:28.879751+00:00 ip-172-31-19-32 kernel: system 00:01: [io  0x08a0-0x08a3] has been reserved
+2024-07-02T08:43:28.879752+00:00 ip-172-31-19-32 kernel: system 00:01: [io  0x0cc0-0x0ccf] has been reserved
+2024-07-02T08:43:28.879753+00:00 ip-172-31-19-32 kernel: system 00:01: [io  0x04d0-0x04d1] has been reserved
+2024-07-02T08:43:28.879754+00:00 ip-172-31-19-32 kernel: xen: --> pirq=17 -> irq=8 (gsi=8)
+2024-07-02T08:43:28.879755+00:00 ip-172-31-19-32 kernel: xen: --> pirq=18 -> irq=12 (gsi=12)
+2024-07-02T08:43:28.879756+00:00 ip-172-31-19-32 kernel: xen: --> pirq=19 -> irq=1 (gsi=1)
+2024-07-02T08:43:28.879760+00:00 ip-172-31-19-32 kernel: xen: --> pirq=20 -> irq=6 (gsi=6)
+2024-07-02T08:43:28.879761+00:00 ip-172-31-19-32 kernel: pnp 00:05: [dma 2]
+2024-07-02T08:43:28.879762+00:00 ip-172-31-19-32 kernel: xen: --> pirq=21 -> irq=4 (gsi=4)
+2024-07-02T08:43:28.879763+00:00 ip-172-31-19-32 kernel: system 00:07: [io  0x10c0-0x1141] has been reserved
+2024-07-02T08:43:28.879764+00:00 ip-172-31-19-32 kernel: system 00:07: [io  0xb044-0xb047] has been reserved
+2024-07-02T08:43:28.879765+00:00 ip-172-31-19-32 kernel: pnp: PnP ACPI: found 8 devices
+2024-07-02T08:43:28.879770+00:00 ip-172-31-19-32 kernel: clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+2024-07-02T08:43:28.879771+00:00 ip-172-31-19-32 kernel: NET: Registered PF_INET protocol family
+2024-07-02T08:43:28.879772+00:00 ip-172-31-19-32 kernel: IP idents hash table entries: 16384 (order: 5, 131072 bytes, linear)
+2024-07-02T08:43:28.879773+00:00 ip-172-31-19-32 kernel: tcp_listen_portaddr_hash hash table entries: 512 (order: 1, 8192 bytes, linear)
+2024-07-02T08:43:28.879774+00:00 ip-172-31-19-32 kernel: Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+2024-07-02T08:43:28.879775+00:00 ip-172-31-19-32 kernel: TCP established hash table entries: 8192 (order: 4, 65536 bytes, linear)
+2024-07-02T08:43:28.879776+00:00 ip-172-31-19-32 kernel: TCP bind hash table entries: 8192 (order: 6, 262144 bytes, linear)
+2024-07-02T08:43:28.879780+00:00 ip-172-31-19-32 kernel: TCP: Hash tables configured (established 8192 bind 8192)
+2024-07-02T08:43:28.879781+00:00 ip-172-31-19-32 kernel: MPTCP token hash table entries: 1024 (order: 2, 24576 bytes, linear)
+2024-07-02T08:43:28.879782+00:00 ip-172-31-19-32 kernel: UDP hash table entries: 512 (order: 2, 16384 bytes, linear)
+2024-07-02T08:43:28.879783+00:00 ip-172-31-19-32 kernel: UDP-Lite hash table entries: 512 (order: 2, 16384 bytes, linear)
+2024-07-02T08:43:28.879784+00:00 ip-172-31-19-32 kernel: NET: Registered PF_UNIX/PF_LOCAL protocol family
+2024-07-02T08:43:28.879785+00:00 ip-172-31-19-32 kernel: NET: Registered PF_XDP protocol family
+2024-07-02T08:43:28.879790+00:00 ip-172-31-19-32 kernel: pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+2024-07-02T08:43:28.879791+00:00 ip-172-31-19-32 kernel: pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+2024-07-02T08:43:28.879792+00:00 ip-172-31-19-32 kernel: pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+2024-07-02T08:43:28.879793+00:00 ip-172-31-19-32 kernel: pci_bus 0000:00: resource 7 [mem 0xf0000000-0xfbffffff window]
+2024-07-02T08:43:28.879794+00:00 ip-172-31-19-32 kernel: pci 0000:00:01.0: PIIX3: Enabling Passive Release
+2024-07-02T08:43:28.879795+00:00 ip-172-31-19-32 kernel: pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+2024-07-02T08:43:28.879800+00:00 ip-172-31-19-32 kernel: pci 0000:00:00.0: quirk_natoma+0x0/0x40 took 10575 usecs
+2024-07-02T08:43:28.879801+00:00 ip-172-31-19-32 kernel: PCI: CLS 0 bytes, default 64
+2024-07-02T08:43:28.879802+00:00 ip-172-31-19-32 kernel: Trying to unpack rootfs image as initramfs...
+2024-07-02T08:43:28.879803+00:00 ip-172-31-19-32 kernel: clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x229848b50c4, max_idle_ns: 440795322125 ns
+2024-07-02T08:43:28.879804+00:00 ip-172-31-19-32 kernel: Freeing initrd memory: 7832K
+2024-07-02T08:43:28.879805+00:00 ip-172-31-19-32 kernel: Initialise system trusted keyrings
+2024-07-02T08:43:28.879859+00:00 ip-172-31-19-32 kernel: Key type blacklist registered
+2024-07-02T08:43:28.879863+00:00 ip-172-31-19-32 kernel: workingset: timestamp_bits=36 max_order=18 bucket_order=0
+2024-07-02T08:43:28.879865+00:00 ip-172-31-19-32 kernel: zbud: loaded
+2024-07-02T08:43:28.879866+00:00 ip-172-31-19-32 kernel: squashfs: version 4.0 (2009/01/31) Phillip Lougher
+2024-07-02T08:43:28.879867+00:00 ip-172-31-19-32 kernel: fuse: init (API version 7.39)
+2024-07-02T08:43:28.879868+00:00 ip-172-31-19-32 kernel: integrity: Platform Keyring initialized
+2024-07-02T08:43:28.879869+00:00 ip-172-31-19-32 kernel: integrity: Machine keyring initialized
+2024-07-02T08:43:28.879873+00:00 ip-172-31-19-32 kernel: Key type asymmetric registered
+2024-07-02T08:43:28.879874+00:00 ip-172-31-19-32 kernel: Asymmetric key parser 'x509' registered
+2024-07-02T08:43:28.879875+00:00 ip-172-31-19-32 kernel: Block layer SCSI generic (bsg) driver version 0.4 loaded (major 243)
+2024-07-02T08:43:28.879876+00:00 ip-172-31-19-32 kernel: io scheduler mq-deadline registered
+2024-07-02T08:43:28.879877+00:00 ip-172-31-19-32 kernel: shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+2024-07-02T08:43:28.879878+00:00 ip-172-31-19-32 kernel: input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+2024-07-02T08:43:28.879879+00:00 ip-172-31-19-32 kernel: ACPI: button: Power Button [PWRF]
+2024-07-02T08:43:28.879883+00:00 ip-172-31-19-32 kernel: input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
+2024-07-02T08:43:28.879884+00:00 ip-172-31-19-32 kernel: ACPI: button: Sleep Button [SLPF]
+2024-07-02T08:43:28.879885+00:00 ip-172-31-19-32 kernel: xen: --> pirq=22 -> irq=28 (gsi=28)
+2024-07-02T08:43:28.879886+00:00 ip-172-31-19-32 kernel: xen:grant_table: Grant tables using version 1 layout
+2024-07-02T08:43:28.879887+00:00 ip-172-31-19-32 kernel: Grant table initialized
+2024-07-02T08:43:28.879888+00:00 ip-172-31-19-32 kernel: Cannot get hvm parameter CONSOLE_EVTCHN (18): -22!
+2024-07-02T08:43:28.879892+00:00 ip-172-31-19-32 kernel: Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+2024-07-02T08:43:28.879893+00:00 ip-172-31-19-32 kernel: 00:06: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A
+2024-07-02T08:43:28.879894+00:00 ip-172-31-19-32 kernel: Linux agpgart interface v0.103
+2024-07-02T08:43:28.879895+00:00 ip-172-31-19-32 kernel: loop: module loaded
+2024-07-02T08:43:28.879896+00:00 ip-172-31-19-32 kernel: Invalid max_queues (4), will use default max: 1.
+2024-07-02T08:43:28.879897+00:00 ip-172-31-19-32 kernel: ata_piix 0000:00:01.1: version 2.13
+2024-07-02T08:43:28.879902+00:00 ip-172-31-19-32 kernel: scsi host0: ata_piix
+2024-07-02T08:43:28.879903+00:00 ip-172-31-19-32 kernel: scsi host1: ata_piix
+2024-07-02T08:43:28.879904+00:00 ip-172-31-19-32 kernel: ata1: PATA max MWDMA2 cmd 0x1f0 ctl 0x3f6 bmdma 0xc100 irq 14 lpm-pol 0
+2024-07-02T08:43:28.879905+00:00 ip-172-31-19-32 kernel: ata2: PATA max MWDMA2 cmd 0x170 ctl 0x376 bmdma 0xc108 irq 15 lpm-pol 0
+2024-07-02T08:43:28.879906+00:00 ip-172-31-19-32 kernel: ACPI: bus type drm_connector registered
+2024-07-02T08:43:28.879907+00:00 ip-172-31-19-32 kernel: tun: Universal TUN/TAP device driver, 1.6
+2024-07-02T08:43:28.879908+00:00 ip-172-31-19-32 kernel: PPP generic driver version 2.4.2
+2024-07-02T08:43:28.879912+00:00 ip-172-31-19-32 kernel: xen_netfront: Initialising Xen virtual ethernet driver
+2024-07-02T08:43:28.879914+00:00 ip-172-31-19-32 kernel: i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f13:PS2M] at 0x60,0x64 irq 1,12
+2024-07-02T08:43:28.879915+00:00 ip-172-31-19-32 kernel: serio: i8042 KBD port at 0x60,0x64 irq 1
+2024-07-02T08:43:28.879916+00:00 ip-172-31-19-32 kernel: blkfront: xvda: barrier or flush: disabled; persistent grants: disabled; indirect descriptors: enabled; bounce buffer: disabled;
+2024-07-02T08:43:28.879917+00:00 ip-172-31-19-32 kernel: serio: i8042 AUX port at 0x60,0x64 irq 12
+2024-07-02T08:43:28.879918+00:00 ip-172-31-19-32 kernel: mousedev: PS/2 mouse device common for all mice
+2024-07-02T08:43:28.879922+00:00 ip-172-31-19-32 kernel: input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+2024-07-02T08:43:28.879923+00:00 ip-172-31-19-32 kernel: rtc_cmos 00:02: registered as rtc0
+2024-07-02T08:43:28.879924+00:00 ip-172-31-19-32 kernel: rtc_cmos 00:02: setting system clock to 2024-07-02T08:43:12 UTC (1719909792)
+2024-07-02T08:43:28.879925+00:00 ip-172-31-19-32 kernel: rtc_cmos 00:02: alarms up to one day, 114 bytes nvram, hpet irqs
+2024-07-02T08:43:28.879926+00:00 ip-172-31-19-32 kernel: i2c_dev: i2c /dev entries driver
+2024-07-02T08:43:28.879927+00:00 ip-172-31-19-32 kernel: device-mapper: core: CONFIG_IMA_DISABLE_HTABLE is disabled. Duplicate IMA measurements will not be recorded in the IMA log.
+2024-07-02T08:43:28.879931+00:00 ip-172-31-19-32 kernel: device-mapper: uevent: version 1.0.3
+2024-07-02T08:43:28.879932+00:00 ip-172-31-19-32 kernel: device-mapper: ioctl: 4.48.0-ioctl (2023-03-01) initialised: dm-devel@redhat.com
+2024-07-02T08:43:28.879933+00:00 ip-172-31-19-32 kernel: platform eisa.0: Probing EISA bus 0
+2024-07-02T08:43:28.879934+00:00 ip-172-31-19-32 kernel: platform eisa.0: EISA: Cannot allocate resource for mainboard
+2024-07-02T08:43:28.879935+00:00 ip-172-31-19-32 kernel: platform eisa.0: Cannot allocate resource for EISA slot 1
+2024-07-02T08:43:28.879936+00:00 ip-172-31-19-32 kernel: platform eisa.0: Cannot allocate resource for EISA slot 2
+2024-07-02T08:43:28.879937+00:00 ip-172-31-19-32 kernel:  xvda: xvda1 xvda14 xvda15 xvda16
+2024-07-02T08:43:28.879942+00:00 ip-172-31-19-32 kernel: platform eisa.0: Cannot allocate resource for EISA slot 3
+2024-07-02T08:43:28.879943+00:00 ip-172-31-19-32 kernel: platform eisa.0: Cannot allocate resource for EISA slot 4
+2024-07-02T08:43:28.879944+00:00 ip-172-31-19-32 kernel: platform eisa.0: Cannot allocate resource for EISA slot 5
+2024-07-02T08:43:28.879945+00:00 ip-172-31-19-32 kernel: platform eisa.0: Cannot allocate resource for EISA slot 6
+2024-07-02T08:43:28.879946+00:00 ip-172-31-19-32 kernel: platform eisa.0: Cannot allocate resource for EISA slot 7
+2024-07-02T08:43:28.879947+00:00 ip-172-31-19-32 kernel: platform eisa.0: Cannot allocate resource for EISA slot 8
+2024-07-02T08:43:28.879951+00:00 ip-172-31-19-32 kernel: platform eisa.0: EISA: Detected 0 cards
+2024-07-02T08:43:28.879953+00:00 ip-172-31-19-32 kernel: intel_pstate: CPU model not supported
+2024-07-02T08:43:28.879953+00:00 ip-172-31-19-32 kernel: ledtrig-cpu: registered to indicate activity on CPUs
+2024-07-02T08:43:28.879954+00:00 ip-172-31-19-32 kernel: drop_monitor: Initializing network drop monitor service
+2024-07-02T08:43:28.879955+00:00 ip-172-31-19-32 kernel: NET: Registered PF_INET6 protocol family
+2024-07-02T08:43:28.879956+00:00 ip-172-31-19-32 kernel: Segment Routing with IPv6
+2024-07-02T08:43:28.879961+00:00 ip-172-31-19-32 kernel: In-situ OAM (IOAM) with IPv6
+2024-07-02T08:43:28.879962+00:00 ip-172-31-19-32 kernel: NET: Registered PF_PACKET protocol family
+2024-07-02T08:43:28.879963+00:00 ip-172-31-19-32 kernel: Key type dns_resolver registered
+2024-07-02T08:43:28.879964+00:00 ip-172-31-19-32 kernel: resctrl: L3 allocation detected
+2024-07-02T08:43:28.879965+00:00 ip-172-31-19-32 kernel: IPI shorthand broadcast: enabled
+2024-07-02T08:43:28.879966+00:00 ip-172-31-19-32 kernel: sched_clock: Marking stable (2615034567, 1849252866)->(6890634159, -2426346726)
+2024-07-02T08:43:28.879967+00:00 ip-172-31-19-32 kernel: registered taskstats version 1
+2024-07-02T08:43:28.879971+00:00 ip-172-31-19-32 kernel: Loading compiled-in X.509 certificates
+2024-07-02T08:43:28.879972+00:00 ip-172-31-19-32 kernel: Loaded X.509 cert 'Build time autogenerated kernel key: 39592039eeaa32af28f137cd2b01b3cba64ba9c2'
+2024-07-02T08:43:28.879973+00:00 ip-172-31-19-32 kernel: Loaded X.509 cert 'Canonical Ltd. Live Patch Signing: 14df34d1a87cf37625abec039ef2bf521249b969'
+2024-07-02T08:43:28.879974+00:00 ip-172-31-19-32 kernel: Loaded X.509 cert 'Canonical Ltd. Kernel Module Signing: 88f752e560a1e0737e31163a466ad7b70a850c19'
+2024-07-02T08:43:28.879975+00:00 ip-172-31-19-32 kernel: blacklist: Loading compiled-in revocation X.509 certificates
+2024-07-02T08:43:28.879976+00:00 ip-172-31-19-32 kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing: 61482aa2830d0ab2ad5af10b7250da9033ddcef0'
+2024-07-02T08:43:28.879980+00:00 ip-172-31-19-32 kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2017): 242ade75ac4a15e50d50c84b0d45ff3eae707a03'
+2024-07-02T08:43:28.879982+00:00 ip-172-31-19-32 kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (ESM 2018): 365188c1d374d6b07c3c8f240f8ef722433d6a8b'
+2024-07-02T08:43:28.879983+00:00 ip-172-31-19-32 kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2019): c0746fd6c5da3ae827864651ad66ae47fe24b3e8'
+2024-07-02T08:43:28.879984+00:00 ip-172-31-19-32 kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v1): a8d54bbb3825cfb94fa13c9f8a594a195c107b8d'
+2024-07-02T08:43:28.879985+00:00 ip-172-31-19-32 kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v2): 4cf046892d6fd3c9a5b03f98d845f90851dc6a8c'
+2024-07-02T08:43:28.879986+00:00 ip-172-31-19-32 kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v3): 100437bb6de6e469b581e61cd66bce3ef4ed53af'
+2024-07-02T08:43:28.879992+00:00 ip-172-31-19-32 kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (Ubuntu Core 2019): c1d57b8f6b743f23ee41f4f7ee292f06eecadfb9'
+2024-07-02T08:43:28.879993+00:00 ip-172-31-19-32 kernel: Key type .fscrypt registered
+2024-07-02T08:43:28.879994+00:00 ip-172-31-19-32 kernel: Key type fscrypt-provisioning registered
+2024-07-02T08:43:28.879995+00:00 ip-172-31-19-32 kernel: Key type encrypted registered
+2024-07-02T08:43:28.879996+00:00 ip-172-31-19-32 kernel: AppArmor: AppArmor sha256 policy hashing enabled
+2024-07-02T08:43:28.879997+00:00 ip-172-31-19-32 kernel: ima: No TPM chip found, activating TPM-bypass!
+2024-07-02T08:43:28.880001+00:00 ip-172-31-19-32 kernel: Loading compiled-in module X.509 certificates
+2024-07-02T08:43:28.880002+00:00 ip-172-31-19-32 kernel: Loaded X.509 cert 'Build time autogenerated kernel key: 39592039eeaa32af28f137cd2b01b3cba64ba9c2'
+2024-07-02T08:43:28.880003+00:00 ip-172-31-19-32 kernel: ima: Allocated hash algorithm: sha256
+2024-07-02T08:43:28.880004+00:00 ip-172-31-19-32 kernel: ima: No architecture policies found
+2024-07-02T08:43:28.880005+00:00 ip-172-31-19-32 kernel: evm: Initialising EVM extended attributes:
+2024-07-02T08:43:28.880006+00:00 ip-172-31-19-32 kernel: evm: security.selinux
+2024-07-02T08:43:28.880010+00:00 ip-172-31-19-32 kernel: evm: security.SMACK64
+2024-07-02T08:43:28.880011+00:00 ip-172-31-19-32 kernel: evm: security.SMACK64EXEC
+2024-07-02T08:43:28.880012+00:00 ip-172-31-19-32 kernel: evm: security.SMACK64TRANSMUTE
+2024-07-02T08:43:28.880013+00:00 ip-172-31-19-32 kernel: evm: security.SMACK64MMAP
+2024-07-02T08:43:28.880014+00:00 ip-172-31-19-32 kernel: evm: security.apparmor
+2024-07-02T08:43:28.880015+00:00 ip-172-31-19-32 kernel: evm: security.ima
+2024-07-02T08:43:28.880019+00:00 ip-172-31-19-32 kernel: evm: security.capability
+2024-07-02T08:43:28.880020+00:00 ip-172-31-19-32 kernel: evm: HMAC attrs: 0x1
+2024-07-02T08:43:28.880021+00:00 ip-172-31-19-32 kernel: PM:   Magic number: 0:686:724
+2024-07-02T08:43:28.880022+00:00 ip-172-31-19-32 kernel: block loop4: hash matches
+2024-07-02T08:43:28.880023+00:00 ip-172-31-19-32 kernel: RAS: Correctable Errors collector initialized.
+2024-07-02T08:43:28.880024+00:00 ip-172-31-19-32 kernel: clk: Disabling unused clocks
+2024-07-02T08:43:28.880025+00:00 ip-172-31-19-32 kernel: md: Waiting for all devices to be available before autodetect
+2024-07-02T08:43:28.880042+00:00 ip-172-31-19-32 kernel: md: If you don't use raid, use raid=noautodetect
+2024-07-02T08:43:28.880043+00:00 ip-172-31-19-32 kernel: md: Autodetecting RAID arrays.
+2024-07-02T08:43:28.880044+00:00 ip-172-31-19-32 kernel: md: autorun ...
+2024-07-02T08:43:28.880045+00:00 ip-172-31-19-32 kernel: md: ... autorun DONE.
+2024-07-02T08:43:28.880046+00:00 ip-172-31-19-32 kernel: EXT4-fs (xvda1): mounted filesystem 6387caa1-122f-48bc-b447-9f1386d06e06 ro with ordered data mode. Quota mode: none.
+2024-07-02T08:43:28.880047+00:00 ip-172-31-19-32 kernel: VFS: Mounted root (ext4 filesystem) readonly on device 202:1.
+2024-07-02T08:43:28.880052+00:00 ip-172-31-19-32 kernel: devtmpfs: mounted
+2024-07-02T08:43:28.880053+00:00 ip-172-31-19-32 kernel: Freeing unused decrypted memory: 2028K
+2024-07-02T08:43:28.880101+00:00 ip-172-31-19-32 kernel: Freeing unused kernel image (initmem) memory: 5084K
+2024-07-02T08:43:28.880103+00:00 ip-172-31-19-32 kernel: Write protecting the kernel read-only data: 36864k
+2024-07-02T08:43:28.880104+00:00 ip-172-31-19-32 kernel: Freeing unused kernel image (rodata/data gap) memory: 404K
+2024-07-02T08:43:28.880105+00:00 ip-172-31-19-32 kernel: x86/mm: Checked W+X mappings: passed, no W+X pages found.
+2024-07-02T08:43:28.880110+00:00 ip-172-31-19-32 kernel: x86/mm: Checking user space page tables
+2024-07-02T08:43:28.880111+00:00 ip-172-31-19-32 kernel: x86/mm: Checked W+X mappings: passed, no W+X pages found.
+2024-07-02T08:43:28.880112+00:00 ip-172-31-19-32 kernel: Run /sbin/init as init process
+2024-07-02T08:43:28.880113+00:00 ip-172-31-19-32 kernel:   with arguments:
+2024-07-02T08:43:28.880114+00:00 ip-172-31-19-32 kernel:     /sbin/init
+2024-07-02T08:43:28.880115+00:00 ip-172-31-19-32 kernel:   with environment:
+2024-07-02T08:43:28.880116+00:00 ip-172-31-19-32 kernel:     HOME=/
+2024-07-02T08:43:28.880120+00:00 ip-172-31-19-32 kernel:     TERM=linux
+2024-07-02T08:43:28.880121+00:00 ip-172-31-19-32 kernel:     BOOT_IMAGE=/vmlinuz-6.8.0-1008-aws
+2024-07-02T08:43:28.893192+00:00 ip-172-31-19-32 kernel: EXT4-fs (xvda1): re-mounted 6387caa1-122f-48bc-b447-9f1386d06e06 r/w. Quota mode: none.
+2024-07-02T08:43:28.893194+00:00 ip-172-31-19-32 kernel: loop0: detected capacity change from 0 to 113992
+2024-07-02T08:43:28.893195+00:00 ip-172-31-19-32 kernel: loop1: detected capacity change from 0 to 51672
+2024-07-02T08:43:28.893196+00:00 ip-172-31-19-32 kernel: loop2: detected capacity change from 0 to 79328
+2024-07-02T08:43:28.893197+00:00 ip-172-31-19-32 kernel: vif vif-0 enX0: renamed from eth0
+2024-07-02T08:43:28.893198+00:00 ip-172-31-19-32 kernel: EXT4-fs (xvda16): mounted filesystem 9d39f3ff-b465-4c20-9ec1-06182226356c r/w with ordered data mode. Quota mode: none.
+2024-07-02T08:43:28.893200+00:00 ip-172-31-19-32 kernel: FDC 0 is a S82078B
+2024-07-02T08:43:28.893201+00:00 ip-172-31-19-32 kernel: audit: type=1400 audit(1719909797.604:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="1password" pid=278 comm="apparmor_parser"
+2024-07-02T08:43:28.893202+00:00 ip-172-31-19-32 kernel: audit: type=1400 audit(1719909797.611:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="Discord" pid=281 comm="apparmor_parser"
+2024-07-02T08:43:28.893203+00:00 ip-172-31-19-32 kernel: audit: type=1400 audit(1719909797.622:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name=4D6F6E676F444220436F6D70617373 pid=282 comm="apparmor_parser"
+2024-07-02T08:43:28.893218+00:00 ip-172-31-19-32 kernel: audit: type=1400 audit(1719909797.629:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="QtWebEngineProcess" pid=283 comm="apparmor_parser"
+2024-07-02T08:43:28.893220+00:00 ip-172-31-19-32 kernel: audit: type=1400 audit(1719909797.632:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="brave" pid=284 comm="apparmor_parser"
+2024-07-02T08:43:28.893221+00:00 ip-172-31-19-32 kernel: audit: type=1400 audit(1719909797.636:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="buildah" pid=285 comm="apparmor_parser"
+2024-07-02T08:43:28.893222+00:00 ip-172-31-19-32 kernel: audit: type=1400 audit(1719909797.642:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="busybox" pid=286 comm="apparmor_parser"
+2024-07-02T08:43:28.893223+00:00 ip-172-31-19-32 kernel: audit: type=1400 audit(1719909797.648:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="cam" pid=289 comm="apparmor_parser"
+2024-07-02T08:43:28.893224+00:00 ip-172-31-19-32 kernel: audit: type=1400 audit(1719909797.662:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="ch-checkns" pid=290 comm="apparmor_parser"
+2024-07-02T08:43:28.893225+00:00 ip-172-31-19-32 kernel: audit: type=1400 audit(1719909797.665:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="ch-run" pid=291 comm="apparmor_parser"
+2024-07-02T08:43:28.893227+00:00 ip-172-31-19-32 kernel: cryptd: max_cpu_qlen set to 1000
+2024-07-02T08:43:28.893228+00:00 ip-172-31-19-32 kernel: AVX2 version of gcm_enc/dec engaged.
+2024-07-02T08:43:28.893229+00:00 ip-172-31-19-32 kernel: AES CTR mode by8 optimization enabled
+2024-07-02T08:43:28.893230+00:00 ip-172-31-19-32 kernel: input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input4
+2024-07-02T08:43:28.893231+00:00 ip-172-31-19-32 kernel: 8021q: 802.1Q VLAN Support v1.8
+2024-07-02T08:43:28.893232+00:00 ip-172-31-19-32 kernel: kauditd_printk_skb: 99 callbacks suppressed
+2024-07-02T08:43:28.893233+00:00 ip-172-31-19-32 kernel: audit: type=1400 audit(1719909808.260:111): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="rsyslogd" pid=637 comm="apparmor_parser"
+2024-07-02T08:43:28.893234+00:00 ip-172-31-19-32 kernel: loop3: detected capacity change from 0 to 8
+2024-07-02T08:43:29.296219+00:00 ip-172-31-19-32 kernel: audit: type=1400 audit(1719909809.294:112): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/snapd/snap-confine" pid=807 comm="apparmor_parser"
+2024-07-02T08:43:29.300126+00:00 ip-172-31-19-32 kernel: audit: type=1400 audit(1719909809.297:113): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=807 comm="apparmor_parser"
+2024-07-03T11:33:31.413764+00:00 ip-172-31-19-32 kernel: Linux version 6.8.0-1008-aws (buildd@lcy02-amd64-030) (x86_64-linux-gnu-gcc-13 (Ubuntu 13.2.0-23ubuntu4) 13.2.0, GNU ld (GNU Binutils for Ubuntu) 2.42) #8-Ubuntu SMP Sat Apr 20 00:46:25 UTC 2024 (Ubuntu 6.8.0-1008.8-aws 6.8.1)
+2024-07-03T11:33:31.438879+00:00 ip-172-31-19-32 kernel: Command line: BOOT_IMAGE=/vmlinuz-6.8.0-1008-aws root=PARTUUID=227fdd7f-aae5-441a-80c5-ad2f1c6e5bb1 ro console=tty1 console=ttyS0 nvme_core.io_timeout=4294967295 panic=-1
+2024-07-03T11:33:31.438886+00:00 ip-172-31-19-32 kernel: KERNEL supported cpus:
+2024-07-03T11:33:31.438887+00:00 ip-172-31-19-32 kernel:   Intel GenuineIntel
+2024-07-03T11:33:31.438888+00:00 ip-172-31-19-32 kernel:   AMD AuthenticAMD
+2024-07-03T11:33:31.438889+00:00 ip-172-31-19-32 kernel:   Hygon HygonGenuine
+2024-07-03T11:33:31.438890+00:00 ip-172-31-19-32 kernel:   Centaur CentaurHauls
+2024-07-03T11:33:31.438894+00:00 ip-172-31-19-32 kernel:   zhaoxin   Shanghai  
+2024-07-03T11:33:31.438895+00:00 ip-172-31-19-32 kernel: BIOS-provided physical RAM map:
+2024-07-03T11:33:31.438896+00:00 ip-172-31-19-32 kernel: BIOS-e820: [mem 0x0000000000000000-0x000000000009dfff] usable
+2024-07-03T11:33:31.438897+00:00 ip-172-31-19-32 kernel: BIOS-e820: [mem 0x000000000009e000-0x000000000009ffff] reserved
+2024-07-03T11:33:31.438899+00:00 ip-172-31-19-32 kernel: BIOS-e820: [mem 0x00000000000e0000-0x00000000000fffff] reserved
+2024-07-03T11:33:31.438900+00:00 ip-172-31-19-32 kernel: BIOS-e820: [mem 0x0000000000100000-0x000000003fffffff] usable
+2024-07-03T11:33:31.438903+00:00 ip-172-31-19-32 kernel: BIOS-e820: [mem 0x00000000fc000000-0x00000000ffffffff] reserved
+2024-07-03T11:33:31.438904+00:00 ip-172-31-19-32 kernel: NX (Execute Disable) protection: active
+2024-07-03T11:33:31.438905+00:00 ip-172-31-19-32 kernel: APIC: Static calls initialized
+2024-07-03T11:33:31.438906+00:00 ip-172-31-19-32 kernel: SMBIOS 2.7 present.
+2024-07-03T11:33:31.438907+00:00 ip-172-31-19-32 kernel: DMI: Xen HVM domU, BIOS 4.11.amazon 08/24/2006
+2024-07-03T11:33:31.438908+00:00 ip-172-31-19-32 kernel: Hypervisor detected: Xen HVM
+2024-07-03T11:33:31.438909+00:00 ip-172-31-19-32 kernel: Xen version 4.11.
+2024-07-03T11:33:31.438913+00:00 ip-172-31-19-32 kernel: platform_pci_unplug: Netfront and the Xen platform PCI driver have been compiled for this kernel: unplug emulated NICs.
+2024-07-03T11:33:31.438914+00:00 ip-172-31-19-32 kernel: platform_pci_unplug: Blkfront and the Xen platform PCI driver have been compiled for this kernel: unplug emulated disks.
+2024-07-03T11:33:31.438915+00:00 ip-172-31-19-32 kernel: You might have to change the root device
+2024-07-03T11:33:31.438916+00:00 ip-172-31-19-32 kernel: from /dev/hd[a-d] to /dev/xvd[a-d]
+2024-07-03T11:33:31.438917+00:00 ip-172-31-19-32 kernel: in your root= kernel command line option
+2024-07-03T11:33:31.438918+00:00 ip-172-31-19-32 kernel: HVMOP_pagetable_dying not supported
+2024-07-03T11:33:31.438921+00:00 ip-172-31-19-32 kernel: tsc: Fast TSC calibration using PIT
+2024-07-03T11:33:31.438923+00:00 ip-172-31-19-32 kernel: tsc: Detected 2400.063 MHz processor
+2024-07-03T11:33:31.438924+00:00 ip-172-31-19-32 kernel: tsc: Detected 2400.020 MHz TSC
+2024-07-03T11:33:31.438925+00:00 ip-172-31-19-32 kernel: e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+2024-07-03T11:33:31.438926+00:00 ip-172-31-19-32 kernel: e820: remove [mem 0x000a0000-0x000fffff] usable
+2024-07-03T11:33:31.438927+00:00 ip-172-31-19-32 kernel: last_pfn = 0x40000 max_arch_pfn = 0x400000000
+2024-07-03T11:33:31.438930+00:00 ip-172-31-19-32 kernel: MTRR map: 4 entries (3 fixed + 1 variable; max 19), built from 8 variable MTRRs
+2024-07-03T11:33:31.438949+00:00 ip-172-31-19-32 kernel: x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+2024-07-03T11:33:31.438951+00:00 ip-172-31-19-32 kernel: found SMP MP-table at [mem 0x000fb9a0-0x000fb9af]
+2024-07-03T11:33:31.438952+00:00 ip-172-31-19-32 kernel: RAMDISK: [mem 0x370a3000-0x37848fff]
+2024-07-03T11:33:31.438953+00:00 ip-172-31-19-32 kernel: ACPI: Early table checksum verification disabled
+2024-07-03T11:33:31.438954+00:00 ip-172-31-19-32 kernel: ACPI: RSDP 0x00000000000EA020 000024 (v02 Xen   )
+2024-07-03T11:33:31.438955+00:00 ip-172-31-19-32 kernel: ACPI: XSDT 0x00000000FC00C780 000054 (v01 Xen    HVM      00000000 HVML 00000000)
+2024-07-03T11:33:31.438958+00:00 ip-172-31-19-32 kernel: ACPI: FACP 0x00000000FC00C440 0000F4 (v04 Xen    HVM      00000000 HVML 00000000)
+2024-07-03T11:33:31.438960+00:00 ip-172-31-19-32 kernel: ACPI: DSDT 0x00000000FC003940 008A7E (v02 Xen    HVM      00000000 INTL 20090123)
+2024-07-03T11:33:31.438961+00:00 ip-172-31-19-32 kernel: ACPI: FACS 0x00000000FC003900 000040
+2024-07-03T11:33:31.438962+00:00 ip-172-31-19-32 kernel: ACPI: FACS 0x00000000FC003900 000040
+2024-07-03T11:33:31.438965+00:00 ip-172-31-19-32 kernel: ACPI: APIC 0x00000000FC00C540 0000D8 (v02 Xen    HVM      00000000 HVML 00000000)
+2024-07-03T11:33:31.438967+00:00 ip-172-31-19-32 kernel: ACPI: HPET 0x00000000FC00C690 000038 (v01 Xen    HVM      00000000 HVML 00000000)
+2024-07-03T11:33:31.438981+00:00 ip-172-31-19-32 kernel: ACPI: WAET 0x00000000FC00C6D0 000028 (v01 Xen    HVM      00000000 HVML 00000000)
+2024-07-03T11:33:31.438982+00:00 ip-172-31-19-32 kernel: ACPI: SSDT 0x00000000FC00C700 000031 (v02 Xen    HVM      00000000 INTL 20090123)
+2024-07-03T11:33:31.438983+00:00 ip-172-31-19-32 kernel: ACPI: SSDT 0x00000000FC00C740 000033 (v02 Xen    HVM      00000000 INTL 20090123)
+2024-07-03T11:33:31.438984+00:00 ip-172-31-19-32 kernel: ACPI: Reserving FACP table memory at [mem 0xfc00c440-0xfc00c533]
+2024-07-03T11:33:31.438985+00:00 ip-172-31-19-32 kernel: ACPI: Reserving DSDT table memory at [mem 0xfc003940-0xfc00c3bd]
+2024-07-03T11:33:31.438986+00:00 ip-172-31-19-32 kernel: ACPI: Reserving FACS table memory at [mem 0xfc003900-0xfc00393f]
+2024-07-03T11:33:31.438989+00:00 ip-172-31-19-32 kernel: ACPI: Reserving FACS table memory at [mem 0xfc003900-0xfc00393f]
+2024-07-03T11:33:31.438991+00:00 ip-172-31-19-32 kernel: ACPI: Reserving APIC table memory at [mem 0xfc00c540-0xfc00c617]
+2024-07-03T11:33:31.438992+00:00 ip-172-31-19-32 kernel: ACPI: Reserving HPET table memory at [mem 0xfc00c690-0xfc00c6c7]
+2024-07-03T11:33:31.438993+00:00 ip-172-31-19-32 kernel: ACPI: Reserving WAET table memory at [mem 0xfc00c6d0-0xfc00c6f7]
+2024-07-03T11:33:31.438994+00:00 ip-172-31-19-32 kernel: ACPI: Reserving SSDT table memory at [mem 0xfc00c700-0xfc00c730]
+2024-07-03T11:33:31.438995+00:00 ip-172-31-19-32 kernel: ACPI: Reserving SSDT table memory at [mem 0xfc00c740-0xfc00c772]
+2024-07-03T11:33:31.438998+00:00 ip-172-31-19-32 kernel: No NUMA configuration found
+2024-07-03T11:33:31.439000+00:00 ip-172-31-19-32 kernel: Faking a node at [mem 0x0000000000000000-0x000000003fffffff]
+2024-07-03T11:33:31.439001+00:00 ip-172-31-19-32 kernel: NODE_DATA(0) allocated [mem 0x3ffd5000-0x3fffffff]
+2024-07-03T11:33:31.439002+00:00 ip-172-31-19-32 kernel: Zone ranges:
+2024-07-03T11:33:31.439003+00:00 ip-172-31-19-32 kernel:   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+2024-07-03T11:33:31.439004+00:00 ip-172-31-19-32 kernel:   DMA32    [mem 0x0000000001000000-0x000000003fffffff]
+2024-07-03T11:33:31.439005+00:00 ip-172-31-19-32 kernel:   Normal   empty
+2024-07-03T11:33:31.439008+00:00 ip-172-31-19-32 kernel:   Device   empty
+2024-07-03T11:33:31.439009+00:00 ip-172-31-19-32 kernel: Movable zone start for each node
+2024-07-03T11:33:31.439010+00:00 ip-172-31-19-32 kernel: Early memory node ranges
+2024-07-03T11:33:31.439011+00:00 ip-172-31-19-32 kernel:   node   0: [mem 0x0000000000001000-0x000000000009dfff]
+2024-07-03T11:33:31.439012+00:00 ip-172-31-19-32 kernel:   node   0: [mem 0x0000000000100000-0x000000003fffffff]
+2024-07-03T11:33:31.439013+00:00 ip-172-31-19-32 kernel: Initmem setup node 0 [mem 0x0000000000001000-0x000000003fffffff]
+2024-07-03T11:33:31.439017+00:00 ip-172-31-19-32 kernel: On node 0, zone DMA: 1 pages in unavailable ranges
+2024-07-03T11:33:31.439018+00:00 ip-172-31-19-32 kernel: On node 0, zone DMA: 98 pages in unavailable ranges
+2024-07-03T11:33:31.439019+00:00 ip-172-31-19-32 kernel: ACPI: PM-Timer IO Port: 0xb008
+2024-07-03T11:33:31.439020+00:00 ip-172-31-19-32 kernel: IOAPIC[0]: apic_id 1, version 17, address 0xfec00000, GSI 0-47
+2024-07-03T11:33:31.439021+00:00 ip-172-31-19-32 kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+2024-07-03T11:33:31.439022+00:00 ip-172-31-19-32 kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 5 global_irq 5 low level)
+2024-07-03T11:33:31.439023+00:00 ip-172-31-19-32 kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 10 global_irq 10 low level)
+2024-07-03T11:33:31.439026+00:00 ip-172-31-19-32 kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 11 global_irq 11 low level)
+2024-07-03T11:33:31.439027+00:00 ip-172-31-19-32 kernel: ACPI: Using ACPI (MADT) for SMP configuration information
+2024-07-03T11:33:31.439028+00:00 ip-172-31-19-32 kernel: ACPI: HPET id: 0x8086a201 base: 0xfed00000
+2024-07-03T11:33:31.439030+00:00 ip-172-31-19-32 kernel: TSC deadline timer available
+2024-07-03T11:33:31.439031+00:00 ip-172-31-19-32 kernel: smpboot: Allowing 15 CPUs, 14 hotplug CPUs
+2024-07-03T11:33:31.439032+00:00 ip-172-31-19-32 kernel: PM: hibernation: Registered nosave memory: [mem 0x00000000-0x00000fff]
+2024-07-03T11:33:31.439035+00:00 ip-172-31-19-32 kernel: PM: hibernation: Registered nosave memory: [mem 0x0009e000-0x0009ffff]
+2024-07-03T11:33:31.439036+00:00 ip-172-31-19-32 kernel: PM: hibernation: Registered nosave memory: [mem 0x000a0000-0x000dffff]
+2024-07-03T11:33:31.439037+00:00 ip-172-31-19-32 kernel: PM: hibernation: Registered nosave memory: [mem 0x000e0000-0x000fffff]
+2024-07-03T11:33:31.439038+00:00 ip-172-31-19-32 kernel: [mem 0x40000000-0xfbffffff] available for PCI devices
+2024-07-03T11:33:31.439039+00:00 ip-172-31-19-32 kernel: Booting paravirtualized kernel on Xen HVM
+2024-07-03T11:33:31.439040+00:00 ip-172-31-19-32 kernel: clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1910969940391419 ns
+2024-07-03T11:33:31.439043+00:00 ip-172-31-19-32 kernel: setup_percpu: NR_CPUS:8192 nr_cpumask_bits:15 nr_cpu_ids:15 nr_node_ids:1
+2024-07-03T11:33:31.439045+00:00 ip-172-31-19-32 kernel: percpu: Embedded 85 pages/cpu s225280 r8192 d114688 u524288
+2024-07-03T11:33:31.439046+00:00 ip-172-31-19-32 kernel: pcpu-alloc: s225280 r8192 d114688 u524288 alloc=1*2097152
+2024-07-03T11:33:31.439047+00:00 ip-172-31-19-32 kernel: pcpu-alloc: [0] 00 01 02 03 [0] 04 05 06 07 
+2024-07-03T11:33:31.439048+00:00 ip-172-31-19-32 kernel: pcpu-alloc: [0] 08 09 10 11 [0] 12 13 14 -- 
+2024-07-03T11:33:31.439049+00:00 ip-172-31-19-32 kernel: xen: PV spinlocks enabled
+2024-07-03T11:33:31.439050+00:00 ip-172-31-19-32 kernel: PV qspinlock hash table entries: 256 (order: 0, 4096 bytes, linear)
+2024-07-03T11:33:31.439053+00:00 ip-172-31-19-32 kernel: Kernel command line: BOOT_IMAGE=/vmlinuz-6.8.0-1008-aws root=PARTUUID=227fdd7f-aae5-441a-80c5-ad2f1c6e5bb1 ro console=tty1 console=ttyS0 nvme_core.io_timeout=4294967295 panic=-1
+2024-07-03T11:33:31.439054+00:00 ip-172-31-19-32 kernel: Unknown kernel command line parameters "BOOT_IMAGE=/vmlinuz-6.8.0-1008-aws", will be passed to user space.
+2024-07-03T11:33:31.439055+00:00 ip-172-31-19-32 kernel: random: crng init done
+2024-07-03T11:33:31.439057+00:00 ip-172-31-19-32 kernel: Dentry cache hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+2024-07-03T11:33:31.439058+00:00 ip-172-31-19-32 kernel: Inode-cache hash table entries: 65536 (order: 7, 524288 bytes, linear)
+2024-07-03T11:33:31.439061+00:00 ip-172-31-19-32 kernel: Fallback order for Node 0: 0 
+2024-07-03T11:33:31.439062+00:00 ip-172-31-19-32 kernel: Built 1 zonelists, mobility grouping on.  Total pages: 257792
+2024-07-03T11:33:31.439063+00:00 ip-172-31-19-32 kernel: Policy zone: DMA32
+2024-07-03T11:33:31.439064+00:00 ip-172-31-19-32 kernel: mem auto-init: stack:all(zero), heap alloc:on, heap free:off
+2024-07-03T11:33:31.439065+00:00 ip-172-31-19-32 kernel: Memory: 964828K/1048180K available (22528K kernel code, 4441K rwdata, 13932K rodata, 5084K init, 4624K bss, 83092K reserved, 0K cma-reserved)
+2024-07-03T11:33:31.439128+00:00 ip-172-31-19-32 kernel: SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=15, Nodes=1
+2024-07-03T11:33:31.439130+00:00 ip-172-31-19-32 kernel: Kernel/User page tables isolation: enabled
+2024-07-03T11:33:31.439133+00:00 ip-172-31-19-32 kernel: ftrace: allocating 58070 entries in 227 pages
+2024-07-03T11:33:31.439134+00:00 ip-172-31-19-32 kernel: ftrace section at ffffffffab6bc840 sorted properly
+2024-07-03T11:33:31.439135+00:00 ip-172-31-19-32 kernel: ftrace: allocated 227 pages with 5 groups
+2024-07-03T11:33:31.439136+00:00 ip-172-31-19-32 kernel: rcu: Hierarchical RCU implementation.
+2024-07-03T11:33:31.439137+00:00 ip-172-31-19-32 kernel: rcu: 	RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=15.
+2024-07-03T11:33:31.439138+00:00 ip-172-31-19-32 kernel: 	Rude variant of Tasks RCU enabled.
+2024-07-03T11:33:31.439141+00:00 ip-172-31-19-32 kernel: 	Tracing variant of Tasks RCU enabled.
+2024-07-03T11:33:31.439142+00:00 ip-172-31-19-32 kernel: rcu: RCU calculated value of scheduler-enlistment delay is 100 jiffies.
+2024-07-03T11:33:31.439143+00:00 ip-172-31-19-32 kernel: rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=15
+2024-07-03T11:33:31.439144+00:00 ip-172-31-19-32 kernel: NR_IRQS: 524544, nr_irqs: 952, preallocated irqs: 16
+2024-07-03T11:33:31.439145+00:00 ip-172-31-19-32 kernel: xen:events: Using 2-level ABI
+2024-07-03T11:33:31.439146+00:00 ip-172-31-19-32 kernel: xen:events: Xen HVM callback vector for event delivery is enabled
+2024-07-03T11:33:31.439150+00:00 ip-172-31-19-32 kernel: rcu: srcu_init: Setting srcu_struct sizes based on contention.
+2024-07-03T11:33:31.439151+00:00 ip-172-31-19-32 kernel: Console: colour VGA+ 80x25
+2024-07-03T11:33:31.439152+00:00 ip-172-31-19-32 kernel: printk: legacy console [tty1] enabled
+2024-07-03T11:33:31.439153+00:00 ip-172-31-19-32 kernel: Cannot get hvm parameter CONSOLE_EVTCHN (18): -22!
+2024-07-03T11:33:31.439154+00:00 ip-172-31-19-32 kernel: printk: legacy console [ttyS0] enabled
+2024-07-03T11:33:31.439155+00:00 ip-172-31-19-32 kernel: ACPI: Core revision 20230628
+2024-07-03T11:33:31.439156+00:00 ip-172-31-19-32 kernel: clocksource: hpet: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 30580167144 ns
+2024-07-03T11:33:31.439164+00:00 ip-172-31-19-32 kernel: APIC: Switch to symmetric I/O mode setup
+2024-07-03T11:33:31.439165+00:00 ip-172-31-19-32 kernel: x2apic enabled
+2024-07-03T11:33:31.439166+00:00 ip-172-31-19-32 kernel: APIC: Switched APIC routing to: physical x2apic
+2024-07-03T11:33:31.439167+00:00 ip-172-31-19-32 kernel: ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=0 pin2=0
+2024-07-03T11:33:31.439168+00:00 ip-172-31-19-32 kernel: clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x22984a75d98, max_idle_ns: 440795237870 ns
+2024-07-03T11:33:31.439169+00:00 ip-172-31-19-32 kernel: Calibrating delay loop (skipped), value calculated using timer frequency.. 4800.04 BogoMIPS (lpj=2400020)
+2024-07-03T11:33:31.439172+00:00 ip-172-31-19-32 kernel: Last level iTLB entries: 4KB 1024, 2MB 1024, 4MB 1024
+2024-07-03T11:33:31.439173+00:00 ip-172-31-19-32 kernel: Last level dTLB entries: 4KB 1024, 2MB 1024, 4MB 1024, 1GB 4
+2024-07-03T11:33:31.439174+00:00 ip-172-31-19-32 kernel: Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+2024-07-03T11:33:31.439175+00:00 ip-172-31-19-32 kernel: Spectre V2 : Mitigation: Retpolines
+2024-07-03T11:33:31.439177+00:00 ip-172-31-19-32 kernel: Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+2024-07-03T11:33:31.439178+00:00 ip-172-31-19-32 kernel: Spectre V2 : Spectre v2 / SpectreRSB : Filling RSB on VMEXIT
+2024-07-03T11:33:31.439182+00:00 ip-172-31-19-32 kernel: Speculative Store Bypass: Vulnerable
+2024-07-03T11:33:31.439183+00:00 ip-172-31-19-32 kernel: MDS: Vulnerable: Clear CPU buffers attempted, no microcode
+2024-07-03T11:33:31.439184+00:00 ip-172-31-19-32 kernel: MMIO Stale Data: Vulnerable: Clear CPU buffers attempted, no microcode
+2024-07-03T11:33:31.439185+00:00 ip-172-31-19-32 kernel: x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+2024-07-03T11:33:31.439186+00:00 ip-172-31-19-32 kernel: x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+2024-07-03T11:33:31.439187+00:00 ip-172-31-19-32 kernel: x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+2024-07-03T11:33:31.439188+00:00 ip-172-31-19-32 kernel: x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+2024-07-03T11:33:31.439192+00:00 ip-172-31-19-32 kernel: x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'standard' format.
+2024-07-03T11:33:31.439193+00:00 ip-172-31-19-32 kernel: pid_max: default: 32768 minimum: 301
+2024-07-03T11:33:31.439194+00:00 ip-172-31-19-32 kernel: LSM: initializing lsm=lockdown,capability,landlock,yama,apparmor,integrity
+2024-07-03T11:33:31.439195+00:00 ip-172-31-19-32 kernel: landlock: Up and running.
+2024-07-03T11:33:31.439196+00:00 ip-172-31-19-32 kernel: Yama: becoming mindful.
+2024-07-03T11:33:31.439197+00:00 ip-172-31-19-32 kernel: AppArmor: AppArmor initialized
+2024-07-03T11:33:31.439200+00:00 ip-172-31-19-32 kernel: Mount-cache hash table entries: 2048 (order: 2, 16384 bytes, linear)
+2024-07-03T11:33:31.439201+00:00 ip-172-31-19-32 kernel: Mountpoint-cache hash table entries: 2048 (order: 2, 16384 bytes, linear)
+2024-07-03T11:33:31.439202+00:00 ip-172-31-19-32 kernel: clocksource: xen: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+2024-07-03T11:33:31.439203+00:00 ip-172-31-19-32 kernel: Xen: using vcpuop timer interface
+2024-07-03T11:33:31.439204+00:00 ip-172-31-19-32 kernel: installing Xen timer for CPU 0
+2024-07-03T11:33:31.439205+00:00 ip-172-31-19-32 kernel: smpboot: CPU0: Intel(R) Xeon(R) CPU E5-2676 v3 @ 2.40GHz (family: 0x6, model: 0x3f, stepping: 0x2)
+2024-07-03T11:33:31.439208+00:00 ip-172-31-19-32 kernel: cpu 0 spinlock event irq 53
+2024-07-03T11:33:31.439209+00:00 ip-172-31-19-32 kernel: RCU Tasks Rude: Setting shift to 4 and lim to 1 rcu_task_cb_adjust=1.
+2024-07-03T11:33:31.439210+00:00 ip-172-31-19-32 kernel: RCU Tasks Trace: Setting shift to 4 and lim to 1 rcu_task_cb_adjust=1.
+2024-07-03T11:33:31.439211+00:00 ip-172-31-19-32 kernel: Performance Events: unsupported p6 CPU model 63 no PMU driver, software events only.
+2024-07-03T11:33:31.439212+00:00 ip-172-31-19-32 kernel: signal: max sigframe size: 1776
+2024-07-03T11:33:31.439213+00:00 ip-172-31-19-32 kernel: rcu: Hierarchical SRCU implementation.
+2024-07-03T11:33:31.439214+00:00 ip-172-31-19-32 kernel: rcu: 	Max phase no-delay instances is 400.
+2024-07-03T11:33:31.439217+00:00 ip-172-31-19-32 kernel: NMI watchdog: Perf NMI watchdog permanently disabled
+2024-07-03T11:33:31.439218+00:00 ip-172-31-19-32 kernel: smp: Bringing up secondary CPUs ...
+2024-07-03T11:33:31.439219+00:00 ip-172-31-19-32 kernel: smp: Brought up 1 node, 1 CPU
+2024-07-03T11:33:31.439220+00:00 ip-172-31-19-32 kernel: smpboot: Max logical packages: 15
+2024-07-03T11:33:31.439221+00:00 ip-172-31-19-32 kernel: smpboot: Total of 1 processors activated (4800.04 BogoMIPS)
+2024-07-03T11:33:31.439222+00:00 ip-172-31-19-32 kernel: devtmpfs: initialized
+2024-07-03T11:33:31.439225+00:00 ip-172-31-19-32 kernel: x86/mm: Memory block size: 128MB
+2024-07-03T11:33:31.439227+00:00 ip-172-31-19-32 kernel: clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1911260446275000 ns
+2024-07-03T11:33:31.439228+00:00 ip-172-31-19-32 kernel: futex hash table entries: 4096 (order: 6, 262144 bytes, linear)
+2024-07-03T11:33:31.439229+00:00 ip-172-31-19-32 kernel: pinctrl core: initialized pinctrl subsystem
+2024-07-03T11:33:31.439230+00:00 ip-172-31-19-32 kernel: PM: RTC time: 11:33:18, date: 2024-07-03
+2024-07-03T11:33:31.439231+00:00 ip-172-31-19-32 kernel: NET: Registered PF_NETLINK/PF_ROUTE protocol family
+2024-07-03T11:33:31.439232+00:00 ip-172-31-19-32 kernel: DMA: preallocated 128 KiB GFP_KERNEL pool for atomic allocations
+2024-07-03T11:33:31.439235+00:00 ip-172-31-19-32 kernel: DMA: preallocated 128 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+2024-07-03T11:33:31.439236+00:00 ip-172-31-19-32 kernel: DMA: preallocated 128 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+2024-07-03T11:33:31.439237+00:00 ip-172-31-19-32 kernel: audit: initializing netlink subsys (disabled)
+2024-07-03T11:33:31.439238+00:00 ip-172-31-19-32 kernel: audit: type=2000 audit(1720006397.955:1): state=initialized audit_enabled=0 res=1
+2024-07-03T11:33:31.439239+00:00 ip-172-31-19-32 kernel: thermal_sys: Registered thermal governor 'fair_share'
+2024-07-03T11:33:31.439240+00:00 ip-172-31-19-32 kernel: thermal_sys: Registered thermal governor 'bang_bang'
+2024-07-03T11:33:31.439243+00:00 ip-172-31-19-32 kernel: thermal_sys: Registered thermal governor 'step_wise'
+2024-07-03T11:33:31.439244+00:00 ip-172-31-19-32 kernel: thermal_sys: Registered thermal governor 'user_space'
+2024-07-03T11:33:31.439245+00:00 ip-172-31-19-32 kernel: thermal_sys: Registered thermal governor 'power_allocator'
+2024-07-03T11:33:31.439246+00:00 ip-172-31-19-32 kernel: EISA bus registered
+2024-07-03T11:33:31.439247+00:00 ip-172-31-19-32 kernel: cpuidle: using governor ladder
+2024-07-03T11:33:31.439248+00:00 ip-172-31-19-32 kernel: cpuidle: using governor menu
+2024-07-03T11:33:31.439251+00:00 ip-172-31-19-32 kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+2024-07-03T11:33:31.439252+00:00 ip-172-31-19-32 kernel: PCI: Using configuration type 1 for base access
+2024-07-03T11:33:31.439253+00:00 ip-172-31-19-32 kernel: kprobes: kprobe jump-optimization is enabled. All kprobes are optimized if possible.
+2024-07-03T11:33:31.439254+00:00 ip-172-31-19-32 kernel: HugeTLB: registered 2.00 MiB page size, pre-allocated 0 pages
+2024-07-03T11:33:31.439255+00:00 ip-172-31-19-32 kernel: HugeTLB: 28 KiB vmemmap can be freed for a 2.00 MiB page
+2024-07-03T11:33:31.439256+00:00 ip-172-31-19-32 kernel: ACPI: Added _OSI(Module Device)
+2024-07-03T11:33:31.439257+00:00 ip-172-31-19-32 kernel: ACPI: Added _OSI(Processor Device)
+2024-07-03T11:33:31.439260+00:00 ip-172-31-19-32 kernel: ACPI: Added _OSI(3.0 _SCP Extensions)
+2024-07-03T11:33:31.439261+00:00 ip-172-31-19-32 kernel: ACPI: Added _OSI(Processor Aggregator Device)
+2024-07-03T11:33:31.439262+00:00 ip-172-31-19-32 kernel: ACPI: 3 ACPI AML tables successfully acquired and loaded
+2024-07-03T11:33:31.439263+00:00 ip-172-31-19-32 kernel: xen: --> pirq=16 -> irq=9 (gsi=9)
+2024-07-03T11:33:31.439264+00:00 ip-172-31-19-32 kernel: ACPI: _OSC evaluation for CPUs failed, trying _PDC
+2024-07-03T11:33:31.439265+00:00 ip-172-31-19-32 kernel: ACPI: Interpreter enabled
+2024-07-03T11:33:31.439279+00:00 ip-172-31-19-32 kernel: ACPI: PM: (supports S0 S4 S5)
+2024-07-03T11:33:31.439280+00:00 ip-172-31-19-32 kernel: ACPI: Using IOAPIC for interrupt routing
+2024-07-03T11:33:31.439281+00:00 ip-172-31-19-32 kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+2024-07-03T11:33:31.439282+00:00 ip-172-31-19-32 kernel: PCI: Using E820 reservations for host bridge windows
+2024-07-03T11:33:31.439283+00:00 ip-172-31-19-32 kernel: ACPI: Enabled 2 GPEs in block 00 to 0F
+2024-07-03T11:33:31.439284+00:00 ip-172-31-19-32 kernel: ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+2024-07-03T11:33:31.439285+00:00 ip-172-31-19-32 kernel: acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI EDR HPX-Type3]
+2024-07-03T11:33:31.439290+00:00 ip-172-31-19-32 kernel: acpi PNP0A03:00: _OSC: not requesting OS control; OS requires [ExtendedConfig ASPM ClockPM MSI]
+2024-07-03T11:33:31.439292+00:00 ip-172-31-19-32 kernel: acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended configuration space under this bridge
+2024-07-03T11:33:31.439293+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [0] registered
+2024-07-03T11:33:31.439294+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [3] registered
+2024-07-03T11:33:31.439295+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [4] registered
+2024-07-03T11:33:31.439296+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [5] registered
+2024-07-03T11:33:31.439301+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [6] registered
+2024-07-03T11:33:31.439302+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [7] registered
+2024-07-03T11:33:31.439303+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [8] registered
+2024-07-03T11:33:31.439304+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [9] registered
+2024-07-03T11:33:31.439305+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [10] registered
+2024-07-03T11:33:31.439362+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [11] registered
+2024-07-03T11:33:31.439368+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [12] registered
+2024-07-03T11:33:31.439369+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [13] registered
+2024-07-03T11:33:31.439370+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [14] registered
+2024-07-03T11:33:31.439371+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [15] registered
+2024-07-03T11:33:31.439372+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [16] registered
+2024-07-03T11:33:31.439373+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [17] registered
+2024-07-03T11:33:31.439374+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [18] registered
+2024-07-03T11:33:31.439378+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [19] registered
+2024-07-03T11:33:31.439380+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [20] registered
+2024-07-03T11:33:31.439381+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [21] registered
+2024-07-03T11:33:31.439382+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [22] registered
+2024-07-03T11:33:31.439383+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [23] registered
+2024-07-03T11:33:31.439384+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [24] registered
+2024-07-03T11:33:31.439390+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [25] registered
+2024-07-03T11:33:31.439391+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [26] registered
+2024-07-03T11:33:31.439392+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [27] registered
+2024-07-03T11:33:31.439393+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [28] registered
+2024-07-03T11:33:31.439394+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [29] registered
+2024-07-03T11:33:31.439395+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [30] registered
+2024-07-03T11:33:31.439402+00:00 ip-172-31-19-32 kernel: acpiphp: Slot [31] registered
+2024-07-03T11:33:31.439404+00:00 ip-172-31-19-32 kernel: PCI host bridge to bus 0000:00
+2024-07-03T11:33:31.439405+00:00 ip-172-31-19-32 kernel: pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+2024-07-03T11:33:31.439406+00:00 ip-172-31-19-32 kernel: pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+2024-07-03T11:33:31.439407+00:00 ip-172-31-19-32 kernel: pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+2024-07-03T11:33:31.439408+00:00 ip-172-31-19-32 kernel: pci_bus 0000:00: root bus resource [mem 0xf0000000-0xfbffffff window]
+2024-07-03T11:33:31.439409+00:00 ip-172-31-19-32 kernel: pci_bus 0000:00: root bus resource [bus 00-ff]
+2024-07-03T11:33:31.439414+00:00 ip-172-31-19-32 kernel: pci 0000:00:00.0: [8086:1237] type 00 class 0x060000 conventional PCI endpoint
+2024-07-03T11:33:31.439419+00:00 ip-172-31-19-32 kernel: pci 0000:00:01.0: [8086:7000] type 00 class 0x060100 conventional PCI endpoint
+2024-07-03T11:33:31.439420+00:00 ip-172-31-19-32 kernel: pci 0000:00:01.1: [8086:7010] type 00 class 0x010180 conventional PCI endpoint
+2024-07-03T11:33:31.439421+00:00 ip-172-31-19-32 kernel: pci 0000:00:01.1: BAR 4 [io  0xc100-0xc10f]
+2024-07-03T11:33:31.439422+00:00 ip-172-31-19-32 kernel: pci 0000:00:01.1: BAR 0 [io  0x01f0-0x01f7]: legacy IDE quirk
+2024-07-03T11:33:31.439423+00:00 ip-172-31-19-32 kernel: pci 0000:00:01.1: BAR 1 [io  0x03f6]: legacy IDE quirk
+2024-07-03T11:33:31.439428+00:00 ip-172-31-19-32 kernel: pci 0000:00:01.1: BAR 2 [io  0x0170-0x0177]: legacy IDE quirk
+2024-07-03T11:33:31.439429+00:00 ip-172-31-19-32 kernel: pci 0000:00:01.1: BAR 3 [io  0x0376]: legacy IDE quirk
+2024-07-03T11:33:31.439430+00:00 ip-172-31-19-32 kernel: * Found PM-Timer Bug on the chipset. Due to workarounds for a bug,
+2024-07-03T11:33:31.439431+00:00 ip-172-31-19-32 kernel: * this clock source is slow. Consider trying other clock sources
+2024-07-03T11:33:31.439432+00:00 ip-172-31-19-32 kernel: pci 0000:00:01.3: [8086:7113] type 00 class 0x068000 conventional PCI endpoint
+2024-07-03T11:33:31.439433+00:00 ip-172-31-19-32 kernel: pci 0000:00:01.3: quirk: [io  0xb000-0xb03f] claimed by PIIX4 ACPI
+2024-07-03T11:33:31.439434+00:00 ip-172-31-19-32 kernel: pci 0000:00:02.0: [1013:00b8] type 00 class 0x030000 conventional PCI endpoint
+2024-07-03T11:33:31.439439+00:00 ip-172-31-19-32 kernel: pci 0000:00:02.0: BAR 0 [mem 0xf0000000-0xf1ffffff pref]
+2024-07-03T11:33:31.439440+00:00 ip-172-31-19-32 kernel: pci 0000:00:02.0: BAR 1 [mem 0xf3000000-0xf3000fff]
+2024-07-03T11:33:31.439441+00:00 ip-172-31-19-32 kernel: pci 0000:00:02.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+2024-07-03T11:33:31.439442+00:00 ip-172-31-19-32 kernel: pci 0000:00:03.0: [5853:0001] type 00 class 0xff8000 conventional PCI endpoint
+2024-07-03T11:33:31.439443+00:00 ip-172-31-19-32 kernel: pci 0000:00:03.0: BAR 0 [io  0xc000-0xc0ff]
+2024-07-03T11:33:31.439444+00:00 ip-172-31-19-32 kernel: pci 0000:00:03.0: BAR 1 [mem 0xf2000000-0xf2ffffff pref]
+2024-07-03T11:33:31.439448+00:00 ip-172-31-19-32 kernel: ACPI: PCI: Interrupt link LNKA configured for IRQ 5
+2024-07-03T11:33:31.439450+00:00 ip-172-31-19-32 kernel: ACPI: PCI: Interrupt link LNKB configured for IRQ 10
+2024-07-03T11:33:31.439451+00:00 ip-172-31-19-32 kernel: ACPI: PCI: Interrupt link LNKC configured for IRQ 11
+2024-07-03T11:33:31.439452+00:00 ip-172-31-19-32 kernel: ACPI: PCI: Interrupt link LNKD configured for IRQ 5
+2024-07-03T11:33:31.439453+00:00 ip-172-31-19-32 kernel: xen:balloon: Initialising balloon driver
+2024-07-03T11:33:31.439454+00:00 ip-172-31-19-32 kernel: iommu: Default domain type: Translated
+2024-07-03T11:33:31.439458+00:00 ip-172-31-19-32 kernel: iommu: DMA domain TLB invalidation policy: lazy mode
+2024-07-03T11:33:31.439459+00:00 ip-172-31-19-32 kernel: SCSI subsystem initialized
+2024-07-03T11:33:31.439460+00:00 ip-172-31-19-32 kernel: libata version 3.00 loaded.
+2024-07-03T11:33:31.439461+00:00 ip-172-31-19-32 kernel: ACPI: bus type USB registered
+2024-07-03T11:33:31.439463+00:00 ip-172-31-19-32 kernel: usbcore: registered new interface driver usbfs
+2024-07-03T11:33:31.439464+00:00 ip-172-31-19-32 kernel: usbcore: registered new interface driver hub
+2024-07-03T11:33:31.439465+00:00 ip-172-31-19-32 kernel: usbcore: registered new device driver usb
+2024-07-03T11:33:31.439469+00:00 ip-172-31-19-32 kernel: pps_core: LinuxPPS API ver. 1 registered
+2024-07-03T11:33:31.439470+00:00 ip-172-31-19-32 kernel: pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+2024-07-03T11:33:31.439471+00:00 ip-172-31-19-32 kernel: PTP clock support registered
+2024-07-03T11:33:31.439472+00:00 ip-172-31-19-32 kernel: EDAC MC: Ver: 3.0.0
+2024-07-03T11:33:31.439473+00:00 ip-172-31-19-32 kernel: NetLabel: Initializing
+2024-07-03T11:33:31.439474+00:00 ip-172-31-19-32 kernel: NetLabel:  domain hash size = 128
+2024-07-03T11:33:31.439479+00:00 ip-172-31-19-32 kernel: NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+2024-07-03T11:33:31.439480+00:00 ip-172-31-19-32 kernel: NetLabel:  unlabeled traffic allowed by default
+2024-07-03T11:33:31.439481+00:00 ip-172-31-19-32 kernel: mctp: management component transport protocol core
+2024-07-03T11:33:31.439482+00:00 ip-172-31-19-32 kernel: NET: Registered PF_MCTP protocol family
+2024-07-03T11:33:31.439483+00:00 ip-172-31-19-32 kernel: PCI: Using ACPI for IRQ routing
+2024-07-03T11:33:31.439484+00:00 ip-172-31-19-32 kernel: PCI: pci_cache_line_size set to 64 bytes
+2024-07-03T11:33:31.439485+00:00 ip-172-31-19-32 kernel: e820: reserve RAM buffer [mem 0x0009e000-0x0009ffff]
+2024-07-03T11:33:31.439490+00:00 ip-172-31-19-32 kernel: pci 0000:00:02.0: vgaarb: setting as boot VGA device
+2024-07-03T11:33:31.439491+00:00 ip-172-31-19-32 kernel: pci 0000:00:02.0: vgaarb: bridge control possible
+2024-07-03T11:33:31.439492+00:00 ip-172-31-19-32 kernel: pci 0000:00:02.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+2024-07-03T11:33:31.439493+00:00 ip-172-31-19-32 kernel: vgaarb: loaded
+2024-07-03T11:33:31.439494+00:00 ip-172-31-19-32 kernel: hpet: 3 channels of 0 reserved for per-cpu timers
+2024-07-03T11:33:31.439495+00:00 ip-172-31-19-32 kernel: hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0
+2024-07-03T11:33:31.439500+00:00 ip-172-31-19-32 kernel: hpet0: 3 comparators, 64-bit 62.500000 MHz counter
+2024-07-03T11:33:31.439501+00:00 ip-172-31-19-32 kernel: clocksource: Switched to clocksource xen
+2024-07-03T11:33:31.439502+00:00 ip-172-31-19-32 kernel: VFS: Disk quotas dquot_6.6.0
+2024-07-03T11:33:31.439503+00:00 ip-172-31-19-32 kernel: VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+2024-07-03T11:33:31.439504+00:00 ip-172-31-19-32 kernel: AppArmor: AppArmor Filesystem Enabled
+2024-07-03T11:33:31.439505+00:00 ip-172-31-19-32 kernel: pnp: PnP ACPI init
+2024-07-03T11:33:31.439510+00:00 ip-172-31-19-32 kernel: system 00:00: [mem 0x00000000-0x0009ffff] could not be reserved
+2024-07-03T11:33:31.439511+00:00 ip-172-31-19-32 kernel: system 00:01: [io  0x08a0-0x08a3] has been reserved
+2024-07-03T11:33:31.439512+00:00 ip-172-31-19-32 kernel: system 00:01: [io  0x0cc0-0x0ccf] has been reserved
+2024-07-03T11:33:31.439513+00:00 ip-172-31-19-32 kernel: system 00:01: [io  0x04d0-0x04d1] has been reserved
+2024-07-03T11:33:31.439514+00:00 ip-172-31-19-32 kernel: xen: --> pirq=17 -> irq=8 (gsi=8)
+2024-07-03T11:33:31.439515+00:00 ip-172-31-19-32 kernel: xen: --> pirq=18 -> irq=12 (gsi=12)
+2024-07-03T11:33:31.439516+00:00 ip-172-31-19-32 kernel: xen: --> pirq=19 -> irq=1 (gsi=1)
+2024-07-03T11:33:31.439520+00:00 ip-172-31-19-32 kernel: xen: --> pirq=20 -> irq=6 (gsi=6)
+2024-07-03T11:33:31.439522+00:00 ip-172-31-19-32 kernel: pnp 00:05: [dma 2]
+2024-07-03T11:33:31.439523+00:00 ip-172-31-19-32 kernel: xen: --> pirq=21 -> irq=4 (gsi=4)
+2024-07-03T11:33:31.439524+00:00 ip-172-31-19-32 kernel: system 00:07: [io  0x10c0-0x1141] has been reserved
+2024-07-03T11:33:31.439525+00:00 ip-172-31-19-32 kernel: system 00:07: [io  0xb044-0xb047] has been reserved
+2024-07-03T11:33:31.439526+00:00 ip-172-31-19-32 kernel: pnp: PnP ACPI: found 8 devices
+2024-07-03T11:33:31.439530+00:00 ip-172-31-19-32 kernel: clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+2024-07-03T11:33:31.439531+00:00 ip-172-31-19-32 kernel: NET: Registered PF_INET protocol family
+2024-07-03T11:33:31.439532+00:00 ip-172-31-19-32 kernel: IP idents hash table entries: 16384 (order: 5, 131072 bytes, linear)
+2024-07-03T11:33:31.439533+00:00 ip-172-31-19-32 kernel: tcp_listen_portaddr_hash hash table entries: 512 (order: 1, 8192 bytes, linear)
+2024-07-03T11:33:31.439534+00:00 ip-172-31-19-32 kernel: Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+2024-07-03T11:33:31.439535+00:00 ip-172-31-19-32 kernel: TCP established hash table entries: 8192 (order: 4, 65536 bytes, linear)
+2024-07-03T11:33:31.439536+00:00 ip-172-31-19-32 kernel: TCP bind hash table entries: 8192 (order: 6, 262144 bytes, linear)
+2024-07-03T11:33:31.439542+00:00 ip-172-31-19-32 kernel: TCP: Hash tables configured (established 8192 bind 8192)
+2024-07-03T11:33:31.439543+00:00 ip-172-31-19-32 kernel: MPTCP token hash table entries: 1024 (order: 2, 24576 bytes, linear)
+2024-07-03T11:33:31.439544+00:00 ip-172-31-19-32 kernel: UDP hash table entries: 512 (order: 2, 16384 bytes, linear)
+2024-07-03T11:33:31.439545+00:00 ip-172-31-19-32 kernel: UDP-Lite hash table entries: 512 (order: 2, 16384 bytes, linear)
+2024-07-03T11:33:31.439547+00:00 ip-172-31-19-32 kernel: NET: Registered PF_UNIX/PF_LOCAL protocol family
+2024-07-03T11:33:31.439548+00:00 ip-172-31-19-32 kernel: NET: Registered PF_XDP protocol family
+2024-07-03T11:33:31.439552+00:00 ip-172-31-19-32 kernel: pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+2024-07-03T11:33:31.439553+00:00 ip-172-31-19-32 kernel: pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+2024-07-03T11:33:31.439554+00:00 ip-172-31-19-32 kernel: pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+2024-07-03T11:33:31.439555+00:00 ip-172-31-19-32 kernel: pci_bus 0000:00: resource 7 [mem 0xf0000000-0xfbffffff window]
+2024-07-03T11:33:31.439556+00:00 ip-172-31-19-32 kernel: pci 0000:00:01.0: PIIX3: Enabling Passive Release
+2024-07-03T11:33:31.439557+00:00 ip-172-31-19-32 kernel: pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+2024-07-03T11:33:31.439563+00:00 ip-172-31-19-32 kernel: PCI: CLS 0 bytes, default 64
+2024-07-03T11:33:31.439565+00:00 ip-172-31-19-32 kernel: Trying to unpack rootfs image as initramfs...
+2024-07-03T11:33:31.439566+00:00 ip-172-31-19-32 kernel: clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x22984a75d98, max_idle_ns: 440795237870 ns
+2024-07-03T11:33:31.439567+00:00 ip-172-31-19-32 kernel: Freeing initrd memory: 7832K
+2024-07-03T11:33:31.439568+00:00 ip-172-31-19-32 kernel: Initialise system trusted keyrings
+2024-07-03T11:33:31.439569+00:00 ip-172-31-19-32 kernel: Key type blacklist registered
+2024-07-03T11:33:31.439624+00:00 ip-172-31-19-32 kernel: workingset: timestamp_bits=36 max_order=18 bucket_order=0
+2024-07-03T11:33:31.439629+00:00 ip-172-31-19-32 kernel: zbud: loaded
+2024-07-03T11:33:31.439630+00:00 ip-172-31-19-32 kernel: squashfs: version 4.0 (2009/01/31) Phillip Lougher
+2024-07-03T11:33:31.439631+00:00 ip-172-31-19-32 kernel: fuse: init (API version 7.39)
+2024-07-03T11:33:31.439632+00:00 ip-172-31-19-32 kernel: integrity: Platform Keyring initialized
+2024-07-03T11:33:31.439633+00:00 ip-172-31-19-32 kernel: integrity: Machine keyring initialized
+2024-07-03T11:33:31.439634+00:00 ip-172-31-19-32 kernel: Key type asymmetric registered
+2024-07-03T11:33:31.439639+00:00 ip-172-31-19-32 kernel: Asymmetric key parser 'x509' registered
+2024-07-03T11:33:31.439640+00:00 ip-172-31-19-32 kernel: Block layer SCSI generic (bsg) driver version 0.4 loaded (major 243)
+2024-07-03T11:33:31.439641+00:00 ip-172-31-19-32 kernel: io scheduler mq-deadline registered
+2024-07-03T11:33:31.439642+00:00 ip-172-31-19-32 kernel: shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+2024-07-03T11:33:31.439643+00:00 ip-172-31-19-32 kernel: input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+2024-07-03T11:33:31.439644+00:00 ip-172-31-19-32 kernel: ACPI: button: Power Button [PWRF]
+2024-07-03T11:33:31.439645+00:00 ip-172-31-19-32 kernel: input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
+2024-07-03T11:33:31.439650+00:00 ip-172-31-19-32 kernel: ACPI: button: Sleep Button [SLPF]
+2024-07-03T11:33:31.439651+00:00 ip-172-31-19-32 kernel: xen: --> pirq=22 -> irq=28 (gsi=28)
+2024-07-03T11:33:31.439652+00:00 ip-172-31-19-32 kernel: xen:grant_table: Grant tables using version 1 layout
+2024-07-03T11:33:31.439653+00:00 ip-172-31-19-32 kernel: Grant table initialized
+2024-07-03T11:33:31.439654+00:00 ip-172-31-19-32 kernel: Cannot get hvm parameter CONSOLE_EVTCHN (18): -22!
+2024-07-03T11:33:31.439655+00:00 ip-172-31-19-32 kernel: Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+2024-07-03T11:33:31.439659+00:00 ip-172-31-19-32 kernel: 00:06: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A
+2024-07-03T11:33:31.439661+00:00 ip-172-31-19-32 kernel: Linux agpgart interface v0.103
+2024-07-03T11:33:31.439662+00:00 ip-172-31-19-32 kernel: loop: module loaded
+2024-07-03T11:33:31.439663+00:00 ip-172-31-19-32 kernel: Invalid max_queues (4), will use default max: 1.
+2024-07-03T11:33:31.439664+00:00 ip-172-31-19-32 kernel: ata_piix 0000:00:01.1: version 2.13
+2024-07-03T11:33:31.439665+00:00 ip-172-31-19-32 kernel: scsi host0: ata_piix
+2024-07-03T11:33:31.439669+00:00 ip-172-31-19-32 kernel: scsi host1: ata_piix
+2024-07-03T11:33:31.439670+00:00 ip-172-31-19-32 kernel: ata1: PATA max MWDMA2 cmd 0x1f0 ctl 0x3f6 bmdma 0xc100 irq 14 lpm-pol 0
+2024-07-03T11:33:31.439671+00:00 ip-172-31-19-32 kernel: ata2: PATA max MWDMA2 cmd 0x170 ctl 0x376 bmdma 0xc108 irq 15 lpm-pol 0
+2024-07-03T11:33:31.439672+00:00 ip-172-31-19-32 kernel: ACPI: bus type drm_connector registered
+2024-07-03T11:33:31.439673+00:00 ip-172-31-19-32 kernel: tun: Universal TUN/TAP device driver, 1.6
+2024-07-03T11:33:31.439674+00:00 ip-172-31-19-32 kernel: PPP generic driver version 2.4.2
+2024-07-03T11:33:31.439675+00:00 ip-172-31-19-32 kernel: xen_netfront: Initialising Xen virtual ethernet driver
+2024-07-03T11:33:31.439680+00:00 ip-172-31-19-32 kernel: i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f13:PS2M] at 0x60,0x64 irq 1,12
+2024-07-03T11:33:31.439681+00:00 ip-172-31-19-32 kernel: blkfront: xvda: barrier or flush: disabled; persistent grants: disabled; indirect descriptors: enabled; bounce buffer: disabled;
+2024-07-03T11:33:31.439682+00:00 ip-172-31-19-32 kernel: serio: i8042 KBD port at 0x60,0x64 irq 1
+2024-07-03T11:33:31.439683+00:00 ip-172-31-19-32 kernel: serio: i8042 AUX port at 0x60,0x64 irq 12
+2024-07-03T11:33:31.439684+00:00 ip-172-31-19-32 kernel: mousedev: PS/2 mouse device common for all mice
+2024-07-03T11:33:31.439685+00:00 ip-172-31-19-32 kernel: input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+2024-07-03T11:33:31.439690+00:00 ip-172-31-19-32 kernel: rtc_cmos 00:02: registered as rtc0
+2024-07-03T11:33:31.439691+00:00 ip-172-31-19-32 kernel: rtc_cmos 00:02: setting system clock to 2024-07-03T11:33:19 UTC (1720006399)
+2024-07-03T11:33:31.439692+00:00 ip-172-31-19-32 kernel: rtc_cmos 00:02: alarms up to one day, 114 bytes nvram, hpet irqs
+2024-07-03T11:33:31.439693+00:00 ip-172-31-19-32 kernel: i2c_dev: i2c /dev entries driver
+2024-07-03T11:33:31.439694+00:00 ip-172-31-19-32 kernel: device-mapper: core: CONFIG_IMA_DISABLE_HTABLE is disabled. Duplicate IMA measurements will not be recorded in the IMA log.
+2024-07-03T11:33:31.439695+00:00 ip-172-31-19-32 kernel: device-mapper: uevent: version 1.0.3
+2024-07-03T11:33:31.439700+00:00 ip-172-31-19-32 kernel: device-mapper: ioctl: 4.48.0-ioctl (2023-03-01) initialised: dm-devel@redhat.com
+2024-07-03T11:33:31.439701+00:00 ip-172-31-19-32 kernel: platform eisa.0: Probing EISA bus 0
+2024-07-03T11:33:31.439702+00:00 ip-172-31-19-32 kernel: platform eisa.0: EISA: Cannot allocate resource for mainboard
+2024-07-03T11:33:31.439703+00:00 ip-172-31-19-32 kernel:  xvda: xvda1 xvda14 xvda15 xvda16
+2024-07-03T11:33:31.439704+00:00 ip-172-31-19-32 kernel: platform eisa.0: Cannot allocate resource for EISA slot 1
+2024-07-03T11:33:31.439705+00:00 ip-172-31-19-32 kernel: platform eisa.0: Cannot allocate resource for EISA slot 2
+2024-07-03T11:33:31.439706+00:00 ip-172-31-19-32 kernel: platform eisa.0: Cannot allocate resource for EISA slot 3
+2024-07-03T11:33:31.439710+00:00 ip-172-31-19-32 kernel: platform eisa.0: Cannot allocate resource for EISA slot 4
+2024-07-03T11:33:31.439712+00:00 ip-172-31-19-32 kernel: platform eisa.0: Cannot allocate resource for EISA slot 5
+2024-07-03T11:33:31.439713+00:00 ip-172-31-19-32 kernel: platform eisa.0: Cannot allocate resource for EISA slot 6
+2024-07-03T11:33:31.439714+00:00 ip-172-31-19-32 kernel: platform eisa.0: Cannot allocate resource for EISA slot 7
+2024-07-03T11:33:31.439715+00:00 ip-172-31-19-32 kernel: platform eisa.0: Cannot allocate resource for EISA slot 8
+2024-07-03T11:33:31.439716+00:00 ip-172-31-19-32 kernel: platform eisa.0: EISA: Detected 0 cards
+2024-07-03T11:33:31.439721+00:00 ip-172-31-19-32 kernel: intel_pstate: CPU model not supported
+2024-07-03T11:33:31.439722+00:00 ip-172-31-19-32 kernel: ledtrig-cpu: registered to indicate activity on CPUs
+2024-07-03T11:33:31.439723+00:00 ip-172-31-19-32 kernel: drop_monitor: Initializing network drop monitor service
+2024-07-03T11:33:31.439724+00:00 ip-172-31-19-32 kernel: NET: Registered PF_INET6 protocol family
+2024-07-03T11:33:31.439725+00:00 ip-172-31-19-32 kernel: Segment Routing with IPv6
+2024-07-03T11:33:31.439726+00:00 ip-172-31-19-32 kernel: In-situ OAM (IOAM) with IPv6
+2024-07-03T11:33:31.439730+00:00 ip-172-31-19-32 kernel: NET: Registered PF_PACKET protocol family
+2024-07-03T11:33:31.439732+00:00 ip-172-31-19-32 kernel: Key type dns_resolver registered
+2024-07-03T11:33:31.439733+00:00 ip-172-31-19-32 kernel: resctrl: L3 allocation detected
+2024-07-03T11:33:31.439734+00:00 ip-172-31-19-32 kernel: IPI shorthand broadcast: enabled
+2024-07-03T11:33:31.439735+00:00 ip-172-31-19-32 kernel: sched_clock: Marking stable (1467005596, 743658734)->(2733145247, -522480917)
+2024-07-03T11:33:31.439736+00:00 ip-172-31-19-32 kernel: registered taskstats version 1
+2024-07-03T11:33:31.439737+00:00 ip-172-31-19-32 kernel: Loading compiled-in X.509 certificates
+2024-07-03T11:33:31.439741+00:00 ip-172-31-19-32 kernel: Loaded X.509 cert 'Build time autogenerated kernel key: 39592039eeaa32af28f137cd2b01b3cba64ba9c2'
+2024-07-03T11:33:31.439742+00:00 ip-172-31-19-32 kernel: Loaded X.509 cert 'Canonical Ltd. Live Patch Signing: 14df34d1a87cf37625abec039ef2bf521249b969'
+2024-07-03T11:33:31.439743+00:00 ip-172-31-19-32 kernel: Loaded X.509 cert 'Canonical Ltd. Kernel Module Signing: 88f752e560a1e0737e31163a466ad7b70a850c19'
+2024-07-03T11:33:31.439744+00:00 ip-172-31-19-32 kernel: blacklist: Loading compiled-in revocation X.509 certificates
+2024-07-03T11:33:31.439745+00:00 ip-172-31-19-32 kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing: 61482aa2830d0ab2ad5af10b7250da9033ddcef0'
+2024-07-03T11:33:31.439746+00:00 ip-172-31-19-32 kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2017): 242ade75ac4a15e50d50c84b0d45ff3eae707a03'
+2024-07-03T11:33:31.439752+00:00 ip-172-31-19-32 kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (ESM 2018): 365188c1d374d6b07c3c8f240f8ef722433d6a8b'
+2024-07-03T11:33:31.439754+00:00 ip-172-31-19-32 kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2019): c0746fd6c5da3ae827864651ad66ae47fe24b3e8'
+2024-07-03T11:33:31.439755+00:00 ip-172-31-19-32 kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v1): a8d54bbb3825cfb94fa13c9f8a594a195c107b8d'
+2024-07-03T11:33:31.439756+00:00 ip-172-31-19-32 kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v2): 4cf046892d6fd3c9a5b03f98d845f90851dc6a8c'
+2024-07-03T11:33:31.439757+00:00 ip-172-31-19-32 kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v3): 100437bb6de6e469b581e61cd66bce3ef4ed53af'
+2024-07-03T11:33:31.439761+00:00 ip-172-31-19-32 kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (Ubuntu Core 2019): c1d57b8f6b743f23ee41f4f7ee292f06eecadfb9'
+2024-07-03T11:33:31.439763+00:00 ip-172-31-19-32 kernel: Key type .fscrypt registered
+2024-07-03T11:33:31.439764+00:00 ip-172-31-19-32 kernel: Key type fscrypt-provisioning registered
+2024-07-03T11:33:31.439765+00:00 ip-172-31-19-32 kernel: Key type encrypted registered
+2024-07-03T11:33:31.439766+00:00 ip-172-31-19-32 kernel: AppArmor: AppArmor sha256 policy hashing enabled
+2024-07-03T11:33:31.439767+00:00 ip-172-31-19-32 kernel: ima: No TPM chip found, activating TPM-bypass!
+2024-07-03T11:33:31.439768+00:00 ip-172-31-19-32 kernel: Loading compiled-in module X.509 certificates
+2024-07-03T11:33:31.439772+00:00 ip-172-31-19-32 kernel: Loaded X.509 cert 'Build time autogenerated kernel key: 39592039eeaa32af28f137cd2b01b3cba64ba9c2'
+2024-07-03T11:33:31.439774+00:00 ip-172-31-19-32 kernel: ima: Allocated hash algorithm: sha256
+2024-07-03T11:33:31.439775+00:00 ip-172-31-19-32 kernel: ima: No architecture policies found
+2024-07-03T11:33:31.439776+00:00 ip-172-31-19-32 kernel: evm: Initialising EVM extended attributes:
+2024-07-03T11:33:31.439777+00:00 ip-172-31-19-32 kernel: evm: security.selinux
+2024-07-03T11:33:31.439778+00:00 ip-172-31-19-32 kernel: evm: security.SMACK64
+2024-07-03T11:33:31.439782+00:00 ip-172-31-19-32 kernel: evm: security.SMACK64EXEC
+2024-07-03T11:33:31.439783+00:00 ip-172-31-19-32 kernel: evm: security.SMACK64TRANSMUTE
+2024-07-03T11:33:31.439784+00:00 ip-172-31-19-32 kernel: evm: security.SMACK64MMAP
+2024-07-03T11:33:31.439785+00:00 ip-172-31-19-32 kernel: evm: security.apparmor
+2024-07-03T11:33:31.439786+00:00 ip-172-31-19-32 kernel: evm: security.ima
+2024-07-03T11:33:31.439787+00:00 ip-172-31-19-32 kernel: evm: security.capability
+2024-07-03T11:33:31.439792+00:00 ip-172-31-19-32 kernel: evm: HMAC attrs: 0x1
+2024-07-03T11:33:31.439793+00:00 ip-172-31-19-32 kernel: PM:   Magic number: 0:426:579
+2024-07-03T11:33:31.439794+00:00 ip-172-31-19-32 kernel: pci_bus 0000:00: hash matches
+2024-07-03T11:33:31.439795+00:00 ip-172-31-19-32 kernel: RAS: Correctable Errors collector initialized.
+2024-07-03T11:33:31.439796+00:00 ip-172-31-19-32 kernel: clk: Disabling unused clocks
+2024-07-03T11:33:31.439797+00:00 ip-172-31-19-32 kernel: md: Waiting for all devices to be available before autodetect
+2024-07-03T11:33:31.439798+00:00 ip-172-31-19-32 kernel: md: If you don't use raid, use raid=noautodetect
+2024-07-03T11:33:31.439803+00:00 ip-172-31-19-32 kernel: md: Autodetecting RAID arrays.
+2024-07-03T11:33:31.439804+00:00 ip-172-31-19-32 kernel: md: autorun ...
+2024-07-03T11:33:31.439805+00:00 ip-172-31-19-32 kernel: md: ... autorun DONE.
+2024-07-03T11:33:31.439806+00:00 ip-172-31-19-32 kernel: EXT4-fs (xvda1): mounted filesystem 6387caa1-122f-48bc-b447-9f1386d06e06 ro with ordered data mode. Quota mode: none.
+2024-07-03T11:33:31.439807+00:00 ip-172-31-19-32 kernel: VFS: Mounted root (ext4 filesystem) readonly on device 202:1.
+2024-07-03T11:33:31.439808+00:00 ip-172-31-19-32 kernel: devtmpfs: mounted
+2024-07-03T11:33:31.439813+00:00 ip-172-31-19-32 kernel: Freeing unused decrypted memory: 2028K
+2024-07-03T11:33:31.439814+00:00 ip-172-31-19-32 kernel: Freeing unused kernel image (initmem) memory: 5084K
+2024-07-03T11:33:31.439857+00:00 ip-172-31-19-32 kernel: Write protecting the kernel read-only data: 36864k
+2024-07-03T11:33:31.439858+00:00 ip-172-31-19-32 kernel: Freeing unused kernel image (rodata/data gap) memory: 404K
+2024-07-03T11:33:31.439859+00:00 ip-172-31-19-32 kernel: x86/mm: Checked W+X mappings: passed, no W+X pages found.
+2024-07-03T11:33:31.439860+00:00 ip-172-31-19-32 kernel: x86/mm: Checking user space page tables
+2024-07-03T11:33:31.439864+00:00 ip-172-31-19-32 kernel: x86/mm: Checked W+X mappings: passed, no W+X pages found.
+2024-07-03T11:33:31.439866+00:00 ip-172-31-19-32 kernel: Run /sbin/init as init process
+2024-07-03T11:33:31.439867+00:00 ip-172-31-19-32 kernel:   with arguments:
+2024-07-03T11:33:31.439868+00:00 ip-172-31-19-32 kernel:     /sbin/init
+2024-07-03T11:33:31.439869+00:00 ip-172-31-19-32 kernel:   with environment:
+2024-07-03T11:33:31.439870+00:00 ip-172-31-19-32 kernel:     HOME=/
+2024-07-03T11:33:31.439871+00:00 ip-172-31-19-32 kernel:     TERM=linux
+2024-07-03T11:33:31.439875+00:00 ip-172-31-19-32 kernel:     BOOT_IMAGE=/vmlinuz-6.8.0-1008-aws
+2024-07-03T11:33:31.448357+00:00 ip-172-31-19-32 kernel: EXT4-fs (xvda1): re-mounted 6387caa1-122f-48bc-b447-9f1386d06e06 r/w. Quota mode: none.
+2024-07-03T11:33:31.448365+00:00 ip-172-31-19-32 kernel: loop0: detected capacity change from 0 to 51672
+2024-07-03T11:33:31.448366+00:00 ip-172-31-19-32 kernel: loop1: detected capacity change from 0 to 113992
+2024-07-03T11:33:31.448367+00:00 ip-172-31-19-32 kernel: loop2: detected capacity change from 0 to 79328
+2024-07-03T11:33:31.448368+00:00 ip-172-31-19-32 kernel: vif vif-0 enX0: renamed from eth0
+2024-07-03T11:33:31.448369+00:00 ip-172-31-19-32 kernel: EXT4-fs (xvda16): mounted filesystem 9d39f3ff-b465-4c20-9ec1-06182226356c r/w with ordered data mode. Quota mode: none.
+2024-07-03T11:33:31.448370+00:00 ip-172-31-19-32 kernel: audit: type=1400 audit(1720006403.359:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="1password" pid=278 comm="apparmor_parser"
+2024-07-03T11:33:31.448375+00:00 ip-172-31-19-32 kernel: audit: type=1400 audit(1720006403.365:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="Discord" pid=280 comm="apparmor_parser"
+2024-07-03T11:33:31.448376+00:00 ip-172-31-19-32 kernel: audit: type=1400 audit(1720006403.372:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name=4D6F6E676F444220436F6D70617373 pid=282 comm="apparmor_parser"
+2024-07-03T11:33:31.448377+00:00 ip-172-31-19-32 kernel: audit: type=1400 audit(1720006403.384:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="QtWebEngineProcess" pid=283 comm="apparmor_parser"
+2024-07-03T11:33:31.448402+00:00 ip-172-31-19-32 kernel: audit: type=1400 audit(1720006403.389:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="brave" pid=284 comm="apparmor_parser"
+2024-07-03T11:33:31.448403+00:00 ip-172-31-19-32 kernel: audit: type=1400 audit(1720006403.391:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="buildah" pid=285 comm="apparmor_parser"
+2024-07-03T11:33:31.448408+00:00 ip-172-31-19-32 kernel: audit: type=1400 audit(1720006403.396:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="busybox" pid=286 comm="apparmor_parser"
+2024-07-03T11:33:31.448409+00:00 ip-172-31-19-32 kernel: audit: type=1400 audit(1720006403.402:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="cam" pid=287 comm="apparmor_parser"
+2024-07-03T11:33:31.448410+00:00 ip-172-31-19-32 kernel: audit: type=1400 audit(1720006403.407:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="ch-checkns" pid=290 comm="apparmor_parser"
+2024-07-03T11:33:31.448412+00:00 ip-172-31-19-32 kernel: FDC 0 is a S82078B
+2024-07-03T11:33:31.448413+00:00 ip-172-31-19-32 kernel: kauditd_printk_skb: 24 callbacks suppressed
+2024-07-03T11:33:31.448414+00:00 ip-172-31-19-32 kernel: audit: type=1400 audit(1720006403.581:35): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-execute" pid=321 comm="apparmor_parser"
+2024-07-03T11:33:31.448419+00:00 ip-172-31-19-32 kernel: audit: type=1400 audit(1720006403.586:36): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-stop" pid=322 comm="apparmor_parser"
+2024-07-03T11:33:31.448420+00:00 ip-172-31-19-32 kernel: audit: type=1400 audit(1720006403.592:37): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-unshare" pid=323 comm="apparmor_parser"
+2024-07-03T11:33:31.448421+00:00 ip-172-31-19-32 kernel: audit: type=1400 audit(1720006403.596:38): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-usernsexec" pid=324 comm="apparmor_parser"
+2024-07-03T11:33:31.448422+00:00 ip-172-31-19-32 kernel: audit: type=1400 audit(1720006403.603:39): apparmor="STATUS" operation="profile_load" profile="unconfined" name="mmdebstrap" pid=325 comm="apparmor_parser"
+2024-07-03T11:33:31.448423+00:00 ip-172-31-19-32 kernel: audit: type=1400 audit(1720006403.608:40): apparmor="STATUS" operation="profile_load" profile="unconfined" name="msedge" pid=327 comm="apparmor_parser"
+2024-07-03T11:33:31.448428+00:00 ip-172-31-19-32 kernel: audit: type=1400 audit(1720006403.621:41): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nautilus" pid=328 comm="apparmor_parser"
+2024-07-03T11:33:31.448429+00:00 ip-172-31-19-32 kernel: audit: type=1400 audit(1720006403.625:42): apparmor="STATUS" operation="profile_load" profile="unconfined" name="notepadqq" pid=330 comm="apparmor_parser"
+2024-07-03T11:33:31.448430+00:00 ip-172-31-19-32 kernel: audit: type=1400 audit(1720006403.633:43): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe" pid=331 comm="apparmor_parser"
+2024-07-03T11:33:31.448431+00:00 ip-172-31-19-32 kernel: audit: type=1400 audit(1720006403.633:44): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe//kmod" pid=331 comm="apparmor_parser"
+2024-07-03T11:33:31.448432+00:00 ip-172-31-19-32 kernel: cryptd: max_cpu_qlen set to 1000
+2024-07-03T11:33:31.448437+00:00 ip-172-31-19-32 kernel: AVX2 version of gcm_enc/dec engaged.
+2024-07-03T11:33:31.448438+00:00 ip-172-31-19-32 kernel: AES CTR mode by8 optimization enabled
+2024-07-03T11:33:31.448439+00:00 ip-172-31-19-32 kernel: input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input4
+2024-07-03T11:33:31.448440+00:00 ip-172-31-19-32 kernel: 8021q: 802.1Q VLAN Support v1.8
+2024-07-03T11:33:31.448441+00:00 ip-172-31-19-32 kernel: kauditd_printk_skb: 66 callbacks suppressed
+2024-07-03T11:33:31.448442+00:00 ip-172-31-19-32 kernel: audit: type=1400 audit(1720006410.750:111): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="rsyslogd" pid=541 comm="apparmor_parser"
+2024-07-03T11:33:31.448447+00:00 ip-172-31-19-32 kernel: loop3: detected capacity change from 0 to 8
+2024-07-03T11:33:31.945074+00:00 ip-172-31-19-32 kernel: audit: type=1400 audit(1720006411.942:112): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/snapd/snap-confine" pid=695 comm="apparmor_parser"
+2024-07-03T11:33:31.949050+00:00 ip-172-31-19-32 kernel: audit: type=1400 audit(1720006411.946:113): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=695 comm="apparmor_parser"
+2024-07-03T11:38:37.920884+00:00 ip-172-31-19-32 kernel: loop3: detected capacity change from 0 to 79520
+2024-07-03T11:38:38.246967+00:00 ip-172-31-19-32 kernel: audit: type=1400 audit(1720006718.245:114): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/snapd/21759/usr/lib/snapd/snap-confine" pid=1596 comm="apparmor_parser"
+2024-07-03T11:38:38.248031+00:00 ip-172-31-19-32 kernel: audit: type=1400 audit(1720006718.246:115): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/snapd/21759/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=1596 comm="apparmor_parser"
+2024-07-03T11:38:42.384968+00:00 ip-172-31-19-32 kernel: loop4: detected capacity change from 0 to 8
+2024-07-03T11:38:42.717130+00:00 ip-172-31-19-32 kernel: audit: type=1400 audit(1720006722.715:116): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/snap/snapd/21759/usr/lib/snapd/snap-confine" pid=1667 comm="apparmor_parser"
+2024-07-03T11:38:42.719988+00:00 ip-172-31-19-32 kernel: audit: type=1400 audit(1720006722.718:117): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/snap/snapd/21759/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=1667 comm="apparmor_parser"
+2024-07-03T11:38:42.734969+00:00 ip-172-31-19-32 kernel: audit: type=1400 audit(1720006722.733:118): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap-update-ns.amazon-ssm-agent" pid=1669 comm="apparmor_parser"
+2024-07-03T11:38:42.751007+00:00 ip-172-31-19-32 kernel: audit: type=1400 audit(1720006722.749:119): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.amazon-ssm-agent.amazon-ssm-agent" pid=1670 comm="apparmor_parser"
+2024-07-03T11:38:42.768011+00:00 ip-172-31-19-32 kernel: audit: type=1400 audit(1720006722.766:120): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.amazon-ssm-agent.ssm-cli" pid=1671 comm="apparmor_parser"
+2024-07-03T11:38:47.276052+00:00 ip-172-31-19-32 kernel: loop4: detected capacity change from 0 to 113992
+2024-07-03T11:38:49.756032+00:00 ip-172-31-19-32 kernel: loop5: detected capacity change from 0 to 51688
+2024-07-03T11:38:57.511122+00:00 ip-172-31-19-32 kernel: audit: type=1400 audit(1720006737.509:121): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.amazon-ssm-agent.amazon-ssm-agent" pid=2091 comm="apparmor_parser"
+2024-07-03T11:38:57.526968+00:00 ip-172-31-19-32 kernel: audit: type=1400 audit(1720006737.525:122): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.amazon-ssm-agent.ssm-cli" pid=2092 comm="apparmor_parser"
+2024-07-03T11:38:57.531970+00:00 ip-172-31-19-32 kernel: audit: type=1400 audit(1720006737.530:123): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.amazon-ssm-agent" pid=2094 comm="apparmor_parser"

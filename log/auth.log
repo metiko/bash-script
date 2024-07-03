@@ -1,0 +1,425 @@
+2024-07-02T08:43:28.871858+00:00 ip-172-31-19-32 useradd[543]: new group: name=ubuntu, GID=1000
+2024-07-02T08:43:28.871861+00:00 ip-172-31-19-32 useradd[543]: new user: name=ubuntu, UID=1000, GID=1000, home=/home/ubuntu, shell=/bin/bash, from=none
+2024-07-02T08:43:28.871865+00:00 ip-172-31-19-32 useradd[543]: add 'ubuntu' to group 'adm'
+2024-07-02T08:43:28.871868+00:00 ip-172-31-19-32 useradd[543]: add 'ubuntu' to group 'cdrom'
+2024-07-02T08:43:28.871871+00:00 ip-172-31-19-32 useradd[543]: add 'ubuntu' to group 'sudo'
+2024-07-02T08:43:28.871879+00:00 ip-172-31-19-32 useradd[543]: add 'ubuntu' to group 'dip'
+2024-07-02T08:43:28.871882+00:00 ip-172-31-19-32 useradd[543]: add 'ubuntu' to group 'lxd'
+2024-07-02T08:43:28.871886+00:00 ip-172-31-19-32 useradd[543]: add 'ubuntu' to shadow group 'adm'
+2024-07-02T08:43:28.871889+00:00 ip-172-31-19-32 useradd[543]: add 'ubuntu' to shadow group 'cdrom'
+2024-07-02T08:43:28.871892+00:00 ip-172-31-19-32 useradd[543]: add 'ubuntu' to shadow group 'sudo'
+2024-07-02T08:43:28.871896+00:00 ip-172-31-19-32 useradd[543]: add 'ubuntu' to shadow group 'dip'
+2024-07-02T08:43:28.871899+00:00 ip-172-31-19-32 useradd[543]: add 'ubuntu' to shadow group 'lxd'
+2024-07-02T08:43:28.871907+00:00 ip-172-31-19-32 passwd[551]: password for 'ubuntu' changed by 'root'
+2024-07-02T08:43:28.890335+00:00 ip-172-31-19-32 systemd-logind[565]: Watching system buttons on /dev/input/event0 (Power Button)
+2024-07-02T08:43:28.890338+00:00 ip-172-31-19-32 systemd-logind[565]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2024-07-02T08:43:28.890342+00:00 ip-172-31-19-32 systemd-logind[565]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2024-07-02T08:43:28.890346+00:00 ip-172-31-19-32 systemd-logind[565]: New seat seat0.
+2024-07-02T08:43:28.820250+00:00 ip-172-31-19-32 polkitd[601]: Loading rules from directory /etc/polkit-1/rules.d
+2024-07-02T08:43:28.822238+00:00 ip-172-31-19-32 polkitd[601]: Loading rules from directory /usr/share/polkit-1/rules.d
+2024-07-02T08:43:28.837636+00:00 ip-172-31-19-32 polkitd[601]: Finished loading, compiling and executing 6 rules
+2024-07-02T08:43:28.841416+00:00 ip-172-31-19-32 polkitd[601]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2024-07-02T08:45:01.255046+00:00 ip-172-31-19-32 CRON[990]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-07-02T08:45:01.259989+00:00 ip-172-31-19-32 CRON[990]: pam_unix(cron:session): session closed for user root
+2024-07-02T08:46:12.991733+00:00 ip-172-31-19-32 sshd[994]: Server listening on :: port 22.
+2024-07-02T08:46:18.388090+00:00 ip-172-31-19-32 ec2-instance-connect[1128]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:mGYPq86HBNIAXk9pDe/xqUmwcEYSWIZoprXo//s2ids
+2024-07-02T08:46:18.418061+00:00 ip-172-31-19-32 ec2-instance-connect[1160]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:mGYPq86HBNIAXk9pDe/xqUmwcEYSWIZoprXo//s2ids, request-id: 0ed10e92-05d4-4ab2-93f9-fbe83ade8f22, for IAM principal: arn:aws:iam::211125713968:user/HNGTO
+2024-07-02T08:46:19.777873+00:00 ip-172-31-19-32 ec2-instance-connect[1299]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:mGYPq86HBNIAXk9pDe/xqUmwcEYSWIZoprXo//s2ids
+2024-07-02T08:46:19.810307+00:00 ip-172-31-19-32 ec2-instance-connect[1331]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:mGYPq86HBNIAXk9pDe/xqUmwcEYSWIZoprXo//s2ids, request-id: 0ed10e92-05d4-4ab2-93f9-fbe83ade8f22, for IAM principal: arn:aws:iam::211125713968:user/HNGTO
+2024-07-02T08:46:20.288794+00:00 ip-172-31-19-32 sshd[996]: Accepted publickey for ubuntu from 18.206.107.28 port 36767 ssh2: ED25519 SHA256:mGYPq86HBNIAXk9pDe/xqUmwcEYSWIZoprXo//s2ids
+2024-07-02T08:46:20.291564+00:00 ip-172-31-19-32 sshd[996]: pam_unix(sshd:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2024-07-02T08:46:20.307088+00:00 ip-172-31-19-32 systemd-logind[565]: New session 2 of user ubuntu.
+2024-07-02T08:46:20.345387+00:00 ip-172-31-19-32 (systemd): pam_unix(systemd-user:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2024-07-02T08:52:01.638974+00:00 ip-172-31-19-32 sshd[1510]: banner exchange: Connection from 64.62.197.67 port 33405: invalid format
+2024-07-02T08:52:06.659425+00:00 ip-172-31-19-32 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/nano create_users.sh
+2024-07-02T08:52:06.660788+00:00 ip-172-31-19-32 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2024-07-02T08:53:08.232040+00:00 ip-172-31-19-32 sudo: pam_unix(sudo:session): session closed for user root
+2024-07-02T08:53:51.107369+00:00 ip-172-31-19-32 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/chmod +x create_users.sh
+2024-07-02T08:53:51.110266+00:00 ip-172-31-19-32 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2024-07-02T08:53:51.111248+00:00 ip-172-31-19-32 sudo: pam_unix(sudo:session): session closed for user root
+2024-07-02T08:55:01.267259+00:00 ip-172-31-19-32 CRON[1523]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-07-02T08:55:01.271450+00:00 ip-172-31-19-32 CRON[1523]: pam_unix(cron:session): session closed for user root
+2024-07-02T08:56:23.319415+00:00 ip-172-31-19-32 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=./create_users.sh user_groups.txt
+2024-07-02T08:56:23.321380+00:00 ip-172-31-19-32 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2024-07-02T08:56:23.366116+00:00 ip-172-31-19-32 useradd[1543]: new group: name=john.doe, GID=1001
+2024-07-02T08:56:23.366632+00:00 ip-172-31-19-32 useradd[1543]: new user: name=john.doe, UID=1001, GID=1001, home=/home/john.doe, shell=/bin/bash, from=none
+2024-07-02T08:56:23.439284+00:00 ip-172-31-19-32 usermod[1554]: add 'john.doe' to group 'john.doe'
+2024-07-02T08:56:23.439528+00:00 ip-172-31-19-32 usermod[1554]: add 'john.doe' to shadow group 'john.doe'
+2024-07-02T08:56:23.486003+00:00 ip-172-31-19-32 usermod[1567]: add 'john.doe' to group 'admin'
+2024-07-02T08:56:23.486375+00:00 ip-172-31-19-32 usermod[1567]: add 'john.doe' to shadow group 'admin'
+2024-07-02T08:56:23.526444+00:00 ip-172-31-19-32 groupadd[1580]: group added to /etc/group: name=finance, GID=1002
+2024-07-02T08:56:23.537917+00:00 ip-172-31-19-32 groupadd[1580]: group added to /etc/gshadow: name=finance
+2024-07-02T08:56:23.539176+00:00 ip-172-31-19-32 groupadd[1580]: new group: name=finance, GID=1002
+2024-07-02T08:56:23.556710+00:00 ip-172-31-19-32 usermod[1587]: add 'john.doe' to group 'finance'
+2024-07-02T08:56:23.557069+00:00 ip-172-31-19-32 usermod[1587]: add 'john.doe' to shadow group 'finance'
+2024-07-02T08:56:23.599132+00:00 ip-172-31-19-32 groupadd[1600]: group added to /etc/group: name=hr, GID=1003
+2024-07-02T08:56:23.606113+00:00 ip-172-31-19-32 groupadd[1600]: group added to /etc/gshadow: name=hr
+2024-07-02T08:56:23.607416+00:00 ip-172-31-19-32 groupadd[1600]: new group: name=hr, GID=1003
+2024-07-02T08:56:23.624681+00:00 ip-172-31-19-32 usermod[1607]: add 'john.doe' to group 'hr'
+2024-07-02T08:56:23.625025+00:00 ip-172-31-19-32 usermod[1607]: add 'john.doe' to shadow group 'hr'
+2024-07-02T08:56:23.687900+00:00 ip-172-31-19-32 useradd[1631]: new group: name=jane.smith, GID=1004
+2024-07-02T08:56:23.688327+00:00 ip-172-31-19-32 useradd[1631]: new user: name=jane.smith, UID=1002, GID=1004, home=/home/jane.smith, shell=/bin/bash, from=none
+2024-07-02T08:56:23.763574+00:00 ip-172-31-19-32 usermod[1642]: add 'jane.smith' to group 'jane.smith'
+2024-07-02T08:56:23.763894+00:00 ip-172-31-19-32 usermod[1642]: add 'jane.smith' to shadow group 'jane.smith'
+2024-07-02T08:56:23.806590+00:00 ip-172-31-19-32 groupadd[1655]: group added to /etc/group: name=marketing, GID=1005
+2024-07-02T08:56:23.813957+00:00 ip-172-31-19-32 groupadd[1655]: group added to /etc/gshadow: name=marketing
+2024-07-02T08:56:23.815195+00:00 ip-172-31-19-32 groupadd[1655]: new group: name=marketing, GID=1005
+2024-07-02T08:56:23.837510+00:00 ip-172-31-19-32 usermod[1662]: add 'jane.smith' to group 'marketing'
+2024-07-02T08:56:23.837753+00:00 ip-172-31-19-32 usermod[1662]: add 'jane.smith' to shadow group 'marketing'
+2024-07-02T08:56:23.879742+00:00 ip-172-31-19-32 groupadd[1675]: group added to /etc/group: name=sales, GID=1006
+2024-07-02T08:56:23.886666+00:00 ip-172-31-19-32 groupadd[1675]: group added to /etc/gshadow: name=sales
+2024-07-02T08:56:23.887883+00:00 ip-172-31-19-32 groupadd[1675]: new group: name=sales, GID=1006
+2024-07-02T08:56:23.910751+00:00 ip-172-31-19-32 usermod[1682]: add 'jane.smith' to group 'sales'
+2024-07-02T08:56:23.911148+00:00 ip-172-31-19-32 usermod[1682]: add 'jane.smith' to shadow group 'sales'
+2024-07-02T08:56:23.973132+00:00 ip-172-31-19-32 useradd[1706]: new group: name=bob.jones, GID=1007
+2024-07-02T08:56:23.973575+00:00 ip-172-31-19-32 useradd[1706]: new user: name=bob.jones, UID=1003, GID=1007, home=/home/bob.jones, shell=/bin/bash, from=none
+2024-07-02T08:56:24.043029+00:00 ip-172-31-19-32 usermod[1717]: add 'bob.jones' to group 'bob.jones'
+2024-07-02T08:56:24.043459+00:00 ip-172-31-19-32 usermod[1717]: add 'bob.jones' to shadow group 'bob.jones'
+2024-07-02T08:56:24.094418+00:00 ip-172-31-19-32 groupadd[1730]: group added to /etc/group: name=it, GID=1008
+2024-07-02T08:56:24.102219+00:00 ip-172-31-19-32 groupadd[1730]: group added to /etc/gshadow: name=it
+2024-07-02T08:56:24.103285+00:00 ip-172-31-19-32 groupadd[1730]: new group: name=it, GID=1008
+2024-07-02T08:56:24.122292+00:00 ip-172-31-19-32 usermod[1737]: add 'bob.jones' to group 'it'
+2024-07-02T08:56:24.122602+00:00 ip-172-31-19-32 usermod[1737]: add 'bob.jones' to shadow group 'it'
+2024-07-02T08:56:24.166146+00:00 ip-172-31-19-32 groupadd[1750]: group added to /etc/group: name=support, GID=1009
+2024-07-02T08:56:24.173741+00:00 ip-172-31-19-32 groupadd[1750]: group added to /etc/gshadow: name=support
+2024-07-02T08:56:24.174989+00:00 ip-172-31-19-32 groupadd[1750]: new group: name=support, GID=1009
+2024-07-02T08:56:24.196520+00:00 ip-172-31-19-32 usermod[1757]: add 'bob.jones' to group 'support'
+2024-07-02T08:56:24.196862+00:00 ip-172-31-19-32 usermod[1757]: add 'bob.jones' to shadow group 'support'
+2024-07-02T08:56:24.240692+00:00 ip-172-31-19-32 groupadd[1770]: group added to /etc/group: name=security, GID=1010
+2024-07-02T08:56:24.249243+00:00 ip-172-31-19-32 groupadd[1770]: group added to /etc/gshadow: name=security
+2024-07-02T08:56:24.250511+00:00 ip-172-31-19-32 groupadd[1770]: new group: name=security, GID=1010
+2024-07-02T08:56:24.275511+00:00 ip-172-31-19-32 usermod[1777]: add 'bob.jones' to group 'security'
+2024-07-02T08:56:24.275795+00:00 ip-172-31-19-32 usermod[1777]: add 'bob.jones' to shadow group 'security'
+2024-07-02T08:56:24.340933+00:00 ip-172-31-19-32 useradd[1801]: new group: name=alice.williams, GID=1011
+2024-07-02T08:56:24.341223+00:00 ip-172-31-19-32 useradd[1801]: new user: name=alice.williams, UID=1004, GID=1011, home=/home/alice.williams, shell=/bin/bash, from=none
+2024-07-02T08:56:24.416665+00:00 ip-172-31-19-32 usermod[1812]: add 'alice.williams' to group 'alice.williams'
+2024-07-02T08:56:24.417045+00:00 ip-172-31-19-32 usermod[1812]: add 'alice.williams' to shadow group 'alice.williams'
+2024-07-02T08:56:24.459794+00:00 ip-172-31-19-32 groupadd[1825]: group added to /etc/group: name=engineering, GID=1012
+2024-07-02T08:56:24.466648+00:00 ip-172-31-19-32 groupadd[1825]: group added to /etc/gshadow: name=engineering
+2024-07-02T08:56:24.467952+00:00 ip-172-31-19-32 groupadd[1825]: new group: name=engineering, GID=1012
+2024-07-02T08:56:24.486608+00:00 ip-172-31-19-32 usermod[1832]: add 'alice.williams' to group 'engineering'
+2024-07-02T08:56:24.486949+00:00 ip-172-31-19-32 usermod[1832]: add 'alice.williams' to shadow group 'engineering'
+2024-07-02T08:56:24.530930+00:00 ip-172-31-19-32 groupadd[1845]: group added to /etc/group: name=product, GID=1013
+2024-07-02T08:56:24.537712+00:00 ip-172-31-19-32 groupadd[1845]: group added to /etc/gshadow: name=product
+2024-07-02T08:56:24.538930+00:00 ip-172-31-19-32 groupadd[1845]: new group: name=product, GID=1013
+2024-07-02T08:56:24.557903+00:00 ip-172-31-19-32 usermod[1852]: add 'alice.williams' to group 'product'
+2024-07-02T08:56:24.558268+00:00 ip-172-31-19-32 usermod[1852]: add 'alice.williams' to shadow group 'product'
+2024-07-02T08:56:24.617583+00:00 ip-172-31-19-32 useradd[1876]: new group: name=mike.brown, GID=1014
+2024-07-02T08:56:24.618044+00:00 ip-172-31-19-32 useradd[1876]: new user: name=mike.brown, UID=1005, GID=1014, home=/home/mike.brown, shell=/bin/bash, from=none
+2024-07-02T08:56:24.694428+00:00 ip-172-31-19-32 usermod[1887]: add 'mike.brown' to group 'mike.brown'
+2024-07-02T08:56:24.694665+00:00 ip-172-31-19-32 usermod[1887]: add 'mike.brown' to shadow group 'mike.brown'
+2024-07-02T08:56:24.739420+00:00 ip-172-31-19-32 groupadd[1900]: group added to /etc/group: name=operations, GID=1015
+2024-07-02T08:56:24.745607+00:00 ip-172-31-19-32 groupadd[1900]: group added to /etc/gshadow: name=operations
+2024-07-02T08:56:24.746796+00:00 ip-172-31-19-32 groupadd[1900]: new group: name=operations, GID=1015
+2024-07-02T08:56:24.769071+00:00 ip-172-31-19-32 usermod[1907]: add 'mike.brown' to group 'operations'
+2024-07-02T08:56:24.769445+00:00 ip-172-31-19-32 usermod[1907]: add 'mike.brown' to shadow group 'operations'
+2024-07-02T08:56:24.813870+00:00 ip-172-31-19-32 groupadd[1920]: group added to /etc/group: name=logistics, GID=1016
+2024-07-02T08:56:24.820177+00:00 ip-172-31-19-32 groupadd[1920]: group added to /etc/gshadow: name=logistics
+2024-07-02T08:56:24.821405+00:00 ip-172-31-19-32 groupadd[1920]: new group: name=logistics, GID=1016
+2024-07-02T08:56:24.838033+00:00 ip-172-31-19-32 usermod[1927]: add 'mike.brown' to group 'logistics'
+2024-07-02T08:56:24.838248+00:00 ip-172-31-19-32 usermod[1927]: add 'mike.brown' to shadow group 'logistics'
+2024-07-02T08:56:24.898704+00:00 ip-172-31-19-32 useradd[1951]: new group: name=lisa.green, GID=1017
+2024-07-02T08:56:24.899261+00:00 ip-172-31-19-32 useradd[1951]: new user: name=lisa.green, UID=1006, GID=1017, home=/home/lisa.green, shell=/bin/bash, from=none
+2024-07-02T08:56:24.966280+00:00 ip-172-31-19-32 usermod[1962]: add 'lisa.green' to group 'lisa.green'
+2024-07-02T08:56:24.966641+00:00 ip-172-31-19-32 usermod[1962]: add 'lisa.green' to shadow group 'lisa.green'
+2024-07-02T08:56:25.006453+00:00 ip-172-31-19-32 groupadd[1975]: group added to /etc/group: name=research, GID=1018
+2024-07-02T08:56:25.013696+00:00 ip-172-31-19-32 groupadd[1975]: group added to /etc/gshadow: name=research
+2024-07-02T08:56:25.015064+00:00 ip-172-31-19-32 groupadd[1975]: new group: name=research, GID=1018
+2024-07-02T08:56:25.040190+00:00 ip-172-31-19-32 usermod[1982]: add 'lisa.green' to group 'research'
+2024-07-02T08:56:25.040563+00:00 ip-172-31-19-32 usermod[1982]: add 'lisa.green' to shadow group 'research'
+2024-07-02T08:56:25.080520+00:00 ip-172-31-19-32 groupadd[1995]: group added to /etc/group: name=development, GID=1019
+2024-07-02T08:56:25.088509+00:00 ip-172-31-19-32 groupadd[1995]: group added to /etc/gshadow: name=development
+2024-07-02T08:56:25.089800+00:00 ip-172-31-19-32 groupadd[1995]: new group: name=development, GID=1019
+2024-07-02T08:56:25.112359+00:00 ip-172-31-19-32 usermod[2002]: add 'lisa.green' to group 'development'
+2024-07-02T08:56:25.112443+00:00 ip-172-31-19-32 usermod[2002]: add 'lisa.green' to shadow group 'development'
+2024-07-02T08:56:25.170971+00:00 ip-172-31-19-32 useradd[2026]: new group: name=mark.white, GID=1020
+2024-07-02T08:56:25.171289+00:00 ip-172-31-19-32 useradd[2026]: new user: name=mark.white, UID=1007, GID=1020, home=/home/mark.white, shell=/bin/bash, from=none
+2024-07-02T08:56:25.243689+00:00 ip-172-31-19-32 usermod[2037]: add 'mark.white' to group 'mark.white'
+2024-07-02T08:56:25.244079+00:00 ip-172-31-19-32 usermod[2037]: add 'mark.white' to shadow group 'mark.white'
+2024-07-02T08:56:25.282548+00:00 ip-172-31-19-32 groupadd[2050]: group added to /etc/group: name=customer_service, GID=1021
+2024-07-02T08:56:25.289407+00:00 ip-172-31-19-32 groupadd[2050]: group added to /etc/gshadow: name=customer_service
+2024-07-02T08:56:25.290463+00:00 ip-172-31-19-32 groupadd[2050]: new group: name=customer_service, GID=1021
+2024-07-02T08:56:25.309427+00:00 ip-172-31-19-32 usermod[2057]: add 'mark.white' to group 'customer_service'
+2024-07-02T08:56:25.309774+00:00 ip-172-31-19-32 usermod[2057]: add 'mark.white' to shadow group 'customer_service'
+2024-07-02T08:56:25.349925+00:00 ip-172-31-19-32 groupadd[2070]: group added to /etc/group: name=quality_control, GID=1022
+2024-07-02T08:56:25.358210+00:00 ip-172-31-19-32 groupadd[2070]: group added to /etc/gshadow: name=quality_control
+2024-07-02T08:56:25.359290+00:00 ip-172-31-19-32 groupadd[2070]: new group: name=quality_control, GID=1022
+2024-07-02T08:56:25.377290+00:00 ip-172-31-19-32 usermod[2077]: add 'mark.white' to group 'quality_control'
+2024-07-02T08:56:25.377633+00:00 ip-172-31-19-32 usermod[2077]: add 'mark.white' to shadow group 'quality_control'
+2024-07-02T08:56:25.460124+00:00 ip-172-31-19-32 useradd[2101]: new group: name=susan.taylor, GID=1023
+2024-07-02T08:56:25.460668+00:00 ip-172-31-19-32 useradd[2101]: new user: name=susan.taylor, UID=1008, GID=1023, home=/home/susan.taylor, shell=/bin/bash, from=none
+2024-07-02T08:56:25.534472+00:00 ip-172-31-19-32 usermod[2112]: add 'susan.taylor' to group 'susan.taylor'
+2024-07-02T08:56:25.534839+00:00 ip-172-31-19-32 usermod[2112]: add 'susan.taylor' to shadow group 'susan.taylor'
+2024-07-02T08:56:25.576219+00:00 ip-172-31-19-32 groupadd[2125]: group added to /etc/group: name=legal, GID=1024
+2024-07-02T08:56:25.582818+00:00 ip-172-31-19-32 groupadd[2125]: group added to /etc/gshadow: name=legal
+2024-07-02T08:56:25.584250+00:00 ip-172-31-19-32 groupadd[2125]: new group: name=legal, GID=1024
+2024-07-02T08:56:25.603185+00:00 ip-172-31-19-32 usermod[2132]: add 'susan.taylor' to group 'legal'
+2024-07-02T08:56:25.603566+00:00 ip-172-31-19-32 usermod[2132]: add 'susan.taylor' to shadow group 'legal'
+2024-07-02T08:56:25.645579+00:00 ip-172-31-19-32 groupadd[2145]: group added to /etc/group: name=compliance, GID=1025
+2024-07-02T08:56:25.653165+00:00 ip-172-31-19-32 groupadd[2145]: group added to /etc/gshadow: name=compliance
+2024-07-02T08:56:25.654475+00:00 ip-172-31-19-32 groupadd[2145]: new group: name=compliance, GID=1025
+2024-07-02T08:56:25.673865+00:00 ip-172-31-19-32 usermod[2152]: add 'susan.taylor' to group 'compliance'
+2024-07-02T08:56:25.674091+00:00 ip-172-31-19-32 usermod[2152]: add 'susan.taylor' to shadow group 'compliance'
+2024-07-02T08:56:25.738465+00:00 ip-172-31-19-32 useradd[2176]: new group: name=kevin.adams, GID=1026
+2024-07-02T08:56:25.738579+00:00 ip-172-31-19-32 useradd[2176]: new user: name=kevin.adams, UID=1009, GID=1026, home=/home/kevin.adams, shell=/bin/bash, from=none
+2024-07-02T08:56:25.814758+00:00 ip-172-31-19-32 usermod[2187]: add 'kevin.adams' to group 'kevin.adams'
+2024-07-02T08:56:25.814994+00:00 ip-172-31-19-32 usermod[2187]: add 'kevin.adams' to shadow group 'kevin.adams'
+2024-07-02T08:56:25.856678+00:00 ip-172-31-19-32 groupadd[2200]: group added to /etc/group: name=design, GID=1027
+2024-07-02T08:56:25.864043+00:00 ip-172-31-19-32 groupadd[2200]: group added to /etc/gshadow: name=design
+2024-07-02T08:56:25.865339+00:00 ip-172-31-19-32 groupadd[2200]: new group: name=design, GID=1027
+2024-07-02T08:56:25.884391+00:00 ip-172-31-19-32 usermod[2207]: add 'kevin.adams' to group 'design'
+2024-07-02T08:56:25.884719+00:00 ip-172-31-19-32 usermod[2207]: add 'kevin.adams' to shadow group 'design'
+2024-07-02T08:56:25.934955+00:00 ip-172-31-19-32 groupadd[2220]: group added to /etc/group: name=creative, GID=1028
+2024-07-02T08:56:25.942632+00:00 ip-172-31-19-32 groupadd[2220]: group added to /etc/gshadow: name=creative
+2024-07-02T08:56:25.943736+00:00 ip-172-31-19-32 groupadd[2220]: new group: name=creative, GID=1028
+2024-07-02T08:56:25.967884+00:00 ip-172-31-19-32 usermod[2227]: add 'kevin.adams' to group 'creative'
+2024-07-02T08:56:25.968256+00:00 ip-172-31-19-32 usermod[2227]: add 'kevin.adams' to shadow group 'creative'
+2024-07-02T08:56:26.027232+00:00 ip-172-31-19-32 useradd[2251]: new group: name=nancy.martin, GID=1029
+2024-07-02T08:56:26.028023+00:00 ip-172-31-19-32 useradd[2251]: new user: name=nancy.martin, UID=1010, GID=1029, home=/home/nancy.martin, shell=/bin/bash, from=none
+2024-07-02T08:56:26.107681+00:00 ip-172-31-19-32 usermod[2262]: add 'nancy.martin' to group 'nancy.martin'
+2024-07-02T08:56:26.108063+00:00 ip-172-31-19-32 usermod[2262]: add 'nancy.martin' to shadow group 'nancy.martin'
+2024-07-02T08:56:26.147493+00:00 ip-172-31-19-32 usermod[2275]: add 'nancy.martin' to group 'hr'
+2024-07-02T08:56:26.147684+00:00 ip-172-31-19-32 usermod[2275]: add 'nancy.martin' to shadow group 'hr'
+2024-07-02T08:56:26.186511+00:00 ip-172-31-19-32 groupadd[2288]: group added to /etc/group: name=training, GID=1030
+2024-07-02T08:56:26.194430+00:00 ip-172-31-19-32 groupadd[2288]: group added to /etc/gshadow: name=training
+2024-07-02T08:56:26.195684+00:00 ip-172-31-19-32 groupadd[2288]: new group: name=training, GID=1030
+2024-07-02T08:56:26.215018+00:00 ip-172-31-19-32 usermod[2295]: add 'nancy.martin' to group 'training'
+2024-07-02T08:56:26.215417+00:00 ip-172-31-19-32 usermod[2295]: add 'nancy.martin' to shadow group 'training'
+2024-07-02T08:56:26.244292+00:00 ip-172-31-19-32 sudo: pam_unix(sudo:session): session closed for user root
+2024-07-02T08:57:38.249034+00:00 ip-172-31-19-32 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/cat /var/secure/user_passwords.csv
+2024-07-02T08:57:38.250568+00:00 ip-172-31-19-32 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2024-07-02T08:57:38.254954+00:00 ip-172-31-19-32 sudo: pam_unix(sudo:session): session closed for user root
+2024-07-02T09:02:13.982719+00:00 ip-172-31-19-32 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/ls -l /var/secure/user_passwords.csv
+2024-07-02T09:02:13.985910+00:00 ip-172-31-19-32 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2024-07-02T09:02:13.987318+00:00 ip-172-31-19-32 sudo: pam_unix(sudo:session): session closed for user root
+2024-07-02T09:03:12.150739+00:00 ip-172-31-19-32 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/chmod 600 /var/secure/user_passwords.csv
+2024-07-02T09:03:12.151930+00:00 ip-172-31-19-32 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2024-07-02T09:03:12.154965+00:00 ip-172-31-19-32 sudo: pam_unix(sudo:session): session closed for user root
+2024-07-02T09:05:01.276041+00:00 ip-172-31-19-32 CRON[2338]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-07-02T09:05:01.281180+00:00 ip-172-31-19-32 CRON[2338]: pam_unix(cron:session): session closed for user root
+2024-07-02T09:06:11.700638+00:00 ip-172-31-19-32 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/cat user_management.log
+2024-07-02T09:06:11.704641+00:00 ip-172-31-19-32 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2024-07-02T09:06:11.705313+00:00 ip-172-31-19-32 sudo: pam_unix(sudo:session): session closed for user root
+2024-07-02T09:09:20.459834+00:00 ip-172-31-19-32 sshd[2347]: Invalid user  from 64.62.197.93 port 35351
+2024-07-02T09:09:24.188351+00:00 ip-172-31-19-32 sshd[2347]: Connection closed by invalid user  64.62.197.93 port 35351 [preauth]
+2024-07-02T09:14:30.103892+00:00 ip-172-31-19-32 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/cat /var/secure/user_passwords.csv
+2024-07-02T09:14:30.107056+00:00 ip-172-31-19-32 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2024-07-02T09:14:30.108164+00:00 ip-172-31-19-32 sudo: pam_unix(sudo:session): session closed for user root
+2024-07-02T09:15:01.285326+00:00 ip-172-31-19-32 CRON[2361]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-07-02T09:15:01.288551+00:00 ip-172-31-19-32 CRON[2361]: pam_unix(cron:session): session closed for user root
+2024-07-02T09:17:01.292427+00:00 ip-172-31-19-32 CRON[2366]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-07-02T09:17:01.296708+00:00 ip-172-31-19-32 CRON[2366]: pam_unix(cron:session): session closed for user root
+2024-07-02T09:19:27.306281+00:00 ip-172-31-19-32 sshd[2369]: Connection closed by 172.168.41.228 port 53096 [preauth]
+2024-07-02T09:25:01.300744+00:00 ip-172-31-19-32 CRON[2376]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-07-02T09:25:01.305310+00:00 ip-172-31-19-32 CRON[2376]: pam_unix(cron:session): session closed for user root
+2024-07-02T09:35:01.309460+00:00 ip-172-31-19-32 CRON[2386]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-07-02T09:35:01.313583+00:00 ip-172-31-19-32 CRON[2386]: pam_unix(cron:session): session closed for user root
+2024-07-02T09:45:01.317460+00:00 ip-172-31-19-32 CRON[2395]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-07-02T09:45:01.321819+00:00 ip-172-31-19-32 CRON[2395]: pam_unix(cron:session): session closed for user root
+2024-07-02T09:55:01.325838+00:00 ip-172-31-19-32 CRON[2453]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-07-02T09:55:01.329643+00:00 ip-172-31-19-32 CRON[2453]: pam_unix(cron:session): session closed for user root
+2024-07-02T10:04:08.837868+00:00 ip-172-31-19-32 sshd[996]: pam_unix(sshd:session): session closed for user ubuntu
+2024-07-02T10:04:08.846056+00:00 ip-172-31-19-32 systemd-logind[565]: Session 2 logged out. Waiting for processes to exit.
+2024-07-02T10:04:08.847501+00:00 ip-172-31-19-32 systemd-logind[565]: Removed session 2.
+2024-07-02T10:05:01.334330+00:00 ip-172-31-19-32 CRON[2472]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-07-02T10:05:01.337214+00:00 ip-172-31-19-32 CRON[2472]: pam_unix(cron:session): session closed for user root
+2024-07-02T10:14:31.378187+00:00 ip-172-31-19-32 sshd[2487]: Connection reset by 205.210.31.65 port 61648 [preauth]
+2024-07-02T10:15:01.342944+00:00 ip-172-31-19-32 CRON[2490]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-07-02T10:15:01.346641+00:00 ip-172-31-19-32 CRON[2490]: pam_unix(cron:session): session closed for user root
+2024-07-02T10:17:01.349889+00:00 ip-172-31-19-32 CRON[2494]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-07-02T10:17:01.353182+00:00 ip-172-31-19-32 CRON[2494]: pam_unix(cron:session): session closed for user root
+2024-07-02T10:25:01.357884+00:00 ip-172-31-19-32 CRON[2502]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-07-02T10:25:01.361915+00:00 ip-172-31-19-32 CRON[2502]: pam_unix(cron:session): session closed for user root
+2024-07-02T10:35:01.366673+00:00 ip-172-31-19-32 CRON[2511]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-07-02T10:35:01.369629+00:00 ip-172-31-19-32 CRON[2511]: pam_unix(cron:session): session closed for user root
+2024-07-02T10:45:01.375316+00:00 ip-172-31-19-32 CRON[2521]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-07-02T10:45:01.378820+00:00 ip-172-31-19-32 CRON[2521]: pam_unix(cron:session): session closed for user root
+2024-07-02T10:55:01.383635+00:00 ip-172-31-19-32 CRON[2530]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-07-02T10:55:01.387201+00:00 ip-172-31-19-32 CRON[2530]: pam_unix(cron:session): session closed for user root
+2024-07-02T11:05:01.391479+00:00 ip-172-31-19-32 CRON[2539]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-07-02T11:05:01.395169+00:00 ip-172-31-19-32 CRON[2539]: pam_unix(cron:session): session closed for user root
+2024-07-02T11:15:01.400253+00:00 ip-172-31-19-32 CRON[2549]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-07-02T11:15:01.404513+00:00 ip-172-31-19-32 CRON[2549]: pam_unix(cron:session): session closed for user root
+2024-07-02T11:17:01.407400+00:00 ip-172-31-19-32 CRON[2553]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-07-02T11:17:01.410554+00:00 ip-172-31-19-32 CRON[2553]: pam_unix(cron:session): session closed for user root
+2024-07-02T11:25:01.415579+00:00 ip-172-31-19-32 CRON[2562]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-07-02T11:25:01.418939+00:00 ip-172-31-19-32 CRON[2562]: pam_unix(cron:session): session closed for user root
+2024-07-02T11:35:01.423478+00:00 ip-172-31-19-32 CRON[2571]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-07-02T11:35:01.427462+00:00 ip-172-31-19-32 CRON[2571]: pam_unix(cron:session): session closed for user root
+2024-07-02T11:45:01.431604+00:00 ip-172-31-19-32 CRON[2586]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-07-02T11:45:01.434804+00:00 ip-172-31-19-32 CRON[2586]: pam_unix(cron:session): session closed for user root
+2024-07-02T11:55:01.440506+00:00 ip-172-31-19-32 CRON[2597]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-07-02T11:55:01.444117+00:00 ip-172-31-19-32 CRON[2597]: pam_unix(cron:session): session closed for user root
+2024-07-02T12:05:01.448654+00:00 ip-172-31-19-32 CRON[2641]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-07-02T12:05:01.452153+00:00 ip-172-31-19-32 CRON[2641]: pam_unix(cron:session): session closed for user root
+2024-07-02T12:15:01.457940+00:00 ip-172-31-19-32 CRON[2651]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-07-02T12:15:01.460999+00:00 ip-172-31-19-32 CRON[2651]: pam_unix(cron:session): session closed for user root
+2024-07-02T12:17:01.465240+00:00 ip-172-31-19-32 CRON[2654]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-07-02T12:17:01.468084+00:00 ip-172-31-19-32 CRON[2654]: pam_unix(cron:session): session closed for user root
+2024-07-02T12:25:01.473494+00:00 ip-172-31-19-32 CRON[2662]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-07-02T12:25:01.476429+00:00 ip-172-31-19-32 CRON[2662]: pam_unix(cron:session): session closed for user root
+2024-07-02T12:35:01.482274+00:00 ip-172-31-19-32 CRON[2672]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-07-02T12:35:01.485299+00:00 ip-172-31-19-32 CRON[2672]: pam_unix(cron:session): session closed for user root
+2024-07-02T12:45:01.490645+00:00 ip-172-31-19-32 CRON[2681]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-07-02T12:45:01.494920+00:00 ip-172-31-19-32 CRON[2681]: pam_unix(cron:session): session closed for user root
+2024-07-02T12:55:01.499409+00:00 ip-172-31-19-32 CRON[2690]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-07-02T12:55:01.504305+00:00 ip-172-31-19-32 CRON[2690]: pam_unix(cron:session): session closed for user root
+2024-07-02T13:05:01.508473+00:00 ip-172-31-19-32 CRON[2706]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-07-02T13:05:01.512712+00:00 ip-172-31-19-32 CRON[2706]: pam_unix(cron:session): session closed for user root
+2024-07-02T13:15:01.517027+00:00 ip-172-31-19-32 CRON[2715]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-07-02T13:15:01.520292+00:00 ip-172-31-19-32 CRON[2715]: pam_unix(cron:session): session closed for user root
+2024-07-02T13:17:01.524437+00:00 ip-172-31-19-32 CRON[2718]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-07-02T13:17:01.527348+00:00 ip-172-31-19-32 CRON[2718]: pam_unix(cron:session): session closed for user root
+2024-07-02T13:25:01.532378+00:00 ip-172-31-19-32 CRON[2733]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-07-02T13:25:01.536223+00:00 ip-172-31-19-32 CRON[2733]: pam_unix(cron:session): session closed for user root
+2024-07-02T13:35:01.540700+00:00 ip-172-31-19-32 CRON[2744]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-07-02T13:35:01.544354+00:00 ip-172-31-19-32 CRON[2744]: pam_unix(cron:session): session closed for user root
+2024-07-02T13:45:01.548391+00:00 ip-172-31-19-32 CRON[2753]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-07-02T13:45:01.552401+00:00 ip-172-31-19-32 CRON[2753]: pam_unix(cron:session): session closed for user root
+2024-07-02T13:55:01.556941+00:00 ip-172-31-19-32 CRON[2762]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-07-02T13:55:01.560575+00:00 ip-172-31-19-32 CRON[2762]: pam_unix(cron:session): session closed for user root
+2024-07-02T14:04:24.192143+00:00 ip-172-31-19-32 ec2-instance-connect[2903]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:QmNkYudhmPOpH4CZ+/Zio068MoDUq9vxbh2EjTXCfLc
+2024-07-02T14:04:24.224252+00:00 ip-172-31-19-32 ec2-instance-connect[2935]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:QmNkYudhmPOpH4CZ+/Zio068MoDUq9vxbh2EjTXCfLc, request-id: 735b2477-1971-4384-8f0a-6f213fc6e36d, for IAM principal: arn:aws:iam::211125713968:user/HNGTO
+2024-07-02T14:04:25.604162+00:00 ip-172-31-19-32 ec2-instance-connect[3074]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:QmNkYudhmPOpH4CZ+/Zio068MoDUq9vxbh2EjTXCfLc
+2024-07-02T14:04:25.637244+00:00 ip-172-31-19-32 ec2-instance-connect[3106]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:QmNkYudhmPOpH4CZ+/Zio068MoDUq9vxbh2EjTXCfLc, request-id: 735b2477-1971-4384-8f0a-6f213fc6e36d, for IAM principal: arn:aws:iam::211125713968:user/HNGTO
+2024-07-02T14:04:26.088758+00:00 ip-172-31-19-32 sshd[2772]: Accepted publickey for ubuntu from 18.206.107.27 port 22486 ssh2: ED25519 SHA256:QmNkYudhmPOpH4CZ+/Zio068MoDUq9vxbh2EjTXCfLc
+2024-07-02T14:04:26.092146+00:00 ip-172-31-19-32 sshd[2772]: pam_unix(sshd:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2024-07-02T14:04:26.119951+00:00 ip-172-31-19-32 systemd-logind[565]: New session 40 of user ubuntu.
+2024-07-02T14:04:26.141784+00:00 ip-172-31-19-32 (systemd): pam_unix(systemd-user:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2024-07-02T14:04:47.096462+00:00 ip-172-31-19-32 sshd[3240]: Connection closed by 167.94.138.35 port 38536 [preauth]
+2024-07-02T14:05:01.565281+00:00 ip-172-31-19-32 CRON[3243]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-07-02T14:05:01.568494+00:00 ip-172-31-19-32 CRON[3243]: pam_unix(cron:session): session closed for user root
+2024-07-02T14:05:04.336780+00:00 ip-172-31-19-32 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/nano create_users.sh
+2024-07-02T14:05:04.338387+00:00 ip-172-31-19-32 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2024-07-02T14:15:01.573865+00:00 ip-172-31-19-32 CRON[3265]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-07-02T14:15:01.577791+00:00 ip-172-31-19-32 CRON[3265]: pam_unix(cron:session): session closed for user root
+2024-07-02T14:17:01.581031+00:00 ip-172-31-19-32 CRON[3268]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-07-02T14:17:01.584150+00:00 ip-172-31-19-32 CRON[3268]: pam_unix(cron:session): session closed for user root
+2024-07-02T14:25:01.588954+00:00 ip-172-31-19-32 CRON[3276]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-07-02T14:25:01.593249+00:00 ip-172-31-19-32 CRON[3276]: pam_unix(cron:session): session closed for user root
+2024-07-02T14:30:12.420896+00:00 ip-172-31-19-32 sshd[2772]: pam_unix(sshd:session): session closed for user ubuntu
+2024-07-02T14:30:12.427473+00:00 ip-172-31-19-32 systemd-logind[565]: Session 40 logged out. Waiting for processes to exit.
+2024-07-02T14:30:12.430530+00:00 ip-172-31-19-32 sudo: pam_unix(sudo:session): session closed for user root
+2024-07-02T14:30:12.434299+00:00 ip-172-31-19-32 systemd-logind[565]: Removed session 40.
+2024-07-02T14:30:22.586635+00:00 ip-172-31-19-32 (sd-pam): pam_unix(systemd-user:session): session closed for user ubuntu
+2024-07-02T14:35:01.597890+00:00 ip-172-31-19-32 CRON[3294]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-07-02T14:35:01.600785+00:00 ip-172-31-19-32 CRON[3294]: pam_unix(cron:session): session closed for user root
+2024-07-02T14:36:27.789087+00:00 ip-172-31-19-32 systemd-logind[565]: The system will power off now!
+2024-07-02T14:36:27.819241+00:00 ip-172-31-19-32 systemd-logind[565]: System is powering down.
+2024-07-03T11:33:31.425734+00:00 ip-172-31-19-32 systemd-logind[487]: Watching system buttons on /dev/input/event0 (Power Button)
+2024-07-03T11:33:31.425737+00:00 ip-172-31-19-32 systemd-logind[487]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2024-07-03T11:33:31.425741+00:00 ip-172-31-19-32 systemd-logind[487]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2024-07-03T11:33:31.425744+00:00 ip-172-31-19-32 systemd-logind[487]: New seat seat0.
+2024-07-03T11:33:31.552864+00:00 ip-172-31-19-32 polkitd[517]: Loading rules from directory /etc/polkit-1/rules.d
+2024-07-03T11:33:31.558997+00:00 ip-172-31-19-32 polkitd[517]: Loading rules from directory /usr/share/polkit-1/rules.d
+2024-07-03T11:33:31.578479+00:00 ip-172-31-19-32 polkitd[517]: Finished loading, compiling and executing 6 rules
+2024-07-03T11:33:31.580135+00:00 ip-172-31-19-32 polkitd[517]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2024-07-03T11:35:01.763030+00:00 ip-172-31-19-32 CRON[971]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-07-03T11:35:01.767675+00:00 ip-172-31-19-32 CRON[971]: pam_unix(cron:session): session closed for user root
+2024-07-03T11:35:08.700842+00:00 ip-172-31-19-32 sshd[976]: Server listening on :: port 22.
+2024-07-03T11:35:10.538734+00:00 ip-172-31-19-32 ec2-instance-connect[1108]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:a61Kfb7y5i/LKuVxC6uhcW3N29s3DFE8dyGMtL2Zi4E
+2024-07-03T11:35:10.575757+00:00 ip-172-31-19-32 ec2-instance-connect[1140]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:a61Kfb7y5i/LKuVxC6uhcW3N29s3DFE8dyGMtL2Zi4E, request-id: 2e00c304-88d6-4936-b259-2bcd3720354d, for IAM principal: arn:aws:iam::211125713968:user/HNGTO
+2024-07-03T11:35:11.932293+00:00 ip-172-31-19-32 ec2-instance-connect[1279]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:a61Kfb7y5i/LKuVxC6uhcW3N29s3DFE8dyGMtL2Zi4E
+2024-07-03T11:35:11.963877+00:00 ip-172-31-19-32 ec2-instance-connect[1311]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:a61Kfb7y5i/LKuVxC6uhcW3N29s3DFE8dyGMtL2Zi4E, request-id: 2e00c304-88d6-4936-b259-2bcd3720354d, for IAM principal: arn:aws:iam::211125713968:user/HNGTO
+2024-07-03T11:35:12.433811+00:00 ip-172-31-19-32 sshd[977]: Accepted publickey for ubuntu from 18.206.107.29 port 50459 ssh2: ED25519 SHA256:a61Kfb7y5i/LKuVxC6uhcW3N29s3DFE8dyGMtL2Zi4E
+2024-07-03T11:35:12.436644+00:00 ip-172-31-19-32 sshd[977]: pam_unix(sshd:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2024-07-03T11:35:12.454096+00:00 ip-172-31-19-32 systemd-logind[487]: New session 2 of user ubuntu.
+2024-07-03T11:35:12.490804+00:00 ip-172-31-19-32 (systemd): pam_unix(systemd-user:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2024-07-03T11:40:41.190242+00:00 ip-172-31-19-32 sudo:   ubuntu : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/cat /var/secure/user_passwords.csv
+2024-07-03T11:40:41.192228+00:00 ip-172-31-19-32 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2024-07-03T11:40:41.197706+00:00 ip-172-31-19-32 sudo: pam_unix(sudo:session): session closed for user root
+2024-07-03T11:45:01.775408+00:00 ip-172-31-19-32 CRON[2671]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-07-03T11:45:01.778671+00:00 ip-172-31-19-32 CRON[2671]: pam_unix(cron:session): session closed for user root
+2024-07-03T11:47:19.819011+00:00 ip-172-31-19-32 sshd[977]: pam_unix(sshd:session): session closed for user ubuntu
+2024-07-03T11:47:19.825442+00:00 ip-172-31-19-32 systemd-logind[487]: Session 2 logged out. Waiting for processes to exit.
+2024-07-03T11:47:19.827439+00:00 ip-172-31-19-32 systemd-logind[487]: Removed session 2.
+2024-07-03T11:47:24.740023+00:00 ip-172-31-19-32 ec2-instance-connect[2806]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:zG1bu402/cAPsFQjujw4VlXRmSaMvadFg6BtPMqzKKg
+2024-07-03T11:47:24.771077+00:00 ip-172-31-19-32 ec2-instance-connect[2838]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:zG1bu402/cAPsFQjujw4VlXRmSaMvadFg6BtPMqzKKg, request-id: 04494104-d67f-45d1-a3b7-db92cea3e498, for IAM principal: arn:aws:iam::211125713968:user/HNGTO
+2024-07-03T11:47:26.133097+00:00 ip-172-31-19-32 ec2-instance-connect[2977]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:zG1bu402/cAPsFQjujw4VlXRmSaMvadFg6BtPMqzKKg
+2024-07-03T11:47:26.163780+00:00 ip-172-31-19-32 ec2-instance-connect[3009]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:zG1bu402/cAPsFQjujw4VlXRmSaMvadFg6BtPMqzKKg, request-id: 04494104-d67f-45d1-a3b7-db92cea3e498, for IAM principal: arn:aws:iam::211125713968:user/HNGTO
+2024-07-03T11:47:26.637673+00:00 ip-172-31-19-32 sshd[2675]: Accepted publickey for ubuntu from 18.206.107.27 port 32579 ssh2: ED25519 SHA256:zG1bu402/cAPsFQjujw4VlXRmSaMvadFg6BtPMqzKKg
+2024-07-03T11:47:26.639836+00:00 ip-172-31-19-32 sshd[2675]: pam_unix(sshd:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2024-07-03T11:47:26.644272+00:00 ip-172-31-19-32 systemd-logind[487]: New session 5 of user ubuntu.
+2024-07-03T11:49:40.492525+00:00 ip-172-31-19-32 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/mv '/home/username/user_groups.txt /root/'
+2024-07-03T11:49:40.495786+00:00 ip-172-31-19-32 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2024-07-03T11:49:40.497584+00:00 ip-172-31-19-32 sudo: pam_unix(sudo:session): session closed for user root
+2024-07-03T11:50:10.585863+00:00 ip-172-31-19-32 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/mv /home/username/user_groups.txt /root/
+2024-07-03T11:50:10.588697+00:00 ip-172-31-19-32 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2024-07-03T11:50:10.595991+00:00 ip-172-31-19-32 sudo: pam_unix(sudo:session): session closed for user root
+2024-07-03T11:50:28.470915+00:00 ip-172-31-19-32 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/mv user_groups.txt /root/
+2024-07-03T11:50:28.472430+00:00 ip-172-31-19-32 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2024-07-03T11:50:28.475867+00:00 ip-172-31-19-32 sudo: pam_unix(sudo:session): session closed for user root
+2024-07-03T11:52:10.488240+00:00 ip-172-31-19-32 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/mv create_users.sh /root/
+2024-07-03T11:52:10.489897+00:00 ip-172-31-19-32 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2024-07-03T11:52:10.492390+00:00 ip-172-31-19-32 sudo: pam_unix(sudo:session): session closed for user root
+2024-07-03T11:55:01.785114+00:00 ip-172-31-19-32 CRON[3117]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-07-03T11:55:01.789318+00:00 ip-172-31-19-32 CRON[3117]: pam_unix(cron:session): session closed for user root
+2024-07-03T11:55:46.511380+00:00 ip-172-31-19-32 sudo:   ubuntu : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/ls -la /
+2024-07-03T11:55:46.515084+00:00 ip-172-31-19-32 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2024-07-03T11:55:46.517566+00:00 ip-172-31-19-32 sudo: pam_unix(sudo:session): session closed for user root
+2024-07-03T11:56:13.953612+00:00 ip-172-31-19-32 sudo:   ubuntu : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/ls -la /root/
+2024-07-03T11:56:13.955002+00:00 ip-172-31-19-32 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2024-07-03T11:56:13.960207+00:00 ip-172-31-19-32 sudo: pam_unix(sudo:session): session closed for user root
+2024-07-03T11:58:14.726520+00:00 ip-172-31-19-32 sshd[2675]: pam_unix(sshd:session): session closed for user ubuntu
+2024-07-03T11:58:14.734323+00:00 ip-172-31-19-32 systemd-logind[487]: Session 5 logged out. Waiting for processes to exit.
+2024-07-03T11:58:14.736638+00:00 ip-172-31-19-32 systemd-logind[487]: Removed session 5.
+2024-07-03T11:58:19.200833+00:00 ip-172-31-19-32 ec2-instance-connect[3257]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:igqWrHcKcdAYdk6OQ7f/QbsuXq1eBQU02ptckBbPnuk
+2024-07-03T11:58:19.233256+00:00 ip-172-31-19-32 ec2-instance-connect[3289]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:igqWrHcKcdAYdk6OQ7f/QbsuXq1eBQU02ptckBbPnuk, request-id: f1b38f13-d40f-42e4-b7a7-ce2abc009f43, for IAM principal: arn:aws:iam::211125713968:user/HNGTO
+2024-07-03T11:58:20.608823+00:00 ip-172-31-19-32 ec2-instance-connect[3428]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:igqWrHcKcdAYdk6OQ7f/QbsuXq1eBQU02ptckBbPnuk
+2024-07-03T11:58:20.639294+00:00 ip-172-31-19-32 ec2-instance-connect[3460]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:igqWrHcKcdAYdk6OQ7f/QbsuXq1eBQU02ptckBbPnuk, request-id: f1b38f13-d40f-42e4-b7a7-ce2abc009f43, for IAM principal: arn:aws:iam::211125713968:user/HNGTO
+2024-07-03T11:58:21.108320+00:00 ip-172-31-19-32 sshd[3126]: Accepted publickey for ubuntu from 18.206.107.29 port 38716 ssh2: ED25519 SHA256:igqWrHcKcdAYdk6OQ7f/QbsuXq1eBQU02ptckBbPnuk
+2024-07-03T11:58:21.109623+00:00 ip-172-31-19-32 sshd[3126]: pam_unix(sshd:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2024-07-03T11:58:21.114271+00:00 ip-172-31-19-32 systemd-logind[487]: New session 7 of user ubuntu.
+2024-07-03T11:59:34.958699+00:00 ip-172-31-19-32 sudo:   ubuntu : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/ls -la /root/
+2024-07-03T11:59:34.959930+00:00 ip-172-31-19-32 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2024-07-03T11:59:34.963317+00:00 ip-172-31-19-32 sudo: pam_unix(sudo:session): session closed for user root
+2024-07-03T12:03:31.896268+00:00 ip-172-31-19-32 sudo:   ubuntu : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/mv /home/ubuntu/create_users.sh /root/
+2024-07-03T12:03:31.901082+00:00 ip-172-31-19-32 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2024-07-03T12:03:31.901213+00:00 ip-172-31-19-32 sudo: pam_unix(sudo:session): session closed for user root
+2024-07-03T12:04:23.025869+00:00 ip-172-31-19-32 sudo:   ubuntu : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/ls -la /root/
+2024-07-03T12:04:23.027272+00:00 ip-172-31-19-32 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2024-07-03T12:04:23.031099+00:00 ip-172-31-19-32 sudo: pam_unix(sudo:session): session closed for user root
+2024-07-03T12:05:01.792217+00:00 ip-172-31-19-32 CRON[3561]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-07-03T12:05:01.795497+00:00 ip-172-31-19-32 CRON[3561]: pam_unix(cron:session): session closed for user root
+2024-07-03T12:07:53.431703+00:00 ip-172-31-19-32 sudo:   ubuntu : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/ls -la /root/
+2024-07-03T12:07:53.436304+00:00 ip-172-31-19-32 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2024-07-03T12:07:53.437365+00:00 ip-172-31-19-32 sudo: pam_unix(sudo:session): session closed for user root
+2024-07-03T12:08:07.290241+00:00 ip-172-31-19-32 sudo:   ubuntu : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/ls -la /
+2024-07-03T12:08:07.291593+00:00 ip-172-31-19-32 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2024-07-03T12:08:07.297553+00:00 ip-172-31-19-32 sudo: pam_unix(sudo:session): session closed for user root
+2024-07-03T12:09:39.179475+00:00 ip-172-31-19-32 sshd[3574]: Connection closed by 172.206.142.122 port 41808 [preauth]
+2024-07-03T12:09:50.465590+00:00 ip-172-31-19-32 sshd[3126]: pam_unix(sshd:session): session closed for user ubuntu
+2024-07-03T12:09:50.472405+00:00 ip-172-31-19-32 systemd-logind[487]: Session 7 logged out. Waiting for processes to exit.
+2024-07-03T12:09:50.474917+00:00 ip-172-31-19-32 systemd-logind[487]: Removed session 7.
+2024-07-03T12:09:55.243899+00:00 ip-172-31-19-32 ec2-instance-connect[3708]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:aMQ6etYCUOPij883HZ6ZXQPo30fDw0dIaGZ4zEWwjm0
+2024-07-03T12:09:55.276040+00:00 ip-172-31-19-32 ec2-instance-connect[3740]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:aMQ6etYCUOPij883HZ6ZXQPo30fDw0dIaGZ4zEWwjm0, request-id: 1b1b2a8a-05b0-4cf8-a089-841b1effab77, for IAM principal: arn:aws:iam::211125713968:user/HNGTO
+2024-07-03T12:09:56.654086+00:00 ip-172-31-19-32 ec2-instance-connect[3879]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:aMQ6etYCUOPij883HZ6ZXQPo30fDw0dIaGZ4zEWwjm0
+2024-07-03T12:09:56.685720+00:00 ip-172-31-19-32 ec2-instance-connect[3911]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:aMQ6etYCUOPij883HZ6ZXQPo30fDw0dIaGZ4zEWwjm0, request-id: 1b1b2a8a-05b0-4cf8-a089-841b1effab77, for IAM principal: arn:aws:iam::211125713968:user/HNGTO
+2024-07-03T12:09:57.157251+00:00 ip-172-31-19-32 sshd[3577]: Accepted publickey for ubuntu from 18.206.107.28 port 59494 ssh2: ED25519 SHA256:aMQ6etYCUOPij883HZ6ZXQPo30fDw0dIaGZ4zEWwjm0
+2024-07-03T12:09:57.159114+00:00 ip-172-31-19-32 sshd[3577]: pam_unix(sshd:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2024-07-03T12:09:57.163404+00:00 ip-172-31-19-32 systemd-logind[487]: New session 9 of user ubuntu.
+2024-07-03T12:12:02.676680+00:00 ip-172-31-19-32 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/mv /home/ubuntu/create_users.sh /
+2024-07-03T12:12:02.678127+00:00 ip-172-31-19-32 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2024-07-03T12:12:02.682007+00:00 ip-172-31-19-32 sudo: pam_unix(sudo:session): session closed for user root
+2024-07-03T12:15:01.801325+00:00 ip-172-31-19-32 CRON[3997]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-07-03T12:15:01.806044+00:00 ip-172-31-19-32 CRON[3997]: pam_unix(cron:session): session closed for user root
+2024-07-03T12:16:11.711160+00:00 ip-172-31-19-32 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/mv create_users.sh /
+2024-07-03T12:16:11.714665+00:00 ip-172-31-19-32 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2024-07-03T12:16:11.715104+00:00 ip-172-31-19-32 sudo: pam_unix(sudo:session): session closed for user root
+2024-07-03T12:17:01.808666+00:00 ip-172-31-19-32 CRON[4004]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-07-03T12:17:01.812450+00:00 ip-172-31-19-32 CRON[4004]: pam_unix(cron:session): session closed for user root
+2024-07-03T12:17:36.148115+00:00 ip-172-31-19-32 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/su
+2024-07-03T12:17:36.148410+00:00 ip-172-31-19-32 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2024-07-03T12:17:36.155656+00:00 ip-172-31-19-32 su[4009]: (to root) root on pts/1
+2024-07-03T12:17:36.156489+00:00 ip-172-31-19-32 su[4009]: pam_unix(su:session): session opened for user root(uid=0) by ubuntu(uid=0)
+2024-07-03T12:19:10.991586+00:00 ip-172-31-19-32 sudo:     root : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/ls -la /root/
+2024-07-03T12:19:10.992769+00:00 ip-172-31-19-32 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=0)
+2024-07-03T12:19:10.998003+00:00 ip-172-31-19-32 sudo: pam_unix(sudo:session): session closed for user root
+2024-07-03T12:22:32.939028+00:00 ip-172-31-19-32 sudo:     root : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/mv /root/create_users.sh /var
+2024-07-03T12:22:32.940370+00:00 ip-172-31-19-32 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=0)
+2024-07-03T12:22:32.943891+00:00 ip-172-31-19-32 sudo: pam_unix(sudo:session): session closed for user root
+2024-07-03T12:23:05.912324+00:00 ip-172-31-19-32 sudo:     root : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/mv /root/user_groups.txt /var
+2024-07-03T12:23:05.913127+00:00 ip-172-31-19-32 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=0)
+2024-07-03T12:23:05.916724+00:00 ip-172-31-19-32 sudo: pam_unix(sudo:session): session closed for user root
+2024-07-03T12:25:01.817872+00:00 ip-172-31-19-32 CRON[4040]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-07-03T12:25:01.821000+00:00 ip-172-31-19-32 CRON[4040]: pam_unix(cron:session): session closed for user root

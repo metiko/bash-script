@@ -1,0 +1,10 @@
+john.doe;admin,finance,hr
+jane.smith;marketing,sales
+bob.jones;it,support,security
+alice.williams;engineering,product
+mike.brown;operations,logistics
+lisa.green;research,development
+mark.white;customer_service,quality_control
+susan.taylor;legal,compliance
+kevin.adams;design,creative
+nancy.martin;hr,training

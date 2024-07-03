@@ -1,0 +1,41 @@
+
+Start-Date: 2024-04-23  15:29:18
+Commandline: apt-get install -qqy grub-pc shim-signed
+Install: mokutil:amd64 (0.6.0-2build3, automatic), grub-efi-amd64-signed:amd64 (1.202+2.12-1ubuntu7, automatic), grub-efi-amd64-bin:amd64 (2.12-1ubuntu7, automatic), efibootmgr:amd64 (18-1build2, automatic), shim-signed:amd64 (1.58+15.8-0ubuntu1)
+End-Date: 2024-04-23  15:29:19
+
+Start-Date: 2024-04-23  15:31:02
+Commandline: apt-get remove --purge --assume-yes ^linux-.* linux-base+
+Purge: linux-virtual:amd64 (6.8.0-31.31), linux-headers-generic:amd64 (6.8.0-31.31), linux-image-virtual:amd64 (6.8.0-31.31), linux-modules-6.8.0-31-generic:amd64 (6.8.0-31.31), linux-image-6.8.0-31-generic:amd64 (6.8.0-31.31), linux-headers-6.8.0-31-generic:amd64 (6.8.0-31.31), linux-headers-6.8.0-31:amd64 (6.8.0-31.31), linux-headers-virtual:amd64 (6.8.0-31.31)
+End-Date: 2024-04-23  15:31:04
+
+Start-Date: 2024-04-23  15:31:07
+Commandline: apt-get install --assume-yes linux-aws
+Install: libbpfcc:amd64 (0.29.1+ds-1ubuntu7, automatic), linux-image-aws:amd64 (6.8.0-1008.8, automatic), manpages-dev:amd64 (6.7-2, automatic), linux-tools-common:amd64 (6.8.0-31.31, automatic), libsharpyuv0:amd64 (1.3.2-0.4build3, automatic), linux-tools-6.8.0-1008-aws:amd64 (6.8.0-1008.8, automatic), iucode-tool:amd64 (2.3.1-3build1, automatic), libaom3:amd64 (3.8.2-2build1, automatic), libjpeg-turbo8:amd64 (2.1.5-2ubuntu2, automatic), libheif1:amd64 (1.17.6-1ubuntu4, automatic), linux-modules-6.8.0-1008-aws:amd64 (6.8.0-1008.8, automatic), libheif-plugin-libde265:amd64 (1.17.6-1ubuntu4, automatic), python3-bpfcc:amd64 (0.29.1+ds-1ubuntu7, automatic), linux-headers-aws:amd64 (6.8.0-1008.8, automatic), libdeflate0:amd64 (1.19-1build1, automatic), libjpeg8:amd64 (8c-2ubuntu11, automatic), libtiff6:amd64 (4.5.1+git230720-4ubuntu2, automatic), libllvm18:amd64 (1:18.1.3-1, automatic), liblerc4:amd64 (4.0.0+ds-4ubuntu2, automatic), libxpm4:amd64 (1:3.5.17-1build2, automatic), libfontconfig1:amd64 (2.15.0-1.1ubuntu2, automatic), libclang1-18:amd64 (1:18.1.3-1, automatic), ieee-data:amd64 (20220827.1, automatic), libheif-plugin-aomdec:amd64 (1.17.6-1ubuntu4, automatic), libheif-plugin-aomenc:amd64 (1.17.6-1ubuntu4, automatic), python3-netaddr:amd64 (0.8.0-2ubuntu1, automatic), fontconfig-config:amd64 (2.15.0-1.1ubuntu2, automatic), hwdata:amd64 (0.379-1, automatic), rpcsvc-proto:amd64 (1.4.2-0ubuntu7, automatic), microcode-initrd:amd64 (3build1, automatic), linux-aws-headers-6.8.0-1008:amd64 (6.8.0-1008.8, automatic), linux-aws:amd64 (6.8.0-1008.8), libclang-cpp18:amd64 (1:18.1.3-1, automatic), bpftrace:amd64 (0.20.2-1ubuntu4, automatic), linux-headers-6.8.0-1008-aws:amd64 (6.8.0-1008.8, automatic), libwebp7:amd64 (1.3.2-0.4build3, automatic), fonts-dejavu-mono:amd64 (2.37-8, automatic), libcrypt-dev:amd64 (1:4.4.36-4build1, automatic), libjbig0:amd64 (2.1-6.1ubuntu2, automatic), libc-dev-bin:amd64 (2.39-0ubuntu8, automatic), bpfcc-tools:amd64 (0.29.1+ds-1ubuntu7, automatic), libc-devtools:amd64 (2.39-0ubuntu8, automatic), libc6-dev:amd64 (2.39-0ubuntu8, automatic), linux-aws-tools-6.8.0-1008:amd64 (6.8.0-1008.8, automatic), ubuntu-kernel-accessories:amd64 (1.539, automatic), fonts-dejavu-core:amd64 (2.37-8, automatic), amd64-microcode:amd64 (3.20231019.1ubuntu2, automatic), libgd3:amd64 (2.3.3-9ubuntu5, automatic), linux-image-6.8.0-1008-aws:amd64 (6.8.0-1008.8, automatic), libde265-0:amd64 (1.0.15-1build3, automatic), intel-microcode:amd64 (3.20240312.1build1, automatic), linux-libc-dev:amd64 (6.8.0-31.31, automatic)
+End-Date: 2024-04-23  15:31:22
+
+Start-Date: 2024-04-23  15:31:24
+Commandline: apt-get install --assume-yes ec2-instance-connect
+Install: ec2-instance-connect:amd64 (1.1.17-0ubuntu1)
+End-Date: 2024-04-23  15:31:25
+
+Start-Date: 2024-04-23  15:31:27
+Commandline: apt-get install --assume-yes ec2-hibinit-agent hibagent
+Install: hibagent:amd64 (1.0.1+git20230216.9ac1209f7-0ubuntu3), acpid:amd64 (1:2.0.34-1ubuntu2, automatic), ec2-hibinit-agent:amd64 (1.0.0-0ubuntu16)
+End-Date: 2024-04-23  15:31:28
+
+Start-Date: 2024-04-23  15:31:30
+Commandline: apt-get install --assume-yes chrony
+Install: chrony:amd64 (4.5-1ubuntu4), tzdata-legacy:amd64 (2024a-2ubuntu1, automatic)
+Remove: systemd-timesyncd:amd64 (255.4-1ubuntu8)
+End-Date: 2024-04-23  15:31:31
+
+Start-Date: 2024-04-23  15:31:34
+Commandline: apt-get purge --assume-yes ?config-files
+Purge: systemd-timesyncd:amd64 ()
+End-Date: 2024-04-23  15:31:34
+
+Start-Date: 2024-04-23  15:31:51
+Commandline: apt-get -y install irqbalance
+Install: irqbalance:amd64 (1.9.3-2ubuntu5)
+End-Date: 2024-04-23  15:31:51

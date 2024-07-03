@@ -1,0 +1,50 @@
+2024-07-02 08:43:33 ERROR [RemoteRetrieve @ ec2_role_provider.go.142] EC2RoleProvider Failed to connect to Systems Manager with SSM role credentials. error calling RequestManagedInstanceRoleToken: AccessDeniedException: Systems Manager's instance management role is not configured for account: 211125713968
+	status code: 400, request id: 87c827be-e2c4-4b02-9353-de53e75bd05b
+2024-07-02 08:43:33 ERROR [minLog @ credentialrefresher.go.280] [CredentialRefresher] Retrieve credentials produced error: no valid credentials could be retrieved for ec2 identity. Default Host Management Err: error calling RequestManagedInstanceRoleToken: AccessDeniedException: Systems Manager's instance management role is not configured for account: 211125713968
+	status code: 400, request id: 87c827be-e2c4-4b02-9353-de53e75bd05b
+2024-07-02 09:10:25 ERROR [RemoteRetrieve @ ec2_role_provider.go.142] EC2RoleProvider Failed to connect to Systems Manager with SSM role credentials. error calling RequestManagedInstanceRoleToken: AccessDeniedException: Systems Manager's instance management role is not configured for account: 211125713968
+	status code: 400, request id: bfb16b7e-ddb7-4c5a-afb3-08d324955a50
+2024-07-02 09:10:25 ERROR [minLog @ credentialrefresher.go.280] [CredentialRefresher] Retrieve credentials produced error: no valid credentials could be retrieved for ec2 identity. Default Host Management Err: error calling RequestManagedInstanceRoleToken: AccessDeniedException: Systems Manager's instance management role is not configured for account: 211125713968
+	status code: 400, request id: bfb16b7e-ddb7-4c5a-afb3-08d324955a50
+2024-07-02 09:36:51 ERROR [RemoteRetrieve @ ec2_role_provider.go.142] EC2RoleProvider Failed to connect to Systems Manager with SSM role credentials. error calling RequestManagedInstanceRoleToken: AccessDeniedException: Systems Manager's instance management role is not configured for account: 211125713968
+	status code: 400, request id: 333ac42a-46ce-40bd-81db-184836035468
+2024-07-02 09:36:51 ERROR [minLog @ credentialrefresher.go.280] [CredentialRefresher] Retrieve credentials produced error: no valid credentials could be retrieved for ec2 identity. Default Host Management Err: error calling RequestManagedInstanceRoleToken: AccessDeniedException: Systems Manager's instance management role is not configured for account: 211125713968
+	status code: 400, request id: 333ac42a-46ce-40bd-81db-184836035468
+2024-07-02 10:04:53 ERROR [RemoteRetrieve @ ec2_role_provider.go.142] EC2RoleProvider Failed to connect to Systems Manager with SSM role credentials. error calling RequestManagedInstanceRoleToken: AccessDeniedException: Systems Manager's instance management role is not configured for account: 211125713968
+	status code: 400, request id: 5eec20bf-72bc-4b73-b542-3bdccc7e49e8
+2024-07-02 10:34:11 ERROR [RemoteRetrieve @ ec2_role_provider.go.142] EC2RoleProvider Failed to connect to Systems Manager with SSM role credentials. error calling RequestManagedInstanceRoleToken: AccessDeniedException: Systems Manager's instance management role is not configured for account: 211125713968
+	status code: 400, request id: 675d5606-9a1c-4e5e-a6b8-b24b83424866
+2024-07-02 11:00:29 ERROR [RemoteRetrieve @ ec2_role_provider.go.142] EC2RoleProvider Failed to connect to Systems Manager with SSM role credentials. error calling RequestManagedInstanceRoleToken: AccessDeniedException: Systems Manager's instance management role is not configured for account: 211125713968
+	status code: 400, request id: 32f1a1c6-421c-43ae-9fae-ed8ca7d2f0e9
+2024-07-02 11:26:25 ERROR [RemoteRetrieve @ ec2_role_provider.go.142] EC2RoleProvider Failed to connect to Systems Manager with SSM role credentials. error calling RequestManagedInstanceRoleToken: AccessDeniedException: Systems Manager's instance management role is not configured for account: 211125713968
+	status code: 400, request id: ca922b6b-e58c-4906-b8a6-e0a6c8e2c206
+2024-07-02 11:54:51 ERROR [RemoteRetrieve @ ec2_role_provider.go.142] EC2RoleProvider Failed to connect to Systems Manager with SSM role credentials. error calling RequestManagedInstanceRoleToken: AccessDeniedException: Systems Manager's instance management role is not configured for account: 211125713968
+	status code: 400, request id: c8e59649-977d-4916-b4ea-3d0347595474
+2024-07-02 12:21:05 ERROR [RemoteRetrieve @ ec2_role_provider.go.142] EC2RoleProvider Failed to connect to Systems Manager with SSM role credentials. error calling RequestManagedInstanceRoleToken: AccessDeniedException: Systems Manager's instance management role is not configured for account: 211125713968
+	status code: 400, request id: 560ab8ed-7099-46d5-be25-3d4bed7a8898
+2024-07-02 12:47:03 ERROR [RemoteRetrieve @ ec2_role_provider.go.142] EC2RoleProvider Failed to connect to Systems Manager with SSM role credentials. error calling RequestManagedInstanceRoleToken: AccessDeniedException: Systems Manager's instance management role is not configured for account: 211125713968
+	status code: 400, request id: 2f5fcfce-5045-4a97-af85-f6ab3c0c4812
+2024-07-02 13:12:59 ERROR [RemoteRetrieve @ ec2_role_provider.go.142] EC2RoleProvider Failed to connect to Systems Manager with SSM role credentials. error calling RequestManagedInstanceRoleToken: AccessDeniedException: Systems Manager's instance management role is not configured for account: 211125713968
+	status code: 400, request id: 8c4aab6e-4009-4e60-8aca-96a83ca3e9a7
+2024-07-02 13:38:27 ERROR [RemoteRetrieve @ ec2_role_provider.go.142] EC2RoleProvider Failed to connect to Systems Manager with SSM role credentials. error calling RequestManagedInstanceRoleToken: AccessDeniedException: Systems Manager's instance management role is not configured for account: 211125713968
+	status code: 400, request id: ed4ad0f1-442a-4805-b733-c4c4b6903d5c
+2024-07-02 14:04:26 ERROR [RemoteRetrieve @ ec2_role_provider.go.142] EC2RoleProvider Failed to connect to Systems Manager with SSM role credentials. error calling RequestManagedInstanceRoleToken: AccessDeniedException: Systems Manager's instance management role is not configured for account: 211125713968
+	status code: 400, request id: 6f9ee28d-8794-4d87-bf22-80617ac7796c
+2024-07-02 14:32:14 ERROR [RemoteRetrieve @ ec2_role_provider.go.142] EC2RoleProvider Failed to connect to Systems Manager with SSM role credentials. error calling RequestManagedInstanceRoleToken: AccessDeniedException: Systems Manager's instance management role is not configured for account: 211125713968
+	status code: 400, request id: a15f89de-88b5-44fc-a26e-5cb074746b1c
+2024-07-03 11:33:33 ERROR [RemoteRetrieve @ ec2_role_provider.go.142] EC2RoleProvider Failed to connect to Systems Manager with SSM role credentials. error calling RequestManagedInstanceRoleToken: AccessDeniedException: Systems Manager's instance management role is not configured for account: 211125713968
+	status code: 400, request id: e0f237d4-03da-42cb-aeef-f03cea81eb96
+2024-07-03 11:33:33 ERROR [minLog @ credentialrefresher.go.280] [CredentialRefresher] Retrieve credentials produced error: no valid credentials could be retrieved for ec2 identity. Default Host Management Err: error calling RequestManagedInstanceRoleToken: AccessDeniedException: Systems Manager's instance management role is not configured for account: 211125713968
+	status code: 400, request id: e0f237d4-03da-42cb-aeef-f03cea81eb96
+2024-07-03 11:39:01 ERROR [RemoteRetrieve @ ec2_role_provider.go.142] EC2RoleProvider Failed to connect to Systems Manager with SSM role credentials. error calling RequestManagedInstanceRoleToken: AccessDeniedException: Systems Manager's instance management role is not configured for account: 211125713968
+	status code: 400, request id: 923b0f3e-cb31-41ab-bad7-7e65c65abb4e
+2024-07-03 11:39:01 ERROR [minLog @ credentialrefresher.go.280] [CredentialRefresher] Retrieve credentials produced error: no valid credentials could be retrieved for ec2 identity. Default Host Management Err: error calling RequestManagedInstanceRoleToken: AccessDeniedException: Systems Manager's instance management role is not configured for account: 211125713968
+	status code: 400, request id: 923b0f3e-cb31-41ab-bad7-7e65c65abb4e
+2024-07-03 12:04:13 ERROR [RemoteRetrieve @ ec2_role_provider.go.142] EC2RoleProvider Failed to connect to Systems Manager with SSM role credentials. error calling RequestManagedInstanceRoleToken: AccessDeniedException: Systems Manager's instance management role is not configured for account: 211125713968
+	status code: 400, request id: 933638d0-74e0-441b-a34f-57d3a6f51240
+2024-07-03 12:04:13 ERROR [minLog @ credentialrefresher.go.280] [CredentialRefresher] Retrieve credentials produced error: no valid credentials could be retrieved for ec2 identity. Default Host Management Err: error calling RequestManagedInstanceRoleToken: AccessDeniedException: Systems Manager's instance management role is not configured for account: 211125713968
+	status code: 400, request id: 933638d0-74e0-441b-a34f-57d3a6f51240
+2024-07-03 12:29:38 ERROR [RemoteRetrieve @ ec2_role_provider.go.142] EC2RoleProvider Failed to connect to Systems Manager with SSM role credentials. error calling RequestManagedInstanceRoleToken: AccessDeniedException: Systems Manager's instance management role is not configured for account: 211125713968
+	status code: 400, request id: 9462197a-bf25-415e-a874-c8f78a1838c5
+2024-07-03 12:29:38 ERROR [minLog @ credentialrefresher.go.280] [CredentialRefresher] Retrieve credentials produced error: no valid credentials could be retrieved for ec2 identity. Default Host Management Err: error calling RequestManagedInstanceRoleToken: AccessDeniedException: Systems Manager's instance management role is not configured for account: 211125713968
+	status code: 400, request id: 9462197a-bf25-415e-a874-c8f78a1838c5
